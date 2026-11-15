@@ -45,14 +45,14 @@
     </div>
     <div class="work-grid">
       <article class="work-card work-wide" data-category="illustration character">
-        <a class="work-image image-tall" href="images/character-group.png" target="_blank" rel="noreferrer">
+        <a class="work-image image-tall" href="#work-detail" aria-label="查看作品：群像與角色互動">
           <img src="images/character-group.png" alt="多人角色群像插畫" loading="lazy">
           <span class="image-index mono">FIG. 001</span><span class="image-open">↗</span>
         </a>
         <div class="work-meta"><div><p class="mono">ILLUSTRATION / CHARACTER</p><h3>群像與角色互動</h3><span>角色插畫・人物關係・色彩練習</span></div><span class="work-number mono">01 / 02</span></div>
       </article>
       <article class="work-card work-offset" data-category="illustration character">
-        <a class="work-image image-square" href="images/pink-illustration.png" target="_blank" rel="noreferrer">
+        <a class="work-image image-square" href="#work-detail" aria-label="查看作品：粉色角色研究">
           <img src="images/pink-illustration.png" alt="粉色主題角色插畫" loading="lazy">
           <span class="image-index mono">FIG. 002</span><span class="image-open">↗</span>
         </a>
@@ -61,9 +61,8 @@
       
 <article class="work-card work-offset" data-category="illustration">
   <a class="work-image image-square"
-     href="images/poster-01.jpg"
-     target="_blank"
-     rel="noreferrer">
+     href="#work-detail"
+     aria-label="查看作品：鷲尾誠司">
 
     <img src="images/插圖 20261010~2.jpg"
          alt="鷲尾誠司"
@@ -102,5 +101,20 @@
   <section class="contact section" id="contact"><p class="eyebrow mono">03 — GET IN TOUCH</p><h2>HAVE A<br>STRANGE<br><em>IDEA?</em></h2><div class="contact-bottom"><p>如果你也喜歡不太尋常的東西，<br>歡迎來聊聊。</p><a href="mailto:hello@example.com">SAY HELLO <span>↗</span></a></div><p class="contact-hint mono">REPLACE WITH YOUR EMAIL ADDRESS</p></section>
 </main>
 <footer class="footer mono"><a class="logo" href="#top">611®</a><span>VISUAL ARCHIVE / 2026</span><a href="#top">BACK TO TOP ↑</a></footer>
+
+<div class="work-modal" id="work-detail" aria-hidden="true">
+  <div class="work-modal-backdrop" data-close-modal></div>
+  <section class="work-modal-panel" role="dialog" aria-modal="true" aria-labelledby="modal-title" tabindex="-1">
+    <button class="work-modal-close" type="button" aria-label="關閉作品介紹" data-close-modal>×</button>
+    <div class="work-modal-image-wrap"><img class="work-modal-image" src="" alt=""></div>
+    <div class="work-modal-content">
+      <p class="eyebrow mono" id="modal-category">WORK / DETAILS</p>
+      <h2 id="modal-title">作品名稱</h2>
+      <p class="work-modal-description" id="modal-description"></p>
+      <div class="work-modal-extra" id="modal-extra">更多創作資訊將陸續補上。</div>
+      <span class="work-modal-index mono" id="modal-index"></span>
+    </div>
+  </section>
+</div>
 <script src="script.js"></script>
 </body></html>
