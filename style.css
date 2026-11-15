@@ -42,3 +42,26 @@ body.modal-open{overflow:hidden}
   .work-modal-index{margin-top:22px}
 }
 @media(prefers-reduced-motion:reduce){.work-modal,.work-modal-panel{transition:none}}
+
+
+/* CATEGORY PAGES + FOUR-COLUMN WORK ARCHIVE */
+.filter-row{gap:28px;flex-wrap:wrap}
+.category-link{display:inline-block;text-decoration:none}
+.category-link.active{color:#fff}
+.work-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:28px 20px}
+.work-card.work-wide,.work-card.work-offset{width:auto;margin:0}
+.work-image.image-tall,.work-image.image-square{aspect-ratio:1.3}
+.work-image img{object-fit:contain}
+.work-meta{gap:8px}
+.work-meta h3{font-size:16px}
+.work-meta div>span{font-size:10px;line-height:1.6;display:block}
+.work-number{font-size:8px}
+.category-empty{padding:48px 0;color:#888;border-bottom:1px solid var(--line);font-size:11px}
+@media(max-width:900px){
+  .work-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:38px 18px}
+}
+@media(max-width:520px){
+  .work-grid{grid-template-columns:1fr;gap:38px}
+  .filter-row{gap:18px}
+  .work-meta h3{font-size:18px}
+}
