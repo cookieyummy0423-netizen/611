@@ -62,7 +62,7 @@ function refreshCards(){
 }
 function makeLocalCard(work){
   const card=document.createElement("article");
-  card.className="work-card";
+  card.className="work-card work-offset";
   card.dataset.category=work.category;
   card.dataset.detail=work.description||"";
   card.dataset.workId=work.id;
@@ -82,7 +82,7 @@ function makeLocalCard(work){
   const info=document.createElement("div");
   const category=document.createElement("p");category.className="mono";category.textContent=work.typeLabel||work.category.toUpperCase();
   const title=document.createElement("h3");title.textContent=work.title;
-  const desc=document.createElement("span");desc.textContent=work.description||"";
+  const desc=document.createElement("span");desc.textContent=work.subtitle||work.description||"";
   info.append(category,title,desc);
   const number=document.createElement("span");number.className="work-number mono";number.textContent="NEW";
   meta.append(info,number);card.appendChild(meta);
@@ -225,3 +225,17 @@ grid?.addEventListener("click",event=>{
 });
 modal?.querySelectorAll("[data-close-modal]").forEach(button=>button.addEventListener("click",closeWorkModal));
 document.addEventListener("keydown",event=>{if(event.key==="Escape")closeWorkModal();});
+
+/* Official portfolio content: load the published GitHub manifest. */
+if(grid){
+  fetch("works.json",{cache:"no-store"})
+    .then(response=>{if(!response.ok)throw new Error("作品資料讀取失敗");return response.json();})
+    .then(data=>{
+      if(!Array.isArray(data.works))return;
+      grid.replaceChildren();
+      data.works.forEach(work=>grid.appendChild(makeLocalCard(work)));
+      saveOrder();
+      refreshCards();
+    })
+    .catch(error=>console.warn("611 works.json:",error));
+}
