@@ -1,15 +1,21 @@
-const filters=document.querySelectorAll(".filter");
 const cards=document.querySelectorAll(".work-card");
-
-filters.forEach(button=>button.addEventListener("click",()=>{
-  filters.forEach(item=>item.classList.remove("active"));
-  button.classList.add("active");
-  const selected=button.dataset.filter;
-  cards.forEach(card=>{
-    const categories=(card.dataset.category||"").split(" ");
-    card.hidden=selected!=="all"&&!categories.includes(selected);
-  });
-}));
+const currentPage=document.body.dataset.page||"all";
+const categoryLinks=document.querySelectorAll("[data-page-link]");
+let visibleCount=0;
+cards.forEach(card=>{
+  const categories=(card.dataset.category||"").split(" ");
+  const show=currentPage==="all"||categories.includes(currentPage);
+  card.hidden=!show;
+  if(show)visibleCount++;
+});
+categoryLinks.forEach(link=>{
+  if(link.dataset.pageLink===currentPage){
+    link.classList.add("active");
+    link.setAttribute("aria-current","page");
+  }
+});
+const emptyMessage=document.querySelector(".category-empty");
+if(emptyMessage)emptyMessage.hidden=visibleCount!==0;
 
 const toggle=document.querySelector(".menu-toggle");
 const nav=document.querySelector(".topbar nav");
