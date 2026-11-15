@@ -10,7 +10,7 @@
 <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body data-page="all">
 <div class="grain" aria-hidden="true"></div>
 <header class="topbar">
   <a class="logo" href="#top">611<span>®</span></a>
@@ -37,14 +37,14 @@
       <div><p class="eyebrow mono">01 — SELECTED WORKS</p><h2>THE<br><span>ARCHIVE.</span></h2></div>
       <p class="heading-aside">我愛畫畫<br>畫畫不愛我。</p>
     </div>
-    <div class="filter-row mono">
-      <div class="filter-label">FILTER /</div>
-      <button class="filter active" data-filter="all">ALL <sup>02</sup></button>
-      <button class="filter" data-filter="illustration">ILLUSTRATION</button>
-      <button class="filter" data-filter="character">CHARACTER</button>
+    <div class="filter-row mono" aria-label="作品分類">
+      <span class="filter-label">CATEGORY /</span>
+      <a class="filter category-link" data-page-link="all" href="index.html#works">ALL</a>
+      <a class="filter category-link" data-page-link="illustration" href="illustration.html#works">ILLUSTRATION</a>
+      <a class="filter category-link" data-page-link="motion" href="motion.html#works">MOTION</a>
     </div>
     <div class="work-grid">
-      <article class="work-card work-wide" data-category="illustration character" data-detail="以多位角色的造型與互動為主題，練習人物關係、角色表情與整體色彩安排。">
+      <article class="work-card work-wide" data-category="illustration" data-detail="以多位角色的造型與互動為主題，練習人物關係、角色表情與整體色彩安排。">
         <a class="work-image image-tall" href="#work-detail" aria-label="查看作品：群像與角色互動">
           <img src="images/character-group.png" alt="多人角色群像插畫" loading="lazy">
           <span class="image-index mono">FIG. 001</span><span class="image-open">↗</span>
@@ -83,6 +83,7 @@
 </article>
 
     </div>
+    <p class="category-empty mono" hidden>NO WORKS IN THIS CATEGORY YET / IN PROGRESS ↗</p>
     <p class="archive-note mono">MORE WORKS WILL BE ADDED / IN PROGRESS ↗</p>
   </section>
 
