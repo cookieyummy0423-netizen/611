@@ -125,3 +125,28 @@ body.editor-mode .editor-toolbar{display:flex}
  .editor-toolbar{align-items:flex-start;flex-direction:column}
 }
 @media(max-width:520px){.work-grid{grid-template-columns:1fr}.work-meta{min-height:0}}
+
+
+/* Dedicated about/contact pages and compact archive navigation */
+.info-page{min-height:calc(100vh - 140px);padding:clamp(58px,9vw,110px) 5vw 90px}
+.info-page .eyebrow{margin-bottom:22px}
+.info-page h1{font-size:clamp(58px,10vw,132px);line-height:.86;letter-spacing:-.09em;margin:0 0 54px}
+.info-page h1 span{color:transparent;-webkit-text-stroke:1px var(--paper)}
+.info-copy{max-width:760px;margin-left:auto}
+.info-copy p{font-size:clamp(14px,1.5vw,17px);line-height:2.1;color:#aaa;margin:0 0 20px}
+.info-copy .about-lead{font-size:25px;color:#fff}
+.info-tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:34px}
+.info-tags span{font:9px var(--mono);letter-spacing:.08em;border:1px solid #444;padding:10px 12px;color:#aaa}
+.social-links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 28px;max-width:900px;margin-left:auto;border-top:1px solid var(--line)}
+.social-links a{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:24px 0;border-bottom:1px solid var(--line);font-size:clamp(15px,2vw,22px)}
+.social-links a span{font:10px var(--mono);color:#888;letter-spacing:.08em}
+.social-links a b{font-weight:500}
+.social-links a:hover b{color:#aaa}
+.page-back{display:inline-block;margin-top:48px;font:10px var(--mono);letter-spacing:.08em;color:#888}
+.page-back:hover{color:#fff}
+@media(max-width:760px){
+ .info-page{padding:58px 6vw 70px}
+ .info-page h1{font-size:clamp(54px,14vw,88px);margin-bottom:38px}
+ .info-copy{margin-left:0}
+ .social-links{grid-template-columns:1fr}
+}
