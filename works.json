@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-16T08:28:36.599Z",
+  "updatedAt": "2026-11-16T08:50:47.301Z",
   "works": [
     {
       "id": "work-69-6c-6c-75-73-74-72-61-74-69-6f-6e-2d-9df2-5c3e-8aa0-53f8",
@@ -113,17 +113,6 @@
       "sortOrder": 9
     },
     {
-      "id": "work-69-6c-6c-75-73-74-72-61-74-69-6f-6e-2d-43-61-6d-65-72-61-20-58-48-53-20-4f5c-54c1",
-      "title": "Camera XHS 作品",
-      "category": "illustration",
-      "typeLabel": "ILLUSTRATION / ARTWORK",
-      "subtitle": "插畫作品",
-      "mediaKind": "image",
-      "media": "images/Camera_XHS_17644348288941040g008319vgvln3nc6g5ou2248pi50lns4otr0.png",
-      "description": "插畫作品：Camera XHS 作品。",
-      "sortOrder": 10
-    },
-    {
       "id": "work-69-6c-6c-75-73-74-72-61-74-69-6f-6e-2d-63d2-5716-20-31-30-36",
       "title": "插圖 106",
       "category": "illustration",
@@ -132,7 +121,7 @@
       "mediaKind": "image",
       "media": "images/插圖106.png",
       "description": "插畫作品：插圖 106。",
-      "sortOrder": 11
+      "sortOrder": 10
     },
     {
       "id": "work-69-6c-6c-75-73-74-72-61-74-69-6f-6e-2d-63d2-5716-20-31-39-37",
@@ -143,7 +132,7 @@
       "mediaKind": "image",
       "media": "images/插圖197.png",
       "description": "插畫作品：插圖 197。",
-      "sortOrder": 12
+      "sortOrder": 11
     },
     {
       "id": "work-69-6c-6c-75-73-74-72-61-74-69-6f-6e-2d-63d2-5716-20-32-33-30",
@@ -154,7 +143,7 @@
       "mediaKind": "image",
       "media": "images/插圖230.png",
       "description": "插畫作品：插圖 230。",
-      "sortOrder": 13
+      "sortOrder": 12
     },
     {
       "id": "work-69-6c-6c-75-73-74-72-61-74-69-6f-6e-2d-63d2-5716-20-32-33-31",
@@ -165,7 +154,7 @@
       "mediaKind": "image",
       "media": "images/插圖231.png",
       "description": "插畫作品：插圖 231。",
-      "sortOrder": 14
+      "sortOrder": 13
     },
     {
       "id": "work-69-6c-6c-75-73-74-72-61-74-69-6f-6e-2d-63d2-5716-20-32-33-38",
@@ -176,7 +165,7 @@
       "mediaKind": "image",
       "media": "images/插圖238.png",
       "description": "插畫作品：插圖 238。",
-      "sortOrder": 15
+      "sortOrder": 14
     },
     {
       "id": "work-69-6c-6c-75-73-74-72-61-74-69-6f-6e-2d-63d2-5716-20-32-33-39",
@@ -187,7 +176,7 @@
       "mediaKind": "image",
       "media": "images/插圖239~2.jpg",
       "description": "插畫作品：插圖 239。",
-      "sortOrder": 16
+      "sortOrder": 15
     },
     {
       "id": "work-63-68-61-72-61-63-74-65-72-2d-42-4f-53-53",
@@ -198,7 +187,7 @@
       "mediaKind": "image",
       "media": "images/BOSS.png",
       "description": "角色設計作品：BOSS。",
-      "sortOrder": 17
+      "sortOrder": 16
     },
     {
       "id": "work-63-68-61-72-61-63-74-65-72-2d-602a-7269",
@@ -209,7 +198,7 @@
       "mediaKind": "image",
       "media": "images/怪物.png",
       "description": "角色設計作品：怪物。",
-      "sortOrder": 18
+      "sortOrder": 17
     },
     {
       "id": "work-63-68-61-72-61-63-74-65-72-2d-738b-8005",
@@ -220,7 +209,7 @@
       "mediaKind": "image",
       "media": "images/王者.png",
       "description": "角色設計作品：王者。",
-      "sortOrder": 19
+      "sortOrder": 18
     },
     {
       "id": "work-63-68-61-72-61-63-74-65-72-2d-6230-58eb",
@@ -231,7 +220,7 @@
       "mediaKind": "image",
       "media": "images/戰士.png",
       "description": "角色設計作品：戰士。",
-      "sortOrder": 20
+      "sortOrder": 19
     },
     {
       "id": "work-63-68-61-72-61-63-74-65-72-2d-7378-4eba",
@@ -242,7 +231,7 @@
       "mediaKind": "image",
       "media": "images/獸人.png",
       "description": "角色設計作品：獸人。",
-      "sortOrder": 21
+      "sortOrder": 20
     },
     {
       "id": "work-63-68-61-72-61-63-74-65-72-2d-6a5f-5668-4eba",
@@ -253,7 +242,7 @@
       "mediaKind": "image",
       "media": "images/機器人.png",
       "description": "角色設計作品：機器人。",
-      "sortOrder": 22
+      "sortOrder": 21
     },
     {
       "id": "work-63-68-61-72-61-63-74-65-72-2d-7fa4-50cf",
@@ -264,7 +253,7 @@
       "mediaKind": "image",
       "media": "images/群像.png",
       "description": "角色設計作品：群像。",
-      "sortOrder": 23
+      "sortOrder": 22
     },
     {
       "id": "work-73-63-65-6e-65-2d-8d77-627f-8f49-5408-30fb-8d77",
@@ -275,7 +264,7 @@
       "mediaKind": "image",
       "media": "images/起.png",
       "description": "故事開端與情境建立。",
-      "sortOrder": 24
+      "sortOrder": 23
     },
     {
       "id": "work-73-63-65-6e-65-2d-8d77-627f-8f49-5408-30fb-627f",
@@ -286,7 +275,7 @@
       "mediaKind": "image",
       "media": "承.png",
       "description": "延續情節並推進故事。",
-      "sortOrder": 25
+      "sortOrder": 24
     },
     {
       "id": "work-73-63-65-6e-65-2d-8d77-627f-8f49-5408-30fb-8f49",
@@ -297,7 +286,7 @@
       "mediaKind": "image",
       "media": "images/轉.png",
       "description": "情節轉折與視覺變化。",
-      "sortOrder": 26
+      "sortOrder": 25
     },
     {
       "id": "work-73-63-65-6e-65-2d-8d77-627f-8f49-5408-30fb-5408",
@@ -308,7 +297,7 @@
       "mediaKind": "image",
       "media": "images/合.png",
       "description": "收束故事並完成段落。",
-      "sortOrder": 27
+      "sortOrder": 26
     },
     {
       "id": "work-6d-6f-74-69-6f-6e-2d-52d5-614b-4f5c-54c1-ff1a-48-6f-74-20-44-6f-67",
@@ -319,7 +308,7 @@
       "mediaKind": "image",
       "media": "hot%20dog.gif",
       "description": "GIF 動態影像。",
-      "sortOrder": 28
+      "sortOrder": 27
     },
     {
       "id": "work-6d-6f-74-69-6f-6e-2d-52d5-614b-4f5c-54c1-ff1a-5c0f-7cbe-9748",
@@ -330,7 +319,7 @@
       "mediaKind": "image",
       "media": "小精靈.gif",
       "description": "GIF 動態影像。",
-      "sortOrder": 29
+      "sortOrder": 28
     },
     {
       "id": "work-6d-6f-74-69-6f-6e-2d-52d5-614b-4f5c-54c1-ff1a-6211-611b-8df3-821e",
@@ -341,7 +330,7 @@
       "mediaKind": "image",
       "media": "我愛跳舞.gif",
       "description": "GIF 動態影像。",
-      "sortOrder": 30
+      "sortOrder": 29
     },
     {
       "id": "work-6d-6f-74-69-6f-6e-2d-52d5-614b-4f5c-54c1-ff1a-6d41-6c34-7dda",
@@ -352,7 +341,7 @@
       "mediaKind": "image",
       "media": "流水線.gif",
       "description": "GIF 動態影像。",
-      "sortOrder": 31
+      "sortOrder": 30
     },
     {
       "id": "work-6d-6f-74-69-6f-6e-2d-52d5-614b-4f5c-54c1-ff1a-6ef4-6ef4-7b54",
@@ -363,7 +352,7 @@
       "mediaKind": "image",
       "media": "滴滴答.gif",
       "description": "GIF 動態影像。",
-      "sortOrder": 32
+      "sortOrder": 31
     },
     {
       "id": "work-6d-6f-74-69-6f-6e-2d-52d5-614b-4f5c-54c1-ff1a-963f-79cb-9738",
@@ -374,7 +363,7 @@
       "mediaKind": "image",
       "media": "阿秋霸.gif",
       "description": "GIF 動態影像。",
-      "sortOrder": 33
+      "sortOrder": 32
     },
     {
       "id": "work-6d-6f-74-69-6f-6e-2d-52d5-614b-5f71-50cf-20-30-31",
@@ -385,7 +374,7 @@
       "mediaKind": "video",
       "media": "images/lv_0_20260423123754.mp4",
       "description": "動態影像作品：動態影像 01。可直接在作品卡片中播放影片。",
-      "sortOrder": 34
+      "sortOrder": 33
     },
     {
       "id": "work-6d-6f-74-69-6f-6e-2d-52d5-614b-5f71-50cf-20-30-32",
@@ -396,7 +385,7 @@
       "mediaKind": "video",
       "media": "images/插圖243.mp4",
       "description": "動態影像作品：動態影像 02。可直接在作品卡片中播放影片。",
-      "sortOrder": 35
+      "sortOrder": 34
     },
     {
       "id": "work-6d-6f-74-69-6f-6e-2d-4eba-5f62-306e-591c-ff5c-6839-76ee-9304",
@@ -407,7 +396,7 @@
       "mediaKind": "video",
       "media": "人形の夜.mp4",
       "description": "動態影像作品：人形の夜｜根目錄。可直接在作品卡片中播放影片。",
-      "sortOrder": 36
+      "sortOrder": 35
     },
     {
       "id": "work-e42c9191-cc03-4939-8d65-3b6943d92d0f",
@@ -418,7 +407,7 @@
       "mediaKind": "image",
       "media": "images/1794817559112-未命名.png",
       "description": "",
-      "sortOrder": 37
+      "sortOrder": 36
     }
   ]
 }
