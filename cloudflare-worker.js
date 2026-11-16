@@ -1,6 +1,6 @@
 const OWNER="cookieyummy0423-netizen",REPO="611",BRANCH="main",ALLOWED="cookieyummy0423-netizen",COOKIE="__Host-611_admin",STATE="__Host-611_state",MAX=20*1024*1024;
 export default {async fetch(req,env){const u=new URL(req.url);try{
-if(u.pathname==="/auth/login"){const s=b64(crypto.getRandomValues(new Uint8Array(32)));return new Response(null,{status:302,headers:{Location:"https://github.com/login/oauth/authorize?client_id="+encodeURIComponent(env.GITHUB_CLIENT_ID)+"&redirect_uri="+encodeURIComponent(u.origin+"/auth/callback")+"&scope=read%3Auser&state="+s,"Set-Cookie":cookie(STATE,s,600)}})}
+if(u.pathname==="/auth/login"){const s=b64(crypto.getRandomValues(new Uint8Array(32)));return new Response(null,{status:302,headers:{Location:"https://github.com/login/oauth/authorize?client_id="+encodeURIComponent(env.GITHUB_CLIENT_ID)+"&redirect_uri="+encodeURIComponent(u.origin+"/auth/callback")+"&scope=read%3Auser&state="+s,"Set-Cookie":cookieSet(STATE,s,600)}})}
 if(u.pathname==="/auth/callback")return callback(req,env,u);
 if(u.pathname==="/auth/logout")return new Response(null,{status:302,headers:{Location:"/admin","Set-Cookie":clear(COOKIE)}});
 if(u.pathname==="/"||u.pathname==="/admin")return page();
