@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#080808">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="grain" aria-hidden="true"></div>
+<header class="topbar">
+  <a class="logo" href="index.html#top">611<span>®</span></a>
+  <nav><a href="index.html#works">作品 <i>01</i></a><a href="about.html">關於 <i>02</i></a><a href="contact.html">聯絡 <i>03</i></a></nav>
+  <span class="top-note">INDEPENDENT VISUAL ARCHIVE&nbsp; / &nbsp;2026</span>
+  <button class="menu-toggle" aria-label="開啟選單" aria-expanded="false">＋</button>
+</header>
+<main>
+
+<section class="info-page">
+  <p class="eyebrow mono">02 — THE PERSON</p>
+  <h1>WHO IS<br><span>611?</span></h1>
+  <div class="info-copy">
+    <p class="about-lead">嗨，我是 611。</p>
+    <p>一名數位媒體設計系學生，喜歡畫畫、角色創作、視覺敘事，也喜歡把腦袋裡那些奇怪的想法變成看得見的東西。</p>
+    <p>目前持續探索插畫、平面設計、動態影像與互動體驗。還在學習，也還在累積自己的視覺語言。</p>
+    <div class="info-tags mono"><span>ILLUSTRATION</span><span>CHARACTER</span><span>GRAPHIC</span><span>MOTION</span><span>VISUAL STORY</span></div>
+  </div>
+  <a class="page-back" href="index.html#works">← BACK TO THE ARCHIVE</a>
+</section>
+</main>
+<footer class="footer mono"><a class="logo" href="index.html#top">611®</a><span>VISUAL ARCHIVE / 2026</span><a href="index.html#top">BACK TO TOP ↑</a></footer>
+<script>
+const toggle=document.querySelector(".menu-toggle");
+const navMenu=document.querySelector(".topbar nav");
+if(toggle&&navMenu){toggle.addEventListener("click",()=>{const opened=navMenu.classList.toggle("open");toggle.setAttribute("aria-expanded",String(opened));toggle.textContent=opened?"×":"＋";});}
+</script>
+</body></html>
