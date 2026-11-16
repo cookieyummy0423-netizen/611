@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#080808">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="grain" aria-hidden="true"></div>
+<header class="topbar">
+  <a class="logo" href="index.html#top">611<span>®</span></a>
+  <nav><a href="index.html#works">作品 <i>01</i></a><a href="about.html">關於 <i>02</i></a><a href="contact.html">聯絡 <i>03</i></a></nav>
+  <span class="top-note">INDEPENDENT VISUAL ARCHIVE&nbsp; / &nbsp;2026</span>
+  <button class="menu-toggle" aria-label="開啟選單" aria-expanded="false">＋</button>
+</header>
+<main>
+
+<section class="info-page">
+  <p class="eyebrow mono">03 — GET IN TOUCH</p>
+  <h1>LET'S<br><span>CONNECT.</span></h1>
+  <div class="info-copy">
+    <p>有合作、交流，或只是想聊聊創作，都歡迎透過以下方式找到我。</p>
+  </div>
+  <div class="social-links">
+    <a href="https://www.facebook.com/share/18aziaHdp6/" target="_blank" rel="noopener noreferrer"><b>FACEBOOK</b><span>OPEN PROFILE ↗</span></a>
+    <a href="https://www.instagram.com/cookieyummy0423?cplk=MXFwdXBwOTNpZjBk" target="_blank" rel="noopener noreferrer"><b>INSTAGRAM</b><span>@COOKIEYUMMY0423 ↗</span></a>
+    <a href="mailto:cookieyummy0423@gmail.com"><b>GMAIL</b><span>COOKIEYUMMY0423@GMAIL.COM ↗</span></a>
+    <a href="tel:0903134623"><b>PHONE</b><span>0903-136-623 ↗</span></a>
+  </div>
+  <a class="page-back" href="index.html#works">← BACK TO THE ARCHIVE</a>
+</section>
+</main>
+<footer class="footer mono"><a class="logo" href="index.html#top">611®</a><span>VISUAL ARCHIVE / 2026</span><a href="index.html#top">BACK TO TOP ↑</a></footer>
+<script>
+const toggle=document.querySelector(".menu-toggle");
+const navMenu=document.querySelector(".topbar nav");
+if(toggle&&navMenu){toggle.addEventListener("click",()=>{const opened=navMenu.classList.toggle("open");toggle.setAttribute("aria-expanded",String(opened));toggle.textContent=opened?"×":"＋";});}
+</script>
+</body></html>
