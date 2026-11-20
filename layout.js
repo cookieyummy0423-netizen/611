@@ -16,5 +16,5 @@
  function setEditing(value){editing=!!value;document.documentElement.classList.toggle("611-layout-select",editing)}
  document.addEventListener("click",event=>{if(!editing)return;const el=event.target.closest("[data-layout-id]");if(!el)return;event.preventDefault();event.stopPropagation();document.querySelectorAll(".611-layout-picked").forEach(x=>x.classList.remove("611-layout-picked"));el.classList.add("611-layout-picked");selected=el.dataset.layoutId;parent.postMessage({type:"611-layout-select",region:selected},"*")},true);
  window.addEventListener("message",event=>{if(event.origin!==ADMIN_ORIGIN)return;const data=event.data||{};if(data.type==="611-layout-preview"){apply(data.layout||{});setEditing(data.select!==false)}});
- fetch("layout.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).then(d=>{if(d)apply(d)}).catch(()=>{});
+ fetch("layout.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).then(d=>{if(d)apply(d)}).catch(()=>{}).finally(()=>window.__611MarkReady?.("layout"));
 })();
