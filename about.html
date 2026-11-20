@@ -18,15 +18,20 @@
 </header>
 <main>
 
-<section class="info-page">
+<section class="info-page" id="about-content" data-editor-region="aboutPage">
   <p class="eyebrow mono">02 — THE PERSON</p>
   <h1>WHO IS<br><span>611?</span></h1>
-  <div class="info-copy">
-    <p class="about-lead">嗨，我是 611。</p>
-    <p>一名數位媒體設計系學生，喜歡畫畫、角色創作、視覺敘事，也喜歡把腦袋裡那些奇怪的想法變成看得見的東西。</p>
-    <p>目前持續探索插畫、平面設計、動態影像與互動體驗。還在學習，也還在累積自己的視覺語言。</p>
-    <div class="info-tags mono"><span>ILLUSTRATION</span><span>CHARACTER</span><span>GRAPHIC</span><span>MOTION</span><span>VISUAL STORY</span></div>
+  <div class="about-layout">
+    <figure class="about-photo" data-editor-region="aboutPhoto"><span class="about-photo-placeholder">ADD YOUR PHOTO</span></figure>
+    <div class="info-copy" data-editor-region="aboutIntro">
+      <p class="about-lead">嗨，我是 611。</p>
+      <p>一名數位媒體設計系學生，喜歡畫畫、角色創作、視覺敘事，也喜歡把腦袋裡那些奇怪的想法變成看得見的東西。</p>
+      <p>目前持續探索插畫、平面設計、動態影像與互動體驗。還在學習，也還在累積自己的視覺語言。</p>
+      <div class="info-tags mono"><span>ILLUSTRATION</span><span>CHARACTER</span><span>GRAPHIC</span><span>MOTION</span><span>VISUAL STORY</span></div>
+    </div>
   </div>
+  <div class="about-experience" data-editor-region="aboutExperience"></div>
+  <div class="about-extra" data-editor-region="aboutExtra"></div>
   <a class="page-back" href="index.html#works">← BACK TO THE ARCHIVE</a>
 </section>
 </main>
@@ -38,4 +43,5 @@ if(toggle&&navMenu){toggle.addEventListener("click",()=>{const opened=navMenu.cl
 </script>
 <script src="design.js"></script>
 <script src="layout.js"></script>
+<script src="about.js"></script>
 </body></html>
