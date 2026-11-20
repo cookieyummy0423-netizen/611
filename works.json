@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-20T23:11:36.736Z",
+  "updatedAt": "2026-11-20T23:12:57.662Z",
   "works": [
     {
       "id": "work-63df9826-c74e-4646-a926-071307fb431b",
@@ -917,7 +917,7 @@
       "description": "角色設計作品：群像。",
       "hidden": false,
       "detailPage": {
-        "enabled": true,
+        "enabled": false,
         "slug": "",
         "concept": "",
         "tools": "CSP",
@@ -931,9 +931,9 @@
           "fit": "cover",
           "x": 50,
           "y": 0,
-          "titleSize": 16,
+          "titleSize": 17,
           "descriptionSize": 10,
-          "meta": "below"
+          "meta": "overlay"
         },
         "mobile": {
           "ratio": "global",
