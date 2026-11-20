@@ -1,5 +1,5 @@
 {
-  "version": 6,
+  "version": 3,
   "regions": {
     "topbar": {
       "desktop": {
@@ -14,13 +14,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       },
       "mobile": {
         "maxWidth": 0,
@@ -34,13 +34,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       }
     },
     "sectionHeading": {
@@ -56,13 +56,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       },
       "mobile": {
         "maxWidth": 0,
@@ -76,13 +76,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       }
     },
     "filterRow": {
@@ -98,13 +98,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       },
       "mobile": {
         "maxWidth": 0,
@@ -118,13 +118,13 @@
         "gap": 10,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       }
     },
     "workGrid": {
@@ -140,13 +140,13 @@
         "gap": 4,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       },
       "mobile": {
         "maxWidth": 0,
@@ -160,13 +160,13 @@
         "gap": 4,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       }
     },
     "statement": {
@@ -182,13 +182,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       },
       "mobile": {
         "maxWidth": 0,
@@ -202,13 +202,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "left",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "left"
       }
     },
     "infoPage": {
@@ -224,13 +224,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "left",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "left"
       },
       "mobile": {
         "maxWidth": 0,
@@ -244,13 +244,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       }
     },
     "pageTitle": {
@@ -266,13 +266,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "left",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "left"
       },
       "mobile": {
         "maxWidth": 0,
@@ -286,13 +286,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       }
     },
     "infoCopy": {
@@ -308,13 +308,13 @@
         "gap": 0,
         "offsetX": -574,
         "offsetY": 0,
-        "textAlign": "left",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "left"
       },
       "mobile": {
         "maxWidth": 0,
@@ -328,13 +328,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       }
     },
     "infoTags": {
@@ -350,13 +350,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       },
       "mobile": {
         "maxWidth": 0,
@@ -370,13 +370,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       }
     },
     "contact": {
@@ -392,13 +392,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       },
       "mobile": {
         "maxWidth": 0,
@@ -412,13 +412,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       }
     },
     "pageBack": {
@@ -434,13 +434,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       },
       "mobile": {
         "maxWidth": 0,
@@ -454,13 +454,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       }
     },
     "footer": {
@@ -476,13 +476,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       },
       "mobile": {
         "maxWidth": 0,
@@ -496,13 +496,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       }
     },
     "aboutPage": {
@@ -518,13 +518,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "left",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "left"
       },
       "mobile": {
         "maxWidth": 0,
@@ -538,13 +538,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       }
     },
     "aboutTitle": {
@@ -560,13 +560,13 @@
         "gap": 0,
         "offsetX": 12,
         "offsetY": 0,
-        "textAlign": "left",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "left"
       },
       "mobile": {
         "maxWidth": 0,
@@ -580,13 +580,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "center",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "center"
       }
     },
     "aboutIntro": {
@@ -602,13 +602,13 @@
         "gap": 0,
         "offsetX": -252,
         "offsetY": 100,
-        "textAlign": "left",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "left"
       },
       "mobile": {
         "maxWidth": 0,
@@ -622,13 +622,13 @@
         "gap": 0,
         "offsetX": 18,
         "offsetY": -68,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       }
     },
     "aboutTags": {
@@ -644,13 +644,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       },
       "mobile": {
         "maxWidth": 0,
@@ -664,13 +664,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       }
     },
     "aboutBack": {
@@ -686,13 +686,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       },
       "mobile": {
         "maxWidth": 0,
@@ -706,13 +706,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       }
     },
     "aboutPhoto": {
@@ -728,13 +728,13 @@
         "gap": 0,
         "offsetX": 46,
         "offsetY": 2,
-        "textAlign": "left",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "left"
       },
       "mobile": {
         "maxWidth": 0,
@@ -748,13 +748,13 @@
         "gap": 0,
         "offsetX": 30,
         "offsetY": -4,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       }
     },
     "aboutExperience": {
@@ -770,13 +770,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       },
       "mobile": {
         "maxWidth": 0,
@@ -790,13 +790,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       }
     },
     "aboutExtra": {
@@ -812,13 +812,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       },
       "mobile": {
         "maxWidth": 0,
@@ -832,13 +832,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       }
     },
     "collectionIntro": {
@@ -854,13 +854,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       },
       "mobile": {
         "maxWidth": 0,
@@ -874,13 +874,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       }
     },
     "collectionCover": {
@@ -896,13 +896,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 2,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       },
       "mobile": {
         "maxWidth": 0,
@@ -916,13 +916,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       }
     },
     "collectionFacts": {
@@ -938,13 +938,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       },
       "mobile": {
         "maxWidth": 0,
@@ -958,13 +958,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       }
     },
     "collectionConcept": {
@@ -980,13 +980,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       },
       "mobile": {
         "maxWidth": 0,
@@ -1000,13 +1000,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       }
     },
     "collectionProcess": {
@@ -1022,13 +1022,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       },
       "mobile": {
         "maxWidth": 0,
@@ -1042,13 +1042,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       }
     },
     "collectionGallery": {
@@ -1064,13 +1064,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       },
       "mobile": {
         "maxWidth": 0,
@@ -1084,13 +1084,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       }
     },
     "collectionWorks": {
@@ -1106,13 +1106,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       },
       "mobile": {
         "maxWidth": 0,
@@ -1126,13 +1126,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       }
     },
     "collectionIndex": {
@@ -1148,13 +1148,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       },
       "mobile": {
         "maxWidth": 0,
@@ -1168,13 +1168,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       }
     },
     "collectionIndexHeading": {
@@ -1190,13 +1190,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       },
       "mobile": {
         "maxWidth": 0,
@@ -1210,13 +1210,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       }
     },
     "collectionCardGrid": {
@@ -1232,13 +1232,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       },
       "mobile": {
         "maxWidth": 0,
@@ -1252,13 +1252,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       }
     },
     "collectionCard": {
@@ -1274,13 +1274,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       },
       "mobile": {
         "maxWidth": 0,
@@ -1294,13 +1294,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       }
     },
     "collectionTitle": {
@@ -1311,18 +1311,18 @@
         "paddingBottom": 0,
         "marginTop": 0,
         "marginBottom": 0,
-        "fontSize": 0,
+        "fontSize": 61,
         "lineHeight": 0,
         "gap": 0,
-        "offsetX": 0,
+        "offsetX": -12,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       },
       "mobile": {
         "maxWidth": 0,
@@ -1336,13 +1336,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       }
     },
     "collectionDescription": {
@@ -1358,13 +1358,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       },
       "mobile": {
         "maxWidth": 0,
@@ -1378,13 +1378,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       }
     },
     "collectionConceptCopy": {
@@ -1400,13 +1400,13 @@
         "gap": 0,
         "offsetX": -400,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       },
       "mobile": {
         "maxWidth": 0,
@@ -1420,13 +1420,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       }
     },
     "collectionSectionTitle": {
@@ -1442,13 +1442,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       },
       "mobile": {
         "maxWidth": 0,
@@ -1462,13 +1462,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       }
     },
     "collectionWorkTitle": {
@@ -1484,13 +1484,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       },
       "mobile": {
         "maxWidth": 0,
@@ -1504,13 +1504,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       }
     },
     "collectionWorkDescription": {
@@ -1526,13 +1526,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       },
       "mobile": {
         "maxWidth": 0,
@@ -1546,13 +1546,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       }
     },
     "collectionProcessText": {
@@ -1568,13 +1568,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       },
       "mobile": {
         "maxWidth": 0,
@@ -1588,13 +1588,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       }
     },
     "collectionFactValue": {
@@ -1610,13 +1610,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       },
       "mobile": {
         "maxWidth": 0,
@@ -1630,13 +1630,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       }
     },
     "collectionCardTitle": {
@@ -1652,13 +1652,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       },
       "mobile": {
         "maxWidth": 0,
@@ -1672,13 +1672,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       }
     },
     "collectionCardDescription": {
@@ -1694,13 +1694,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       },
       "mobile": {
         "maxWidth": 0,
@@ -1714,13 +1714,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       }
     },
     "collectionCoverMedia": {
@@ -1736,13 +1736,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       },
       "mobile": {
         "maxWidth": 0,
@@ -1756,13 +1756,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       }
     },
     "collectionGalleryMedia": {
@@ -1778,13 +1778,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       },
       "mobile": {
         "maxWidth": 0,
@@ -1798,13 +1798,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       }
     },
     "collectionSelectedMedia": {
@@ -1820,13 +1820,13 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       },
       "mobile": {
         "maxWidth": 0,
@@ -1840,15 +1840,15 @@
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit",
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0
+        "objectPositionY": 0,
+        "textAlign": "inherit"
       }
     }
   },
-  "updatedAt": "2026-11-20T22:37:37.835Z"
+  "updatedAt": "2026-11-20T22:59:16.956Z"
 }
