@@ -1002,7 +1002,7 @@
         "fontSize": 14,
         "lineHeight": 0,
         "gap": 0,
-        "offsetX": 0,
+        "offsetX": -400,
         "offsetY": 0,
         "textAlign": "inherit"
       },
@@ -1322,5 +1322,5 @@
       }
     }
   },
-  "updatedAt": "2026-11-20T22:34:32.897Z"
+  "updatedAt": "2026-11-20T22:35:05.849Z"
 }
