@@ -11,7 +11,7 @@
 <link rel="stylesheet" href="style.css">
 <script>
 document.documentElement.classList.add("site-booting");
-(()=>{const file=location.pathname.split("/").pop()||"index.html";const needsHome=/^(index|illustration|character|scene|motion)\.html$/i.test(file);const pending=new Set(["design","works",...(needsHome?["homepage"]:[])]);let released=false;const release=()=>{if(released||pending.size)return;released=true;document.documentElement.classList.remove("site-booting")};window.__611MarkReady=key=>{pending.delete(key);release()};window.setTimeout(()=>{pending.clear();release()},3500)})();
+(()=>{const file=location.pathname.split("/").pop()||"index.html";const needsHome=/^(index|illustration|character|scene|motion)\.html$/i.test(file);const pending=new Set(["design","works","layout",...(needsHome?["homepage"]:[])]);let released=false;const release=()=>{if(released||pending.size)return;released=true;document.documentElement.classList.remove("site-booting")};window.__611MarkReady=key=>{pending.delete(key);release()};window.setTimeout(()=>{pending.clear();release()},3500)})();
 </script>
 </head>
 <body data-page="character">
@@ -359,4 +359,5 @@ document.documentElement.classList.add("site-booting");
 <script src="script.js"></script>
 <script src="homepage.js"></script>
 <script src="design.js"></script>
+<script src="layout.js"></script>
 </body></html>
