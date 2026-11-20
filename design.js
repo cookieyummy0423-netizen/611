@@ -17,5 +17,5 @@
    if(desk>0)set("--font-"+cssKey,desk+"px");
    if(mob>0)set("--font-mobile-"+cssKey,mob+"px");
   });
- }catch(e){console.warn("611 design settings:",e)}
+ }catch(e){console.warn("611 design settings:",e)}finally{window.__611MarkReady?.("design")}
 })();
