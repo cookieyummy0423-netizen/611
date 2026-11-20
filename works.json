@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-20T20:33:46.402Z",
+  "updatedAt": "2026-11-20T20:37:03.173Z",
   "works": [
     {
       "id": "work-63df9826-c74e-4646-a926-071307fb431b",
@@ -15,20 +15,22 @@
         "enabled": false,
         "slug": "",
         "concept": "",
-        "tools": "",
-        "year": null,
-        "gallery": [],
+        "tools": "CSP",
+        "year": 2026,
+        "gallery": [
+          "images/1795206931688-插圖-20261010-2.jpg"
+        ],
         "process": []
       },
       "cardLayout": {
         "desktop": {
           "ratio": "16 / 9",
           "fit": "cover",
-          "x": 50,
+          "x": 47,
           "y": 50,
-          "titleSize": 16,
+          "titleSize": 17,
           "descriptionSize": 10,
-          "meta": "below"
+          "meta": "overlay"
         },
         "mobile": {
           "ratio": "global",
