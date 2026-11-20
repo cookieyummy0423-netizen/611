@@ -109,12 +109,12 @@
       "desktop": {
         "maxWidth": 0,
         "minHeight": 0,
-        "paddingTop": 0,
-        "paddingBottom": 0,
+        "paddingTop": 40,
+        "paddingBottom": 28,
         "marginTop": 0,
         "marginBottom": 0,
         "fontSize": 0,
-        "lineHeight": 0,
+        "lineHeight": 0.1,
         "gap": 0,
         "textAlign": "inherit"
       },
@@ -135,14 +135,14 @@
       "desktop": {
         "maxWidth": 0,
         "minHeight": 0,
-        "paddingTop": 0,
-        "paddingBottom": 0,
+        "paddingTop": 48,
+        "paddingBottom": 48,
         "marginTop": 0,
         "marginBottom": 0,
         "fontSize": 0,
         "lineHeight": 0,
         "gap": 0,
-        "textAlign": "inherit"
+        "textAlign": "left"
       },
       "mobile": {
         "maxWidth": 0,
@@ -164,11 +164,11 @@
         "paddingTop": 0,
         "paddingBottom": 0,
         "marginTop": 0,
-        "marginBottom": 0,
+        "marginBottom": 4,
         "fontSize": 0,
         "lineHeight": 0,
         "gap": 0,
-        "textAlign": "inherit"
+        "textAlign": "left"
       },
       "mobile": {
         "maxWidth": 0,
@@ -187,14 +187,14 @@
       "desktop": {
         "maxWidth": 0,
         "minHeight": 0,
-        "paddingTop": 0,
+        "paddingTop": 48,
         "paddingBottom": 0,
         "marginTop": 0,
         "marginBottom": 0,
         "fontSize": 0,
         "lineHeight": 0,
         "gap": 0,
-        "textAlign": "inherit"
+        "textAlign": "left"
       },
       "mobile": {
         "maxWidth": 0,
@@ -237,7 +237,7 @@
     },
     "contact": {
       "desktop": {
-        "maxWidth": 0,
+        "maxWidth": 1800,
         "minHeight": 0,
         "paddingTop": 0,
         "paddingBottom": 0,
@@ -315,7 +315,7 @@
     },
     "aboutPhoto": {
       "desktop": {
-        "maxWidth": 0,
+        "maxWidth": 330,
         "minHeight": 0,
         "paddingTop": 0,
         "paddingBottom": 0,
@@ -324,7 +324,7 @@
         "fontSize": 0,
         "lineHeight": 0,
         "gap": 0,
-        "textAlign": "inherit"
+        "textAlign": "left"
       },
       "mobile": {
         "maxWidth": 0,
@@ -391,5 +391,6 @@
         "textAlign": "inherit"
       }
     }
-  }
+  },
+  "updatedAt": "2026-11-20T17:07:45.352Z"
 }
