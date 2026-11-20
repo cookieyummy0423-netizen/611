@@ -1095,7 +1095,7 @@
     },
     "collectionWorks": {
       "desktop": {
-        "maxWidth": 0,
+        "maxWidth": 1800,
         "minHeight": 0,
         "paddingTop": 0,
         "paddingBottom": 0,
@@ -1109,7 +1109,7 @@
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
-        "imageWidth": 0,
+        "imageWidth": 67,
         "objectPositionX": 0,
         "objectPositionY": 0,
         "textAlign": "inherit"
@@ -1726,7 +1726,7 @@
     "collectionCoverMedia": {
       "desktop": {
         "maxWidth": 0,
-        "minHeight": 0,
+        "minHeight": 600,
         "paddingTop": 0,
         "paddingBottom": 0,
         "marginTop": 0,
@@ -1735,13 +1735,13 @@
         "lineHeight": 0,
         "gap": 0,
         "offsetX": 0,
-        "offsetY": 0,
+        "offsetY": 14,
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
         "imageWidth": 0,
         "objectPositionX": 0,
-        "objectPositionY": 0,
+        "objectPositionY": 56,
         "textAlign": "inherit"
       },
       "mobile": {
@@ -1809,8 +1809,8 @@
     },
     "collectionSelectedMedia": {
       "desktop": {
-        "maxWidth": 430,
-        "minHeight": 310,
+        "maxWidth": 1800,
+        "minHeight": 600,
         "paddingTop": 0,
         "paddingBottom": 0,
         "marginTop": 0,
@@ -1823,7 +1823,7 @@
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
-        "imageWidth": 0,
+        "imageWidth": 100,
         "objectPositionX": 0,
         "objectPositionY": 0,
         "textAlign": "inherit"
@@ -1850,5 +1850,5 @@
       }
     }
   },
-  "updatedAt": "2026-11-20T22:59:16.956Z"
+  "updatedAt": "2026-11-20T23:04:57.671Z"
 }
