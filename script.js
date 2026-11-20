@@ -85,6 +85,19 @@ function refreshCards(){
     }
   }else if(archivePager)archivePager.hidden=true;
 }
+function applyCardLayout(card,work){
+  const layout=work.cardLayout||{};
+  for(const mode of ["desktop","mobile"]){
+    const v={ratio:"global",fit:"contain",x:50,y:50,titleSize:mode==="desktop"?16:15,descriptionSize:mode==="desktop"?10:9,meta:"below",...(layout[mode]||{})};
+    if(v.ratio&&v.ratio!=="global")card.style.setProperty("--card-ratio-"+mode,v.ratio==="original"?"auto":v.ratio);
+    card.style.setProperty("--card-fit-"+mode,v.fit==="cover"?"cover":"contain");
+    card.style.setProperty("--card-x-"+mode,Math.max(0,Math.min(100,Number(v.x)||0))+"%");
+    card.style.setProperty("--card-y-"+mode,Math.max(0,Math.min(100,Number(v.y)||0))+"%");
+    card.style.setProperty("--card-title-"+mode,Math.max(8,Math.min(48,Number(v.titleSize)||16))+"px");
+    card.style.setProperty("--card-description-"+mode,Math.max(8,Math.min(32,Number(v.descriptionSize)||10))+"px");
+    card.dataset["cardMeta"+(mode==="desktop"?"Desktop":"Mobile")]=v.meta==="overlay"?"overlay":"below";
+  }
+}
 function makeLocalCard(work){
   const card=document.createElement("article");
   card.className="work-card work-offset";
@@ -111,6 +124,7 @@ function makeLocalCard(work){
   info.append(category,title,desc);
   const number=document.createElement("span");number.className="work-number mono";number.textContent="NEW";
   meta.append(info,number);card.appendChild(meta);
+  applyCardLayout(card,work);
   return card;
 }
 function loadLocalWorks(){
