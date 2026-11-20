@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-20T12:06:37.155Z",
+  "updatedAt": "2026-11-20T12:10:03.000Z",
   "works": [
     {
       "id": "work-63df9826-c74e-4646-a926-071307fb431b",
@@ -102,17 +102,6 @@
       "sortOrder": 8
     },
     {
-      "id": "work-69-6c-6c-75-73-74-72-61-74-69-6f-6e-2d-63d2-5716-20-31-39-31",
-      "title": "單人半身",
-      "category": "illustration",
-      "typeLabel": "ILLUSTRATION / ARTWORK",
-      "subtitle": "插畫作品",
-      "mediaKind": "image",
-      "media": "images/插圖191.png",
-      "description": "給同學的生日賀圖",
-      "sortOrder": 9
-    },
-    {
       "id": "work-69-6c-6c-75-73-74-72-61-74-69-6f-6e-2d-63d2-5716-20-31-39-37",
       "title": "單人半身",
       "category": "illustration",
@@ -121,7 +110,7 @@
       "mediaKind": "image",
       "media": "images/插圖197.png",
       "description": "同學的生日賀圖",
-      "sortOrder": 10
+      "sortOrder": 9
     },
     {
       "id": "work-69-6c-6c-75-73-74-72-61-74-69-6f-6e-2d-63d2-5716-20-31-39-36",
@@ -131,6 +120,17 @@
       "subtitle": "插畫作品",
       "mediaKind": "image",
       "media": "images/插圖196.png",
+      "description": "給同學的生日賀圖",
+      "sortOrder": 10
+    },
+    {
+      "id": "work-69-6c-6c-75-73-74-72-61-74-69-6f-6e-2d-63d2-5716-20-31-39-31",
+      "title": "單人半身",
+      "category": "illustration",
+      "typeLabel": "ILLUSTRATION / ARTWORK",
+      "subtitle": "插畫作品",
+      "mediaKind": "image",
+      "media": "images/插圖191.png",
       "description": "給同學的生日賀圖",
       "sortOrder": 11
     },
