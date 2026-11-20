@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "regions": {
     "topbar": {
       "desktop": {
@@ -12,7 +12,9 @@
         "fontSize": 0,
         "lineHeight": 0,
         "gap": 0,
-        "textAlign": "inherit"
+        "textAlign": "inherit",
+        "offsetX": 0,
+        "offsetY": 0
       },
       "mobile": {
         "maxWidth": 0,
@@ -24,7 +26,9 @@
         "fontSize": 0,
         "lineHeight": 0,
         "gap": 0,
-        "textAlign": "inherit"
+        "textAlign": "inherit",
+        "offsetX": 0,
+        "offsetY": 0
       }
     },
     "sectionHeading": {
@@ -38,7 +42,9 @@
         "fontSize": 0,
         "lineHeight": 0,
         "gap": 0,
-        "textAlign": "inherit"
+        "textAlign": "inherit",
+        "offsetX": 0,
+        "offsetY": 0
       },
       "mobile": {
         "maxWidth": 0,
@@ -50,7 +56,9 @@
         "fontSize": 0,
         "lineHeight": 0,
         "gap": 0,
-        "textAlign": "inherit"
+        "textAlign": "inherit",
+        "offsetX": 0,
+        "offsetY": 0
       }
     },
     "filterRow": {
@@ -64,7 +72,9 @@
         "fontSize": 0,
         "lineHeight": 0,
         "gap": 0,
-        "textAlign": "inherit"
+        "textAlign": "inherit",
+        "offsetX": 0,
+        "offsetY": 0
       },
       "mobile": {
         "maxWidth": 0,
@@ -76,7 +86,9 @@
         "fontSize": 0,
         "lineHeight": 0,
         "gap": 0,
-        "textAlign": "inherit"
+        "textAlign": "inherit",
+        "offsetX": 0,
+        "offsetY": 0
       }
     },
     "workGrid": {
@@ -90,7 +102,9 @@
         "fontSize": 0,
         "lineHeight": 0,
         "gap": 4,
-        "textAlign": "inherit"
+        "textAlign": "inherit",
+        "offsetX": 0,
+        "offsetY": 0
       },
       "mobile": {
         "maxWidth": 0,
@@ -102,7 +116,9 @@
         "fontSize": 0,
         "lineHeight": 0,
         "gap": 4,
-        "textAlign": "inherit"
+        "textAlign": "inherit",
+        "offsetX": 0,
+        "offsetY": 0
       }
     },
     "statement": {
@@ -116,7 +132,9 @@
         "fontSize": 0,
         "lineHeight": 0.1,
         "gap": 0,
-        "textAlign": "inherit"
+        "textAlign": "inherit",
+        "offsetX": 0,
+        "offsetY": 0
       },
       "mobile": {
         "maxWidth": 1800,
@@ -128,7 +146,9 @@
         "fontSize": 0,
         "lineHeight": 0,
         "gap": 0,
-        "textAlign": "left"
+        "textAlign": "left",
+        "offsetX": 0,
+        "offsetY": 0
       }
     },
     "infoPage": {
@@ -142,7 +162,9 @@
         "fontSize": 0,
         "lineHeight": 0,
         "gap": 0,
-        "textAlign": "left"
+        "textAlign": "left",
+        "offsetX": 0,
+        "offsetY": 0
       },
       "mobile": {
         "maxWidth": 0,
@@ -154,7 +176,9 @@
         "fontSize": 0,
         "lineHeight": 0,
         "gap": 0,
-        "textAlign": "inherit"
+        "textAlign": "inherit",
+        "offsetX": 0,
+        "offsetY": 0
       }
     },
     "pageTitle": {
@@ -168,7 +192,9 @@
         "fontSize": 0,
         "lineHeight": 0,
         "gap": 0,
-        "textAlign": "left"
+        "textAlign": "left",
+        "offsetX": 0,
+        "offsetY": 0
       },
       "mobile": {
         "maxWidth": 0,
@@ -180,7 +206,9 @@
         "fontSize": 0,
         "lineHeight": 0,
         "gap": 0,
-        "textAlign": "inherit"
+        "textAlign": "inherit",
+        "offsetX": 0,
+        "offsetY": 0
       }
     },
     "infoCopy": {
@@ -194,7 +222,9 @@
         "fontSize": 0,
         "lineHeight": 0,
         "gap": 0,
-        "textAlign": "left"
+        "textAlign": "left",
+        "offsetX": 0,
+        "offsetY": 0
       },
       "mobile": {
         "maxWidth": 0,
@@ -206,7 +236,9 @@
         "fontSize": 0,
         "lineHeight": 0,
         "gap": 0,
-        "textAlign": "inherit"
+        "textAlign": "inherit",
+        "offsetX": 0,
+        "offsetY": 0
       }
     },
     "infoTags": {
@@ -220,7 +252,9 @@
         "fontSize": 0,
         "lineHeight": 0,
         "gap": 0,
-        "textAlign": "inherit"
+        "textAlign": "inherit",
+        "offsetX": 0,
+        "offsetY": 0
       },
       "mobile": {
         "maxWidth": 0,
@@ -232,7 +266,9 @@
         "fontSize": 0,
         "lineHeight": 0,
         "gap": 0,
-        "textAlign": "inherit"
+        "textAlign": "inherit",
+        "offsetX": 0,
+        "offsetY": 0
       }
     },
     "contact": {
@@ -246,7 +282,9 @@
         "fontSize": 0,
         "lineHeight": 0,
         "gap": 0,
-        "textAlign": "inherit"
+        "textAlign": "inherit",
+        "offsetX": 0,
+        "offsetY": 0
       },
       "mobile": {
         "maxWidth": 0,
@@ -258,7 +296,9 @@
         "fontSize": 0,
         "lineHeight": 0,
         "gap": 0,
-        "textAlign": "inherit"
+        "textAlign": "inherit",
+        "offsetX": 0,
+        "offsetY": 0
       }
     },
     "pageBack": {
@@ -272,7 +312,9 @@
         "fontSize": 0,
         "lineHeight": 0,
         "gap": 0,
-        "textAlign": "inherit"
+        "textAlign": "inherit",
+        "offsetX": 0,
+        "offsetY": 0
       },
       "mobile": {
         "maxWidth": 0,
@@ -284,7 +326,9 @@
         "fontSize": 0,
         "lineHeight": 0,
         "gap": 0,
-        "textAlign": "inherit"
+        "textAlign": "inherit",
+        "offsetX": 0,
+        "offsetY": 0
       }
     },
     "footer": {
@@ -298,7 +342,9 @@
         "fontSize": 0,
         "lineHeight": 0.8,
         "gap": 0,
-        "textAlign": "inherit"
+        "textAlign": "inherit",
+        "offsetX": 0,
+        "offsetY": 0
       },
       "mobile": {
         "maxWidth": 0,
@@ -310,7 +356,9 @@
         "fontSize": 5,
         "lineHeight": 0.8,
         "gap": 0,
-        "textAlign": "inherit"
+        "textAlign": "inherit",
+        "offsetX": 0,
+        "offsetY": 0
       }
     },
     "aboutPhoto": {
@@ -324,7 +372,9 @@
         "fontSize": 0,
         "lineHeight": 0,
         "gap": 0,
-        "textAlign": "left"
+        "textAlign": "left",
+        "offsetX": 0,
+        "offsetY": 0
       },
       "mobile": {
         "maxWidth": 0,
@@ -336,7 +386,9 @@
         "fontSize": 0,
         "lineHeight": 0,
         "gap": 0,
-        "textAlign": "inherit"
+        "textAlign": "inherit",
+        "offsetX": 0,
+        "offsetY": 0
       }
     },
     "aboutExperience": {
@@ -350,7 +402,9 @@
         "fontSize": 0,
         "lineHeight": 0,
         "gap": 0,
-        "textAlign": "inherit"
+        "textAlign": "inherit",
+        "offsetX": 0,
+        "offsetY": 0
       },
       "mobile": {
         "maxWidth": 0,
@@ -362,7 +416,9 @@
         "fontSize": 0,
         "lineHeight": 0,
         "gap": 0,
-        "textAlign": "inherit"
+        "textAlign": "inherit",
+        "offsetX": 0,
+        "offsetY": 0
       }
     },
     "aboutExtra": {
@@ -376,7 +432,9 @@
         "fontSize": 0,
         "lineHeight": 0,
         "gap": 0,
-        "textAlign": "inherit"
+        "textAlign": "inherit",
+        "offsetX": 0,
+        "offsetY": 0
       },
       "mobile": {
         "maxWidth": 0,
@@ -388,9 +446,11 @@
         "fontSize": 0,
         "lineHeight": 0,
         "gap": 0,
-        "textAlign": "inherit"
+        "textAlign": "inherit",
+        "offsetX": 0,
+        "offsetY": 0
       }
     }
   },
-  "updatedAt": "2026-11-20T17:22:46.070Z"
+  "updatedAt": "2026-11-20T17:36:29.509Z"
 }
