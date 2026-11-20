@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-20T15:34:05.417Z",
+  "updatedAt": "2026-11-20T15:46:31.470Z",
   "works": [
     {
       "id": "work-63df9826-c74e-4646-a926-071307fb431b",
@@ -13,7 +13,7 @@
       "description": "插畫作品",
       "cardLayout": {
         "desktop": {
-          "ratio": "global",
+          "ratio": "16 / 9",
           "fit": "cover",
           "x": 50,
           "y": 50,
@@ -261,13 +261,13 @@
       "description": "和網友的圖換圖",
       "cardLayout": {
         "desktop": {
-          "ratio": "global",
-          "fit": "contain",
+          "ratio": "16 / 9",
+          "fit": "cover",
           "x": 50,
           "y": 50,
           "titleSize": 16,
           "descriptionSize": 10,
-          "meta": "below"
+          "meta": "overlay"
         },
         "mobile": {
           "ratio": "global",
@@ -292,13 +292,13 @@
       "description": "同學的生日賀圖",
       "cardLayout": {
         "desktop": {
-          "ratio": "global",
-          "fit": "contain",
+          "ratio": "16 / 9",
+          "fit": "cover",
           "x": 50,
           "y": 50,
           "titleSize": 16,
           "descriptionSize": 10,
-          "meta": "below"
+          "meta": "overlay"
         },
         "mobile": {
           "ratio": "global",
@@ -323,13 +323,13 @@
       "description": "給同學的生日賀圖",
       "cardLayout": {
         "desktop": {
-          "ratio": "global",
-          "fit": "contain",
+          "ratio": "16 / 9",
+          "fit": "cover",
           "x": 50,
           "y": 50,
           "titleSize": 16,
           "descriptionSize": 10,
-          "meta": "below"
+          "meta": "overlay"
         },
         "mobile": {
           "ratio": "global",
@@ -354,13 +354,13 @@
       "description": "給同學的生日賀圖",
       "cardLayout": {
         "desktop": {
-          "ratio": "global",
-          "fit": "contain",
+          "ratio": "16 / 9",
+          "fit": "cover",
           "x": 50,
           "y": 50,
           "titleSize": 16,
           "descriptionSize": 10,
-          "meta": "below"
+          "meta": "overlay"
         },
         "mobile": {
           "ratio": "global",
@@ -391,7 +391,7 @@
           "y": 50,
           "titleSize": 16,
           "descriptionSize": 10,
-          "meta": "below"
+          "meta": "overlay"
         },
         "mobile": {
           "ratio": "global",
@@ -422,7 +422,7 @@
           "y": 50,
           "titleSize": 16,
           "descriptionSize": 10,
-          "meta": "below"
+          "meta": "overlay"
         },
         "mobile": {
           "ratio": "global",
@@ -453,7 +453,7 @@
           "y": 50,
           "titleSize": 16,
           "descriptionSize": 10,
-          "meta": "below"
+          "meta": "overlay"
         },
         "mobile": {
           "ratio": "global",
@@ -484,7 +484,7 @@
           "y": 69,
           "titleSize": 16,
           "descriptionSize": 10,
-          "meta": "below"
+          "meta": "overlay"
         },
         "mobile": {
           "ratio": "global",
