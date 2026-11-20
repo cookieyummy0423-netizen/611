@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-20T22:10:35.783Z",
+  "updatedAt": "2026-11-20T22:12:47.092Z",
   "works": [
     {
       "id": "work-63df9826-c74e-4646-a926-071307fb431b",
@@ -1508,9 +1508,9 @@
       "id": "collection-53db9ee3-0f38-4610-ae7d-0afb6bfaaec7",
       "title": "場景設計",
       "slug": "scene-design",
-      "description": "角色設計的衍生作品，根據背景設定畫出他們所生活的星球的樣子。四張場景主要是在描繪Alex找到Silens，以及前往打敗Angel的路上。",
+      "description": "",
       "cover": "",
-      "concept": "",
+      "concept": "角色設計的衍生作品，根據背景設定畫出他們所生活的星球的樣子。四張場景主要是在描繪Alex找到Silens，以及前往打敗Angel的路上。",
       "tools": "",
       "year": null,
       "gallery": [],
