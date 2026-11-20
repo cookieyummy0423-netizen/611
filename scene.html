@@ -9,6 +9,10 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+<script>
+document.documentElement.classList.add("site-booting");
+(()=>{const file=location.pathname.split("/").pop()||"index.html";const needsHome=/^(index|illustration|character|scene|motion)\.html$/i.test(file);const pending=new Set(["design","works",...(needsHome?["homepage"]:[])]);let released=false;const release=()=>{if(released||pending.size)return;released=true;document.documentElement.classList.remove("site-booting")};window.__611MarkReady=key=>{pending.delete(key);release()};window.setTimeout(()=>{pending.clear();release()},3500)})();
+</script>
 </head>
 <body data-page="scene">
 <div class="grain" aria-hidden="true"></div>
