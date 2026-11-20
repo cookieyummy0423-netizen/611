@@ -30,9 +30,10 @@
       if(spans[1]&&c.statementFootRight!==undefined)spans[1].textContent=c.statementFootRight;
     }
   };
+  let hasDraftPreview=false;
   window.addEventListener("message",event=>{
     if(event.origin!=="https://611-portfolio-admin.cookieyummy0423.workers.dev")return;
-    if(event.data?.type==="611-homepage-preview")apply(event.data.homepage);
+    if(event.data?.type==="611-homepage-preview"){hasDraftPreview=true;apply(event.data.homepage)}
   });
-  fetch("homepage.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).then(d=>{if(d)apply(d)}).catch(e=>console.warn("611 homepage settings:",e));
+  fetch("homepage.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).then(d=>{if(d&&!hasDraftPreview)apply(d)}).catch(e=>console.warn("611 homepage settings:",e));
 })();
