@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-20T11:57:55.313Z",
+  "updatedAt": "2026-11-20T12:01:37.578Z",
   "works": [
     {
       "id": "work-63df9826-c74e-4646-a926-071307fb431b",
@@ -47,72 +47,6 @@
       "sortOrder": 3
     },
     {
-      "id": "work-69-6c-6c-75-73-74-72-61-74-69-6f-6e-2d-63d2-5716-20-31-30-34",
-      "title": "單人組合頁",
-      "category": "illustration",
-      "typeLabel": "ILLUSTRATION / ARTWORK",
-      "subtitle": "插畫作品",
-      "mediaKind": "image",
-      "media": "images/插圖104.png",
-      "description": "和網友的圖換圖",
-      "sortOrder": 4
-    },
-    {
-      "id": "work-69-6c-6c-75-73-74-72-61-74-69-6f-6e-2d-63d2-5716-20-31-30-39",
-      "title": "單人組合頁",
-      "category": "illustration",
-      "typeLabel": "ILLUSTRATION / ARTWORK",
-      "subtitle": "插畫作品",
-      "mediaKind": "image",
-      "media": "images/插圖109.png",
-      "description": "羅最帥了",
-      "sortOrder": 5
-    },
-    {
-      "id": "work-69-6c-6c-75-73-74-72-61-74-69-6f-6e-2d-63d2-5716-20-31-31-33",
-      "title": "單人組合頁",
-      "category": "illustration",
-      "typeLabel": "ILLUSTRATION / ARTWORK",
-      "subtitle": "插畫作品",
-      "mediaKind": "image",
-      "media": "images/插圖113.png",
-      "description": "和網友的圖換圖",
-      "sortOrder": 6
-    },
-    {
-      "id": "work-69-6c-6c-75-73-74-72-61-74-69-6f-6e-2d-63d2-5716-20-31-38-37",
-      "title": "單人半身",
-      "category": "illustration",
-      "typeLabel": "ILLUSTRATION / ARTWORK",
-      "subtitle": "插畫作品",
-      "mediaKind": "image",
-      "media": "插圖187.png",
-      "description": "和網友的圖換圖",
-      "sortOrder": 7
-    },
-    {
-      "id": "work-69-6c-6c-75-73-74-72-61-74-69-6f-6e-2d-63d2-5716-20-31-39-31",
-      "title": "單人半身",
-      "category": "illustration",
-      "typeLabel": "ILLUSTRATION / ARTWORK",
-      "subtitle": "插畫作品",
-      "mediaKind": "image",
-      "media": "images/插圖191.png",
-      "description": "給同學的生日賀圖",
-      "sortOrder": 8
-    },
-    {
-      "id": "work-69-6c-6c-75-73-74-72-61-74-69-6f-6e-2d-63d2-5716-20-31-39-36",
-      "title": "單人半身",
-      "category": "illustration",
-      "typeLabel": "ILLUSTRATION / ARTWORK",
-      "subtitle": "插畫作品",
-      "mediaKind": "image",
-      "media": "images/插圖196.png",
-      "description": "給同學的生日賀圖",
-      "sortOrder": 9
-    },
-    {
       "id": "work-69-6c-6c-75-73-74-72-61-74-69-6f-6e-2d-63d2-5716-20-32-32-36",
       "title": "托拉法爾加羅",
       "category": "illustration",
@@ -121,62 +55,7 @@
       "mediaKind": "image",
       "media": "images/插圖226~2.jpg",
       "description": "ONE PIECE裡的帥哥",
-      "sortOrder": 10
-    },
-    {
-      "id": "work-69-6c-6c-75-73-74-72-61-74-69-6f-6e-2d-63d2-5716-20-32-32-38",
-      "title": "帳相",
-      "category": "illustration",
-      "typeLabel": "ILLUSTRATION / ARTWORK",
-      "subtitle": "插畫作品",
-      "mediaKind": "image",
-      "media": "images/插圖228~2.jpg",
-      "description": "帥哥速塗",
-      "sortOrder": 11
-    },
-    {
-      "id": "work-69-6c-6c-75-73-74-72-61-74-69-6f-6e-2d-63d2-5716-20-31-30-36",
-      "title": "單人組合頁",
-      "category": "illustration",
-      "typeLabel": "ILLUSTRATION / ARTWORK",
-      "subtitle": "插畫作品",
-      "mediaKind": "image",
-      "media": "images/插圖106.png",
-      "description": "和網友的圖換圖",
-      "sortOrder": 12
-    },
-    {
-      "id": "work-69-6c-6c-75-73-74-72-61-74-69-6f-6e-2d-63d2-5716-20-31-39-37",
-      "title": "單人半身",
-      "category": "illustration",
-      "typeLabel": "ILLUSTRATION / ARTWORK",
-      "subtitle": "插畫作品",
-      "mediaKind": "image",
-      "media": "images/插圖197.png",
-      "description": "同學的生日賀圖",
-      "sortOrder": 13
-    },
-    {
-      "id": "work-69-6c-6c-75-73-74-72-61-74-69-6f-6e-2d-63d2-5716-20-32-33-31",
-      "title": "伏黑惠",
-      "category": "illustration",
-      "typeLabel": "ILLUSTRATION / ARTWORK",
-      "subtitle": "插畫作品",
-      "mediaKind": "image",
-      "media": "images/插圖231.png",
-      "description": "帥哥速塗",
-      "sortOrder": 14
-    },
-    {
-      "id": "work-69-6c-6c-75-73-74-72-61-74-69-6f-6e-2d-63d2-5716-20-32-33-38",
-      "title": "排球少年",
-      "category": "illustration",
-      "typeLabel": "ILLUSTRATION / ARTWORK",
-      "subtitle": "插畫作品",
-      "mediaKind": "image",
-      "media": "images/插圖238.png",
-      "description": "排球少年",
-      "sortOrder": 15
+      "sortOrder": 4
     },
     {
       "id": "work-69-6c-6c-75-73-74-72-61-74-69-6f-6e-2d-63d2-5716-20-32-33-39",
@@ -187,6 +66,127 @@
       "mediaKind": "image",
       "media": "images/插圖239~2.jpg",
       "description": "挑戰黑皮帥哥",
+      "sortOrder": 5
+    },
+    {
+      "id": "work-69-6c-6c-75-73-74-72-61-74-69-6f-6e-2d-63d2-5716-20-32-33-31",
+      "title": "伏黑惠",
+      "category": "illustration",
+      "typeLabel": "ILLUSTRATION / ARTWORK",
+      "subtitle": "插畫作品",
+      "mediaKind": "image",
+      "media": "images/插圖231.png",
+      "description": "帥哥速塗",
+      "sortOrder": 6
+    },
+    {
+      "id": "work-69-6c-6c-75-73-74-72-61-74-69-6f-6e-2d-63d2-5716-20-32-33-38",
+      "title": "排球少年",
+      "category": "illustration",
+      "typeLabel": "ILLUSTRATION / ARTWORK",
+      "subtitle": "插畫作品",
+      "mediaKind": "image",
+      "media": "images/插圖238.png",
+      "description": "排球少年",
+      "sortOrder": 7
+    },
+    {
+      "id": "work-69-6c-6c-75-73-74-72-61-74-69-6f-6e-2d-63d2-5716-20-31-38-37",
+      "title": "單人半身",
+      "category": "illustration",
+      "typeLabel": "ILLUSTRATION / ARTWORK",
+      "subtitle": "插畫作品",
+      "mediaKind": "image",
+      "media": "插圖187.png",
+      "description": "和網友的圖換圖",
+      "sortOrder": 8
+    },
+    {
+      "id": "work-69-6c-6c-75-73-74-72-61-74-69-6f-6e-2d-63d2-5716-20-31-39-31",
+      "title": "單人半身",
+      "category": "illustration",
+      "typeLabel": "ILLUSTRATION / ARTWORK",
+      "subtitle": "插畫作品",
+      "mediaKind": "image",
+      "media": "images/插圖191.png",
+      "description": "給同學的生日賀圖",
+      "sortOrder": 9
+    },
+    {
+      "id": "work-69-6c-6c-75-73-74-72-61-74-69-6f-6e-2d-63d2-5716-20-31-30-39",
+      "title": "單人組合頁",
+      "category": "illustration",
+      "typeLabel": "ILLUSTRATION / ARTWORK",
+      "subtitle": "插畫作品",
+      "mediaKind": "image",
+      "media": "images/插圖109.png",
+      "description": "羅最帥了",
+      "sortOrder": 10
+    },
+    {
+      "id": "work-69-6c-6c-75-73-74-72-61-74-69-6f-6e-2d-63d2-5716-20-31-39-36",
+      "title": "單人半身",
+      "category": "illustration",
+      "typeLabel": "ILLUSTRATION / ARTWORK",
+      "subtitle": "插畫作品",
+      "mediaKind": "image",
+      "media": "images/插圖196.png",
+      "description": "給同學的生日賀圖",
+      "sortOrder": 11
+    },
+    {
+      "id": "work-69-6c-6c-75-73-74-72-61-74-69-6f-6e-2d-63d2-5716-20-31-30-34",
+      "title": "單人組合頁",
+      "category": "illustration",
+      "typeLabel": "ILLUSTRATION / ARTWORK",
+      "subtitle": "插畫作品",
+      "mediaKind": "image",
+      "media": "images/插圖104.png",
+      "description": "和網友的圖換圖",
+      "sortOrder": 12
+    },
+    {
+      "id": "work-69-6c-6c-75-73-74-72-61-74-69-6f-6e-2d-63d2-5716-20-31-31-33",
+      "title": "單人組合頁",
+      "category": "illustration",
+      "typeLabel": "ILLUSTRATION / ARTWORK",
+      "subtitle": "插畫作品",
+      "mediaKind": "image",
+      "media": "images/插圖113.png",
+      "description": "和網友的圖換圖",
+      "sortOrder": 13
+    },
+    {
+      "id": "work-69-6c-6c-75-73-74-72-61-74-69-6f-6e-2d-63d2-5716-20-32-32-38",
+      "title": "帳相",
+      "category": "illustration",
+      "typeLabel": "ILLUSTRATION / ARTWORK",
+      "subtitle": "插畫作品",
+      "mediaKind": "image",
+      "media": "images/插圖228~2.jpg",
+      "description": "帥哥速塗",
+      "sortOrder": 14
+    },
+    {
+      "id": "work-69-6c-6c-75-73-74-72-61-74-69-6f-6e-2d-63d2-5716-20-31-30-36",
+      "title": "單人組合頁",
+      "category": "illustration",
+      "typeLabel": "ILLUSTRATION / ARTWORK",
+      "subtitle": "插畫作品",
+      "mediaKind": "image",
+      "media": "images/插圖106.png",
+      "description": "和網友的圖換圖",
+      "sortOrder": 15
+    },
+    {
+      "id": "work-69-6c-6c-75-73-74-72-61-74-69-6f-6e-2d-63d2-5716-20-31-39-37",
+      "title": "單人半身",
+      "category": "illustration",
+      "typeLabel": "ILLUSTRATION / ARTWORK",
+      "subtitle": "插畫作品",
+      "mediaKind": "image",
+      "media": "images/插圖197.png",
+      "description": "同學的生日賀圖",
       "sortOrder": 16
     },
     {
