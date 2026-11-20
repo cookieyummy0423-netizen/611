@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-20T19:48:30.247Z",
+  "updatedAt": "2026-11-20T20:33:46.402Z",
   "works": [
     {
       "id": "work-63df9826-c74e-4646-a926-071307fb431b",
@@ -11,6 +11,15 @@
       "mediaKind": "image",
       "media": "images/1795174852306-1000077237_4f687739b96e3964d49a89f697d937b6-2026_10_17-上午12_.jpg",
       "description": "插畫作品",
+      "detailPage": {
+        "enabled": false,
+        "slug": "",
+        "concept": "",
+        "tools": "",
+        "year": null,
+        "gallery": [],
+        "process": []
+      },
       "cardLayout": {
         "desktop": {
           "ratio": "16 / 9",
@@ -42,6 +51,15 @@
       "mediaKind": "image",
       "media": "images/插圖 20261010~2.jpg",
       "description": "插畫作品",
+      "detailPage": {
+        "enabled": false,
+        "slug": "",
+        "concept": "",
+        "tools": "",
+        "year": null,
+        "gallery": [],
+        "process": []
+      },
       "cardLayout": {
         "desktop": {
           "ratio": "global",
@@ -73,6 +91,15 @@
       "mediaKind": "image",
       "media": "images/1795175408094-1000071458_054d1117fa8de3b70537b0c349404d36-2026_10_17-上午12_.jpg",
       "description": "和網友的圖換圖",
+      "detailPage": {
+        "enabled": false,
+        "slug": "",
+        "concept": "",
+        "tools": "",
+        "year": null,
+        "gallery": [],
+        "process": []
+      },
       "cardLayout": {
         "desktop": {
           "ratio": "global",
@@ -104,6 +131,15 @@
       "mediaKind": "image",
       "media": "images/插圖 20260801~2.jpg",
       "description": "和網友的圖換圖",
+      "detailPage": {
+        "enabled": false,
+        "slug": "",
+        "concept": "",
+        "tools": "",
+        "year": null,
+        "gallery": [],
+        "process": []
+      },
       "cardLayout": {
         "desktop": {
           "ratio": "global",
@@ -135,6 +171,15 @@
       "mediaKind": "image",
       "media": "images/插圖226~2.jpg",
       "description": "ONE PIECE裡的帥哥",
+      "detailPage": {
+        "enabled": false,
+        "slug": "",
+        "concept": "",
+        "tools": "",
+        "year": null,
+        "gallery": [],
+        "process": []
+      },
       "cardLayout": {
         "desktop": {
           "ratio": "16 / 9",
@@ -166,6 +211,15 @@
       "mediaKind": "image",
       "media": "images/插圖239~2.jpg",
       "description": "挑戰黑皮帥哥",
+      "detailPage": {
+        "enabled": false,
+        "slug": "",
+        "concept": "",
+        "tools": "",
+        "year": null,
+        "gallery": [],
+        "process": []
+      },
       "cardLayout": {
         "desktop": {
           "ratio": "global",
@@ -197,6 +251,15 @@
       "mediaKind": "image",
       "media": "images/插圖231.png",
       "description": "帥哥速塗",
+      "detailPage": {
+        "enabled": false,
+        "slug": "",
+        "concept": "",
+        "tools": "",
+        "year": null,
+        "gallery": [],
+        "process": []
+      },
       "cardLayout": {
         "desktop": {
           "ratio": "global",
@@ -228,6 +291,15 @@
       "mediaKind": "image",
       "media": "images/插圖238.png",
       "description": "排球少年",
+      "detailPage": {
+        "enabled": false,
+        "slug": "",
+        "concept": "",
+        "tools": "",
+        "year": null,
+        "gallery": [],
+        "process": []
+      },
       "cardLayout": {
         "desktop": {
           "ratio": "global",
@@ -259,6 +331,15 @@
       "mediaKind": "image",
       "media": "插圖187.png",
       "description": "和網友的圖換圖",
+      "detailPage": {
+        "enabled": false,
+        "slug": "",
+        "concept": "",
+        "tools": "",
+        "year": null,
+        "gallery": [],
+        "process": []
+      },
       "cardLayout": {
         "desktop": {
           "ratio": "16 / 9",
@@ -290,6 +371,15 @@
       "mediaKind": "image",
       "media": "images/插圖197.png",
       "description": "同學的生日賀圖",
+      "detailPage": {
+        "enabled": false,
+        "slug": "",
+        "concept": "",
+        "tools": "",
+        "year": null,
+        "gallery": [],
+        "process": []
+      },
       "cardLayout": {
         "desktop": {
           "ratio": "16 / 9",
@@ -321,6 +411,15 @@
       "mediaKind": "image",
       "media": "images/插圖196.png",
       "description": "給同學的生日賀圖",
+      "detailPage": {
+        "enabled": false,
+        "slug": "",
+        "concept": "",
+        "tools": "",
+        "year": null,
+        "gallery": [],
+        "process": []
+      },
       "cardLayout": {
         "desktop": {
           "ratio": "16 / 9",
@@ -352,6 +451,15 @@
       "mediaKind": "image",
       "media": "images/插圖191.png",
       "description": "給同學的生日賀圖",
+      "detailPage": {
+        "enabled": false,
+        "slug": "",
+        "concept": "",
+        "tools": "",
+        "year": null,
+        "gallery": [],
+        "process": []
+      },
       "cardLayout": {
         "desktop": {
           "ratio": "16 / 9",
@@ -383,6 +491,15 @@
       "mediaKind": "image",
       "media": "images/插圖109.png",
       "description": "羅最帥了",
+      "detailPage": {
+        "enabled": false,
+        "slug": "",
+        "concept": "",
+        "tools": "",
+        "year": null,
+        "gallery": [],
+        "process": []
+      },
       "cardLayout": {
         "desktop": {
           "ratio": "4 / 3",
@@ -414,6 +531,15 @@
       "mediaKind": "image",
       "media": "images/插圖113.png",
       "description": "和網友的圖換圖",
+      "detailPage": {
+        "enabled": false,
+        "slug": "",
+        "concept": "",
+        "tools": "",
+        "year": null,
+        "gallery": [],
+        "process": []
+      },
       "cardLayout": {
         "desktop": {
           "ratio": "4 / 3",
@@ -445,6 +571,15 @@
       "mediaKind": "image",
       "media": "images/插圖106.png",
       "description": "和網友的圖換圖",
+      "detailPage": {
+        "enabled": false,
+        "slug": "",
+        "concept": "",
+        "tools": "",
+        "year": null,
+        "gallery": [],
+        "process": []
+      },
       "cardLayout": {
         "desktop": {
           "ratio": "4 / 3",
@@ -476,6 +611,15 @@
       "mediaKind": "image",
       "media": "images/插圖104.png",
       "description": "和網友的圖換圖",
+      "detailPage": {
+        "enabled": false,
+        "slug": "",
+        "concept": "",
+        "tools": "",
+        "year": null,
+        "gallery": [],
+        "process": []
+      },
       "cardLayout": {
         "desktop": {
           "ratio": "4 / 3",
@@ -507,6 +651,15 @@
       "mediaKind": "image",
       "media": "images/王者.png",
       "description": "角色設計作品：王者。",
+      "detailPage": {
+        "enabled": false,
+        "slug": "",
+        "concept": "",
+        "tools": "",
+        "year": null,
+        "gallery": [],
+        "process": []
+      },
       "cardLayout": {
         "desktop": {
           "ratio": "16 / 9",
@@ -538,6 +691,15 @@
       "mediaKind": "image",
       "media": "images/戰士.png",
       "description": "角色設計作品：戰士。",
+      "detailPage": {
+        "enabled": false,
+        "slug": "",
+        "concept": "",
+        "tools": "",
+        "year": null,
+        "gallery": [],
+        "process": []
+      },
       "cardLayout": {
         "desktop": {
           "ratio": "16 / 9",
@@ -569,6 +731,15 @@
       "mediaKind": "image",
       "media": "images/怪物.png",
       "description": "角色設計作品：怪物。",
+      "detailPage": {
+        "enabled": false,
+        "slug": "",
+        "concept": "",
+        "tools": "",
+        "year": null,
+        "gallery": [],
+        "process": []
+      },
       "cardLayout": {
         "desktop": {
           "ratio": "16 / 9",
@@ -600,6 +771,15 @@
       "mediaKind": "image",
       "media": "images/機器人.png",
       "description": "角色設計作品：機器人。",
+      "detailPage": {
+        "enabled": false,
+        "slug": "",
+        "concept": "",
+        "tools": "",
+        "year": null,
+        "gallery": [],
+        "process": []
+      },
       "cardLayout": {
         "desktop": {
           "ratio": "16 / 9",
@@ -631,6 +811,15 @@
       "mediaKind": "image",
       "media": "images/獸人.png",
       "description": "角色設計作品：獸人。",
+      "detailPage": {
+        "enabled": false,
+        "slug": "",
+        "concept": "",
+        "tools": "",
+        "year": null,
+        "gallery": [],
+        "process": []
+      },
       "cardLayout": {
         "desktop": {
           "ratio": "16 / 9",
@@ -662,6 +851,15 @@
       "mediaKind": "image",
       "media": "images/BOSS.png",
       "description": "角色設計作品：BOSS。",
+      "detailPage": {
+        "enabled": false,
+        "slug": "",
+        "concept": "",
+        "tools": "",
+        "year": null,
+        "gallery": [],
+        "process": []
+      },
       "cardLayout": {
         "desktop": {
           "ratio": "16 / 9",
@@ -693,6 +891,15 @@
       "mediaKind": "image",
       "media": "images/群像.png",
       "description": "角色設計作品：群像。",
+      "detailPage": {
+        "enabled": false,
+        "slug": "",
+        "concept": "",
+        "tools": "",
+        "year": null,
+        "gallery": [],
+        "process": []
+      },
       "cardLayout": {
         "desktop": {
           "ratio": "16 / 9",
@@ -724,6 +931,15 @@
       "mediaKind": "image",
       "media": "images/起.png",
       "description": "故事開端與情境建立。",
+      "detailPage": {
+        "enabled": false,
+        "slug": "",
+        "concept": "",
+        "tools": "",
+        "year": null,
+        "gallery": [],
+        "process": []
+      },
       "cardLayout": {
         "desktop": {
           "ratio": "16 / 9",
@@ -755,6 +971,15 @@
       "mediaKind": "image",
       "media": "承.png",
       "description": "延續情節並推進故事。",
+      "detailPage": {
+        "enabled": false,
+        "slug": "",
+        "concept": "",
+        "tools": "",
+        "year": null,
+        "gallery": [],
+        "process": []
+      },
       "cardLayout": {
         "desktop": {
           "ratio": "16 / 9",
@@ -786,6 +1011,15 @@
       "mediaKind": "image",
       "media": "images/轉.png",
       "description": "情節轉折與視覺變化。",
+      "detailPage": {
+        "enabled": false,
+        "slug": "",
+        "concept": "",
+        "tools": "",
+        "year": null,
+        "gallery": [],
+        "process": []
+      },
       "cardLayout": {
         "desktop": {
           "ratio": "16 / 9",
@@ -817,6 +1051,15 @@
       "mediaKind": "image",
       "media": "images/合.png",
       "description": "收束故事並完成段落。",
+      "detailPage": {
+        "enabled": false,
+        "slug": "",
+        "concept": "",
+        "tools": "",
+        "year": null,
+        "gallery": [],
+        "process": []
+      },
       "cardLayout": {
         "desktop": {
           "ratio": "16 / 9",
@@ -848,6 +1091,15 @@
       "mediaKind": "image",
       "media": "hot%20dog.gif",
       "description": "GIF 動態影像。",
+      "detailPage": {
+        "enabled": false,
+        "slug": "",
+        "concept": "",
+        "tools": "",
+        "year": null,
+        "gallery": [],
+        "process": []
+      },
       "cardLayout": {
         "desktop": {
           "ratio": "global",
@@ -879,6 +1131,15 @@
       "mediaKind": "image",
       "media": "小精靈.gif",
       "description": "GIF 動態影像。",
+      "detailPage": {
+        "enabled": false,
+        "slug": "",
+        "concept": "",
+        "tools": "",
+        "year": null,
+        "gallery": [],
+        "process": []
+      },
       "cardLayout": {
         "desktop": {
           "ratio": "global",
@@ -910,6 +1171,15 @@
       "mediaKind": "image",
       "media": "我愛跳舞.gif",
       "description": "GIF 動態影像。",
+      "detailPage": {
+        "enabled": false,
+        "slug": "",
+        "concept": "",
+        "tools": "",
+        "year": null,
+        "gallery": [],
+        "process": []
+      },
       "cardLayout": {
         "desktop": {
           "ratio": "global",
@@ -941,6 +1211,15 @@
       "mediaKind": "image",
       "media": "流水線.gif",
       "description": "GIF 動態影像。",
+      "detailPage": {
+        "enabled": false,
+        "slug": "",
+        "concept": "",
+        "tools": "",
+        "year": null,
+        "gallery": [],
+        "process": []
+      },
       "cardLayout": {
         "desktop": {
           "ratio": "global",
@@ -972,6 +1251,15 @@
       "mediaKind": "image",
       "media": "滴滴答.gif",
       "description": "GIF 動態影像。",
+      "detailPage": {
+        "enabled": false,
+        "slug": "",
+        "concept": "",
+        "tools": "",
+        "year": null,
+        "gallery": [],
+        "process": []
+      },
       "cardLayout": {
         "desktop": {
           "ratio": "global",
@@ -1003,6 +1291,15 @@
       "mediaKind": "image",
       "media": "阿秋霸.gif",
       "description": "GIF 動態影像。",
+      "detailPage": {
+        "enabled": false,
+        "slug": "",
+        "concept": "",
+        "tools": "",
+        "year": null,
+        "gallery": [],
+        "process": []
+      },
       "cardLayout": {
         "desktop": {
           "ratio": "global",
@@ -1034,6 +1331,15 @@
       "mediaKind": "video",
       "media": "images/lv_0_20260423123754.mp4",
       "description": "動態影像作品：動態影像 01。可直接在作品卡片中播放影片。",
+      "detailPage": {
+        "enabled": false,
+        "slug": "",
+        "concept": "",
+        "tools": "",
+        "year": null,
+        "gallery": [],
+        "process": []
+      },
       "cardLayout": {
         "desktop": {
           "ratio": "global",
@@ -1065,6 +1371,15 @@
       "mediaKind": "video",
       "media": "images/插圖243.mp4",
       "description": "動態影像作品：動態影像 02。可直接在作品卡片中播放影片。",
+      "detailPage": {
+        "enabled": false,
+        "slug": "",
+        "concept": "",
+        "tools": "",
+        "year": null,
+        "gallery": [],
+        "process": []
+      },
       "cardLayout": {
         "desktop": {
           "ratio": "global",
@@ -1096,6 +1411,15 @@
       "mediaKind": "video",
       "media": "人形の夜.mp4",
       "description": "動態影像作品：人形の夜｜根目錄。可直接在作品卡片中播放影片。",
+      "detailPage": {
+        "enabled": false,
+        "slug": "",
+        "concept": "",
+        "tools": "",
+        "year": null,
+        "gallery": [],
+        "process": []
+      },
       "cardLayout": {
         "desktop": {
           "ratio": "global",
