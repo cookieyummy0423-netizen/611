@@ -1,11 +1,11 @@
 {
   "columns": 4,
   "mobileColumns": 2,
-  "gap": 20,
-  "ratio": "original",
+  "gap": 10,
+  "ratio": "16 / 9",
   "background": "#080808",
-  "text": "#f1f0ec",
-  "accent": "#0939fb",
+  "text": "#f2f2ed",
+  "accent": "#2effe7",
   "fontScale": 1,
   "sectionSpace": 76
 }
