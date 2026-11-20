@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-20T13:45:34.214Z",
+  "updatedAt": "2026-11-20T15:16:01.469Z",
   "works": [
     {
       "id": "work-63df9826-c74e-4646-a926-071307fb431b",
@@ -11,6 +11,26 @@
       "mediaKind": "image",
       "media": "images/1795174852306-1000077237_4f687739b96e3964d49a89f697d937b6-2026_10_17-上午12_.jpg",
       "description": "插畫作品",
+      "cardLayout": {
+        "desktop": {
+          "ratio": "global",
+          "fit": "cover",
+          "x": 50,
+          "y": 50,
+          "titleSize": 16,
+          "descriptionSize": 10,
+          "meta": "below"
+        },
+        "mobile": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 15,
+          "descriptionSize": 9,
+          "meta": "below"
+        }
+      },
       "sortOrder": 0
     },
     {
@@ -22,6 +42,26 @@
       "mediaKind": "image",
       "media": "images/插圖 20261010~2.jpg",
       "description": "插畫作品",
+      "cardLayout": {
+        "desktop": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 16,
+          "descriptionSize": 10,
+          "meta": "below"
+        },
+        "mobile": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 15,
+          "descriptionSize": 9,
+          "meta": "below"
+        }
+      },
       "sortOrder": 1
     },
     {
@@ -33,6 +73,26 @@
       "mediaKind": "image",
       "media": "images/1795175408094-1000071458_054d1117fa8de3b70537b0c349404d36-2026_10_17-上午12_.jpg",
       "description": "和網友的圖換圖",
+      "cardLayout": {
+        "desktop": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 16,
+          "descriptionSize": 10,
+          "meta": "below"
+        },
+        "mobile": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 15,
+          "descriptionSize": 9,
+          "meta": "below"
+        }
+      },
       "sortOrder": 2
     },
     {
@@ -44,6 +104,26 @@
       "mediaKind": "image",
       "media": "images/插圖 20260801~2.jpg",
       "description": "和網友的圖換圖",
+      "cardLayout": {
+        "desktop": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 16,
+          "descriptionSize": 10,
+          "meta": "below"
+        },
+        "mobile": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 15,
+          "descriptionSize": 9,
+          "meta": "below"
+        }
+      },
       "sortOrder": 3
     },
     {
@@ -55,6 +135,26 @@
       "mediaKind": "image",
       "media": "images/插圖226~2.jpg",
       "description": "ONE PIECE裡的帥哥",
+      "cardLayout": {
+        "desktop": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 16,
+          "descriptionSize": 10,
+          "meta": "below"
+        },
+        "mobile": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 15,
+          "descriptionSize": 9,
+          "meta": "below"
+        }
+      },
       "sortOrder": 4
     },
     {
@@ -66,6 +166,26 @@
       "mediaKind": "image",
       "media": "images/插圖239~2.jpg",
       "description": "挑戰黑皮帥哥",
+      "cardLayout": {
+        "desktop": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 16,
+          "descriptionSize": 10,
+          "meta": "below"
+        },
+        "mobile": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 15,
+          "descriptionSize": 9,
+          "meta": "below"
+        }
+      },
       "sortOrder": 5
     },
     {
@@ -77,6 +197,26 @@
       "mediaKind": "image",
       "media": "images/插圖231.png",
       "description": "帥哥速塗",
+      "cardLayout": {
+        "desktop": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 16,
+          "descriptionSize": 10,
+          "meta": "below"
+        },
+        "mobile": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 15,
+          "descriptionSize": 9,
+          "meta": "below"
+        }
+      },
       "sortOrder": 6
     },
     {
@@ -88,6 +228,26 @@
       "mediaKind": "image",
       "media": "images/插圖238.png",
       "description": "排球少年",
+      "cardLayout": {
+        "desktop": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 16,
+          "descriptionSize": 10,
+          "meta": "below"
+        },
+        "mobile": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 15,
+          "descriptionSize": 9,
+          "meta": "below"
+        }
+      },
       "sortOrder": 7
     },
     {
@@ -99,6 +259,26 @@
       "mediaKind": "image",
       "media": "插圖187.png",
       "description": "和網友的圖換圖",
+      "cardLayout": {
+        "desktop": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 16,
+          "descriptionSize": 10,
+          "meta": "below"
+        },
+        "mobile": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 15,
+          "descriptionSize": 9,
+          "meta": "below"
+        }
+      },
       "sortOrder": 8
     },
     {
@@ -110,6 +290,26 @@
       "mediaKind": "image",
       "media": "images/插圖197.png",
       "description": "同學的生日賀圖",
+      "cardLayout": {
+        "desktop": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 16,
+          "descriptionSize": 10,
+          "meta": "below"
+        },
+        "mobile": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 15,
+          "descriptionSize": 9,
+          "meta": "below"
+        }
+      },
       "sortOrder": 9
     },
     {
@@ -121,6 +321,26 @@
       "mediaKind": "image",
       "media": "images/插圖196.png",
       "description": "給同學的生日賀圖",
+      "cardLayout": {
+        "desktop": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 16,
+          "descriptionSize": 10,
+          "meta": "below"
+        },
+        "mobile": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 15,
+          "descriptionSize": 9,
+          "meta": "below"
+        }
+      },
       "sortOrder": 10
     },
     {
@@ -132,6 +352,26 @@
       "mediaKind": "image",
       "media": "images/插圖191.png",
       "description": "給同學的生日賀圖",
+      "cardLayout": {
+        "desktop": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 16,
+          "descriptionSize": 10,
+          "meta": "below"
+        },
+        "mobile": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 15,
+          "descriptionSize": 9,
+          "meta": "below"
+        }
+      },
       "sortOrder": 11
     },
     {
@@ -143,6 +383,26 @@
       "mediaKind": "image",
       "media": "images/插圖104.png",
       "description": "和網友的圖換圖",
+      "cardLayout": {
+        "desktop": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 16,
+          "descriptionSize": 10,
+          "meta": "below"
+        },
+        "mobile": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 15,
+          "descriptionSize": 9,
+          "meta": "below"
+        }
+      },
       "sortOrder": 12
     },
     {
@@ -154,6 +414,26 @@
       "mediaKind": "image",
       "media": "images/插圖113.png",
       "description": "和網友的圖換圖",
+      "cardLayout": {
+        "desktop": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 16,
+          "descriptionSize": 10,
+          "meta": "below"
+        },
+        "mobile": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 15,
+          "descriptionSize": 9,
+          "meta": "below"
+        }
+      },
       "sortOrder": 13
     },
     {
@@ -165,6 +445,26 @@
       "mediaKind": "image",
       "media": "images/插圖106.png",
       "description": "和網友的圖換圖",
+      "cardLayout": {
+        "desktop": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 16,
+          "descriptionSize": 10,
+          "meta": "below"
+        },
+        "mobile": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 15,
+          "descriptionSize": 9,
+          "meta": "below"
+        }
+      },
       "sortOrder": 14
     },
     {
@@ -176,6 +476,26 @@
       "mediaKind": "image",
       "media": "images/插圖109.png",
       "description": "羅最帥了",
+      "cardLayout": {
+        "desktop": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 16,
+          "descriptionSize": 10,
+          "meta": "below"
+        },
+        "mobile": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 15,
+          "descriptionSize": 9,
+          "meta": "below"
+        }
+      },
       "sortOrder": 15
     },
     {
@@ -187,6 +507,26 @@
       "mediaKind": "image",
       "media": "images/王者.png",
       "description": "角色設計作品：王者。",
+      "cardLayout": {
+        "desktop": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 16,
+          "descriptionSize": 10,
+          "meta": "below"
+        },
+        "mobile": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 15,
+          "descriptionSize": 9,
+          "meta": "below"
+        }
+      },
       "sortOrder": 16
     },
     {
@@ -198,6 +538,26 @@
       "mediaKind": "image",
       "media": "images/戰士.png",
       "description": "角色設計作品：戰士。",
+      "cardLayout": {
+        "desktop": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 16,
+          "descriptionSize": 10,
+          "meta": "below"
+        },
+        "mobile": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 15,
+          "descriptionSize": 9,
+          "meta": "below"
+        }
+      },
       "sortOrder": 17
     },
     {
@@ -209,6 +569,26 @@
       "mediaKind": "image",
       "media": "images/BOSS.png",
       "description": "角色設計作品：BOSS。",
+      "cardLayout": {
+        "desktop": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 16,
+          "descriptionSize": 10,
+          "meta": "below"
+        },
+        "mobile": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 15,
+          "descriptionSize": 9,
+          "meta": "below"
+        }
+      },
       "sortOrder": 18
     },
     {
@@ -220,6 +600,26 @@
       "mediaKind": "image",
       "media": "images/怪物.png",
       "description": "角色設計作品：怪物。",
+      "cardLayout": {
+        "desktop": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 16,
+          "descriptionSize": 10,
+          "meta": "below"
+        },
+        "mobile": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 15,
+          "descriptionSize": 9,
+          "meta": "below"
+        }
+      },
       "sortOrder": 19
     },
     {
@@ -231,6 +631,26 @@
       "mediaKind": "image",
       "media": "images/機器人.png",
       "description": "角色設計作品：機器人。",
+      "cardLayout": {
+        "desktop": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 16,
+          "descriptionSize": 10,
+          "meta": "below"
+        },
+        "mobile": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 15,
+          "descriptionSize": 9,
+          "meta": "below"
+        }
+      },
       "sortOrder": 20
     },
     {
@@ -242,6 +662,26 @@
       "mediaKind": "image",
       "media": "images/獸人.png",
       "description": "角色設計作品：獸人。",
+      "cardLayout": {
+        "desktop": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 16,
+          "descriptionSize": 10,
+          "meta": "below"
+        },
+        "mobile": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 15,
+          "descriptionSize": 9,
+          "meta": "below"
+        }
+      },
       "sortOrder": 21
     },
     {
@@ -253,6 +693,26 @@
       "mediaKind": "image",
       "media": "images/群像.png",
       "description": "角色設計作品：群像。",
+      "cardLayout": {
+        "desktop": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 16,
+          "descriptionSize": 10,
+          "meta": "below"
+        },
+        "mobile": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 15,
+          "descriptionSize": 9,
+          "meta": "below"
+        }
+      },
       "sortOrder": 22
     },
     {
@@ -264,6 +724,26 @@
       "mediaKind": "image",
       "media": "images/起.png",
       "description": "故事開端與情境建立。",
+      "cardLayout": {
+        "desktop": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 16,
+          "descriptionSize": 10,
+          "meta": "below"
+        },
+        "mobile": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 15,
+          "descriptionSize": 9,
+          "meta": "below"
+        }
+      },
       "sortOrder": 23
     },
     {
@@ -275,6 +755,26 @@
       "mediaKind": "image",
       "media": "承.png",
       "description": "延續情節並推進故事。",
+      "cardLayout": {
+        "desktop": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 16,
+          "descriptionSize": 10,
+          "meta": "below"
+        },
+        "mobile": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 15,
+          "descriptionSize": 9,
+          "meta": "below"
+        }
+      },
       "sortOrder": 24
     },
     {
@@ -286,6 +786,26 @@
       "mediaKind": "image",
       "media": "images/轉.png",
       "description": "情節轉折與視覺變化。",
+      "cardLayout": {
+        "desktop": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 16,
+          "descriptionSize": 10,
+          "meta": "below"
+        },
+        "mobile": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 15,
+          "descriptionSize": 9,
+          "meta": "below"
+        }
+      },
       "sortOrder": 25
     },
     {
@@ -297,6 +817,26 @@
       "mediaKind": "image",
       "media": "images/合.png",
       "description": "收束故事並完成段落。",
+      "cardLayout": {
+        "desktop": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 16,
+          "descriptionSize": 10,
+          "meta": "below"
+        },
+        "mobile": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 15,
+          "descriptionSize": 9,
+          "meta": "below"
+        }
+      },
       "sortOrder": 26
     },
     {
@@ -308,6 +848,26 @@
       "mediaKind": "image",
       "media": "hot%20dog.gif",
       "description": "GIF 動態影像。",
+      "cardLayout": {
+        "desktop": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 16,
+          "descriptionSize": 10,
+          "meta": "below"
+        },
+        "mobile": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 15,
+          "descriptionSize": 9,
+          "meta": "below"
+        }
+      },
       "sortOrder": 27
     },
     {
@@ -319,6 +879,26 @@
       "mediaKind": "image",
       "media": "小精靈.gif",
       "description": "GIF 動態影像。",
+      "cardLayout": {
+        "desktop": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 16,
+          "descriptionSize": 10,
+          "meta": "below"
+        },
+        "mobile": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 15,
+          "descriptionSize": 9,
+          "meta": "below"
+        }
+      },
       "sortOrder": 28
     },
     {
@@ -330,6 +910,26 @@
       "mediaKind": "image",
       "media": "我愛跳舞.gif",
       "description": "GIF 動態影像。",
+      "cardLayout": {
+        "desktop": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 16,
+          "descriptionSize": 10,
+          "meta": "below"
+        },
+        "mobile": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 15,
+          "descriptionSize": 9,
+          "meta": "below"
+        }
+      },
       "sortOrder": 29
     },
     {
@@ -341,6 +941,26 @@
       "mediaKind": "image",
       "media": "流水線.gif",
       "description": "GIF 動態影像。",
+      "cardLayout": {
+        "desktop": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 16,
+          "descriptionSize": 10,
+          "meta": "below"
+        },
+        "mobile": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 15,
+          "descriptionSize": 9,
+          "meta": "below"
+        }
+      },
       "sortOrder": 30
     },
     {
@@ -352,6 +972,26 @@
       "mediaKind": "image",
       "media": "滴滴答.gif",
       "description": "GIF 動態影像。",
+      "cardLayout": {
+        "desktop": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 16,
+          "descriptionSize": 10,
+          "meta": "below"
+        },
+        "mobile": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 15,
+          "descriptionSize": 9,
+          "meta": "below"
+        }
+      },
       "sortOrder": 31
     },
     {
@@ -363,6 +1003,26 @@
       "mediaKind": "image",
       "media": "阿秋霸.gif",
       "description": "GIF 動態影像。",
+      "cardLayout": {
+        "desktop": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 16,
+          "descriptionSize": 10,
+          "meta": "below"
+        },
+        "mobile": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 15,
+          "descriptionSize": 9,
+          "meta": "below"
+        }
+      },
       "sortOrder": 32
     },
     {
@@ -374,6 +1034,26 @@
       "mediaKind": "video",
       "media": "images/lv_0_20260423123754.mp4",
       "description": "動態影像作品：動態影像 01。可直接在作品卡片中播放影片。",
+      "cardLayout": {
+        "desktop": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 16,
+          "descriptionSize": 10,
+          "meta": "below"
+        },
+        "mobile": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 15,
+          "descriptionSize": 9,
+          "meta": "below"
+        }
+      },
       "sortOrder": 33
     },
     {
@@ -385,6 +1065,26 @@
       "mediaKind": "video",
       "media": "images/插圖243.mp4",
       "description": "動態影像作品：動態影像 02。可直接在作品卡片中播放影片。",
+      "cardLayout": {
+        "desktop": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 16,
+          "descriptionSize": 10,
+          "meta": "below"
+        },
+        "mobile": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 15,
+          "descriptionSize": 9,
+          "meta": "below"
+        }
+      },
       "sortOrder": 34
     },
     {
@@ -396,6 +1096,26 @@
       "mediaKind": "video",
       "media": "人形の夜.mp4",
       "description": "動態影像作品：人形の夜｜根目錄。可直接在作品卡片中播放影片。",
+      "cardLayout": {
+        "desktop": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 16,
+          "descriptionSize": 10,
+          "meta": "below"
+        },
+        "mobile": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 15,
+          "descriptionSize": 9,
+          "meta": "below"
+        }
+      },
       "sortOrder": 35
     }
   ]
