@@ -1419,7 +1419,7 @@
         "lineHeight": 0,
         "gap": 0,
         "offsetX": 0,
-        "offsetY": 0,
+        "offsetY": -10,
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
@@ -1850,5 +1850,5 @@
       }
     }
   },
-  "updatedAt": "2026-11-20T23:07:19.384Z"
+  "updatedAt": "2026-11-20T23:07:55.941Z"
 }
