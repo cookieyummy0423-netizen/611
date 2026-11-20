@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-20T15:47:18.178Z",
+  "updatedAt": "2026-11-20T15:49:17.106Z",
   "works": [
     {
       "id": "work-63df9826-c74e-4646-a926-071307fb431b",
@@ -726,13 +726,13 @@
       "description": "故事開端與情境建立。",
       "cardLayout": {
         "desktop": {
-          "ratio": "global",
-          "fit": "contain",
+          "ratio": "16 / 9",
+          "fit": "cover",
           "x": 50,
           "y": 50,
           "titleSize": 16,
           "descriptionSize": 10,
-          "meta": "below"
+          "meta": "overlay"
         },
         "mobile": {
           "ratio": "global",
@@ -757,13 +757,13 @@
       "description": "延續情節並推進故事。",
       "cardLayout": {
         "desktop": {
-          "ratio": "global",
-          "fit": "contain",
+          "ratio": "16 / 9",
+          "fit": "cover",
           "x": 50,
           "y": 50,
           "titleSize": 16,
           "descriptionSize": 10,
-          "meta": "below"
+          "meta": "overlay"
         },
         "mobile": {
           "ratio": "global",
@@ -788,13 +788,13 @@
       "description": "情節轉折與視覺變化。",
       "cardLayout": {
         "desktop": {
-          "ratio": "global",
-          "fit": "contain",
+          "ratio": "16 / 9",
+          "fit": "cover",
           "x": 50,
           "y": 50,
           "titleSize": 16,
           "descriptionSize": 10,
-          "meta": "below"
+          "meta": "overlay"
         },
         "mobile": {
           "ratio": "global",
@@ -819,13 +819,13 @@
       "description": "收束故事並完成段落。",
       "cardLayout": {
         "desktop": {
-          "ratio": "global",
-          "fit": "contain",
+          "ratio": "16 / 9",
+          "fit": "cover",
           "x": 50,
           "y": 50,
           "titleSize": 16,
           "descriptionSize": 10,
-          "meta": "below"
+          "meta": "overlay"
         },
         "mobile": {
           "ratio": "global",
