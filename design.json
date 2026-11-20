@@ -25,23 +25,39 @@
   "typography": {
     "desktop": {
       "heroTitle": 104,
+      "pageTitle": 104,
       "sectionTitle": 90,
+      "headingAside": 13,
+      "filter": 10,
+      "workCategory": 9,
       "workTitle": 16,
-      "workMeta": 10,
+      "workDescription": 10,
+      "workIndex": 8,
       "eyebrow": 10,
       "statementTitle": 132,
+      "statementFooter": 11,
       "body": 14,
-      "navigation": 12
+      "navigation": 12,
+      "contactTitle": 150,
+      "footer": 9
     },
     "mobile": {
       "heroTitle": 52,
+      "pageTitle": 54,
       "sectionTitle": 58,
+      "headingAside": 11,
+      "filter": 10,
+      "workCategory": 9,
       "workTitle": 15,
-      "workMeta": 9,
+      "workDescription": 9,
+      "workIndex": 8,
       "eyebrow": 9,
       "statementTitle": 76,
+      "statementFooter": 10,
       "body": 13,
-      "navigation": 10
+      "navigation": 10,
+      "contactTitle": 78,
+      "footer": 9
     }
   }
 }
