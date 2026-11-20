@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "regions": {
     "topbar": {
       "desktop": {
@@ -902,6 +902,396 @@
       }
     },
     "collectionCard": {
+      "desktop": {
+        "maxWidth": 0,
+        "minHeight": 0,
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "marginTop": 0,
+        "marginBottom": 0,
+        "fontSize": 0,
+        "lineHeight": 0,
+        "gap": 0,
+        "offsetX": 0,
+        "offsetY": 0,
+        "textAlign": "inherit"
+      },
+      "mobile": {
+        "maxWidth": 0,
+        "minHeight": 0,
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "marginTop": 0,
+        "marginBottom": 0,
+        "fontSize": 0,
+        "lineHeight": 0,
+        "gap": 0,
+        "offsetX": 0,
+        "offsetY": 0,
+        "textAlign": "inherit"
+      }
+    },
+    "collectionTitle": {
+      "desktop": {
+        "maxWidth": 0,
+        "minHeight": 0,
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "marginTop": 0,
+        "marginBottom": 0,
+        "fontSize": 0,
+        "lineHeight": 0,
+        "gap": 0,
+        "offsetX": 0,
+        "offsetY": 0,
+        "textAlign": "inherit"
+      },
+      "mobile": {
+        "maxWidth": 0,
+        "minHeight": 0,
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "marginTop": 0,
+        "marginBottom": 0,
+        "fontSize": 0,
+        "lineHeight": 0,
+        "gap": 0,
+        "offsetX": 0,
+        "offsetY": 0,
+        "textAlign": "inherit"
+      }
+    },
+    "collectionDescription": {
+      "desktop": {
+        "maxWidth": 0,
+        "minHeight": 0,
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "marginTop": 0,
+        "marginBottom": 0,
+        "fontSize": 0,
+        "lineHeight": 0,
+        "gap": 0,
+        "offsetX": 0,
+        "offsetY": 0,
+        "textAlign": "inherit"
+      },
+      "mobile": {
+        "maxWidth": 0,
+        "minHeight": 0,
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "marginTop": 0,
+        "marginBottom": 0,
+        "fontSize": 0,
+        "lineHeight": 0,
+        "gap": 0,
+        "offsetX": 0,
+        "offsetY": 0,
+        "textAlign": "inherit"
+      }
+    },
+    "collectionConceptCopy": {
+      "desktop": {
+        "maxWidth": 0,
+        "minHeight": 0,
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "marginTop": 0,
+        "marginBottom": 0,
+        "fontSize": 0,
+        "lineHeight": 0,
+        "gap": 0,
+        "offsetX": 0,
+        "offsetY": 0,
+        "textAlign": "inherit"
+      },
+      "mobile": {
+        "maxWidth": 0,
+        "minHeight": 0,
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "marginTop": 0,
+        "marginBottom": 0,
+        "fontSize": 0,
+        "lineHeight": 0,
+        "gap": 0,
+        "offsetX": 0,
+        "offsetY": 0,
+        "textAlign": "inherit"
+      }
+    },
+    "collectionSectionTitle": {
+      "desktop": {
+        "maxWidth": 0,
+        "minHeight": 0,
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "marginTop": 0,
+        "marginBottom": 0,
+        "fontSize": 0,
+        "lineHeight": 0,
+        "gap": 0,
+        "offsetX": 0,
+        "offsetY": 0,
+        "textAlign": "inherit"
+      },
+      "mobile": {
+        "maxWidth": 0,
+        "minHeight": 0,
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "marginTop": 0,
+        "marginBottom": 0,
+        "fontSize": 0,
+        "lineHeight": 0,
+        "gap": 0,
+        "offsetX": 0,
+        "offsetY": 0,
+        "textAlign": "inherit"
+      }
+    },
+    "collectionWorkTitle": {
+      "desktop": {
+        "maxWidth": 0,
+        "minHeight": 0,
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "marginTop": 0,
+        "marginBottom": 0,
+        "fontSize": 0,
+        "lineHeight": 0,
+        "gap": 0,
+        "offsetX": 0,
+        "offsetY": 0,
+        "textAlign": "inherit"
+      },
+      "mobile": {
+        "maxWidth": 0,
+        "minHeight": 0,
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "marginTop": 0,
+        "marginBottom": 0,
+        "fontSize": 0,
+        "lineHeight": 0,
+        "gap": 0,
+        "offsetX": 0,
+        "offsetY": 0,
+        "textAlign": "inherit"
+      }
+    },
+    "collectionWorkDescription": {
+      "desktop": {
+        "maxWidth": 0,
+        "minHeight": 0,
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "marginTop": 0,
+        "marginBottom": 0,
+        "fontSize": 0,
+        "lineHeight": 0,
+        "gap": 0,
+        "offsetX": 0,
+        "offsetY": 0,
+        "textAlign": "inherit"
+      },
+      "mobile": {
+        "maxWidth": 0,
+        "minHeight": 0,
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "marginTop": 0,
+        "marginBottom": 0,
+        "fontSize": 0,
+        "lineHeight": 0,
+        "gap": 0,
+        "offsetX": 0,
+        "offsetY": 0,
+        "textAlign": "inherit"
+      }
+    },
+    "collectionProcessText": {
+      "desktop": {
+        "maxWidth": 0,
+        "minHeight": 0,
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "marginTop": 0,
+        "marginBottom": 0,
+        "fontSize": 0,
+        "lineHeight": 0,
+        "gap": 0,
+        "offsetX": 0,
+        "offsetY": 0,
+        "textAlign": "inherit"
+      },
+      "mobile": {
+        "maxWidth": 0,
+        "minHeight": 0,
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "marginTop": 0,
+        "marginBottom": 0,
+        "fontSize": 0,
+        "lineHeight": 0,
+        "gap": 0,
+        "offsetX": 0,
+        "offsetY": 0,
+        "textAlign": "inherit"
+      }
+    },
+    "collectionFactValue": {
+      "desktop": {
+        "maxWidth": 0,
+        "minHeight": 0,
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "marginTop": 0,
+        "marginBottom": 0,
+        "fontSize": 0,
+        "lineHeight": 0,
+        "gap": 0,
+        "offsetX": 0,
+        "offsetY": 0,
+        "textAlign": "inherit"
+      },
+      "mobile": {
+        "maxWidth": 0,
+        "minHeight": 0,
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "marginTop": 0,
+        "marginBottom": 0,
+        "fontSize": 0,
+        "lineHeight": 0,
+        "gap": 0,
+        "offsetX": 0,
+        "offsetY": 0,
+        "textAlign": "inherit"
+      }
+    },
+    "collectionCardTitle": {
+      "desktop": {
+        "maxWidth": 0,
+        "minHeight": 0,
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "marginTop": 0,
+        "marginBottom": 0,
+        "fontSize": 0,
+        "lineHeight": 0,
+        "gap": 0,
+        "offsetX": 0,
+        "offsetY": 0,
+        "textAlign": "inherit"
+      },
+      "mobile": {
+        "maxWidth": 0,
+        "minHeight": 0,
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "marginTop": 0,
+        "marginBottom": 0,
+        "fontSize": 0,
+        "lineHeight": 0,
+        "gap": 0,
+        "offsetX": 0,
+        "offsetY": 0,
+        "textAlign": "inherit"
+      }
+    },
+    "collectionCardDescription": {
+      "desktop": {
+        "maxWidth": 0,
+        "minHeight": 0,
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "marginTop": 0,
+        "marginBottom": 0,
+        "fontSize": 0,
+        "lineHeight": 0,
+        "gap": 0,
+        "offsetX": 0,
+        "offsetY": 0,
+        "textAlign": "inherit"
+      },
+      "mobile": {
+        "maxWidth": 0,
+        "minHeight": 0,
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "marginTop": 0,
+        "marginBottom": 0,
+        "fontSize": 0,
+        "lineHeight": 0,
+        "gap": 0,
+        "offsetX": 0,
+        "offsetY": 0,
+        "textAlign": "inherit"
+      }
+    },
+    "collectionCoverMedia": {
+      "desktop": {
+        "maxWidth": 0,
+        "minHeight": 0,
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "marginTop": 0,
+        "marginBottom": 0,
+        "fontSize": 0,
+        "lineHeight": 0,
+        "gap": 0,
+        "offsetX": 0,
+        "offsetY": 0,
+        "textAlign": "inherit"
+      },
+      "mobile": {
+        "maxWidth": 0,
+        "minHeight": 0,
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "marginTop": 0,
+        "marginBottom": 0,
+        "fontSize": 0,
+        "lineHeight": 0,
+        "gap": 0,
+        "offsetX": 0,
+        "offsetY": 0,
+        "textAlign": "inherit"
+      }
+    },
+    "collectionGalleryMedia": {
+      "desktop": {
+        "maxWidth": 0,
+        "minHeight": 0,
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "marginTop": 0,
+        "marginBottom": 0,
+        "fontSize": 0,
+        "lineHeight": 0,
+        "gap": 0,
+        "offsetX": 0,
+        "offsetY": 0,
+        "textAlign": "inherit"
+      },
+      "mobile": {
+        "maxWidth": 0,
+        "minHeight": 0,
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "marginTop": 0,
+        "marginBottom": 0,
+        "fontSize": 0,
+        "lineHeight": 0,
+        "gap": 0,
+        "offsetX": 0,
+        "offsetY": 0,
+        "textAlign": "inherit"
+      }
+    },
+    "collectionSelectedMedia": {
       "desktop": {
         "maxWidth": 0,
         "minHeight": 0,
