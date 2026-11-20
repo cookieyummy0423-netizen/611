@@ -413,12 +413,12 @@
         "paddingBottom": 0,
         "marginTop": 0,
         "marginBottom": 0,
-        "fontSize": 0,
+        "fontSize": 69,
         "lineHeight": 0,
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "textAlign": "inherit"
+        "textAlign": "center"
       }
     },
     "aboutIntro": {
@@ -446,8 +446,8 @@
         "fontSize": 0,
         "lineHeight": 0,
         "gap": 0,
-        "offsetX": 0,
-        "offsetY": 0,
+        "offsetX": 18,
+        "offsetY": -68,
         "textAlign": "inherit"
       }
     },
@@ -536,8 +536,8 @@
         "fontSize": 0,
         "lineHeight": 0,
         "gap": 0,
-        "offsetX": 0,
-        "offsetY": 0,
+        "offsetX": 30,
+        "offsetY": -4,
         "textAlign": "inherit"
       }
     },
@@ -602,5 +602,5 @@
       }
     }
   },
-  "updatedAt": "2026-11-20T20:32:28.305Z"
+  "updatedAt": "2026-11-20T20:33:40.170Z"
 }
