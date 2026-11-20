@@ -222,7 +222,7 @@
         "fontSize": 0,
         "lineHeight": 0,
         "gap": 0,
-        "offsetX": -74,
+        "offsetX": -536,
         "offsetY": 0,
         "textAlign": "left"
       },
@@ -452,5 +452,5 @@
       }
     }
   },
-  "updatedAt": "2026-11-20T19:40:12.208Z"
+  "updatedAt": "2026-11-20T19:41:00.780Z"
 }
