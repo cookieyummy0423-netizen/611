@@ -633,7 +633,7 @@
     },
     "collectionCover": {
       "desktop": {
-        "maxWidth": 0,
+        "maxWidth": 730,
         "minHeight": 0,
         "paddingTop": 0,
         "paddingBottom": 0,
@@ -643,7 +643,7 @@
         "lineHeight": 0,
         "gap": 0,
         "offsetX": 0,
-        "offsetY": 0,
+        "offsetY": 2,
         "textAlign": "inherit"
       },
       "mobile": {
@@ -1322,5 +1322,5 @@
       }
     }
   },
-  "updatedAt": "2026-11-20T22:35:05.849Z"
+  "updatedAt": "2026-11-20T22:36:51.433Z"
 }
