@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-20T15:19:20.091Z",
+  "updatedAt": "2026-11-20T15:24:37.174Z",
   "works": [
     {
       "id": "work-63df9826-c74e-4646-a926-071307fb431b",
@@ -137,8 +137,8 @@
       "description": "ONE PIECE裡的帥哥",
       "cardLayout": {
         "desktop": {
-          "ratio": "global",
-          "fit": "contain",
+          "ratio": "16 / 9",
+          "fit": "cover",
           "x": 50,
           "y": 50,
           "titleSize": 16,
@@ -385,10 +385,10 @@
       "description": "和網友的圖換圖",
       "cardLayout": {
         "desktop": {
-          "ratio": "global",
-          "fit": "contain",
+          "ratio": "1 / 1",
+          "fit": "cover",
           "x": 50,
-          "y": 50,
+          "y": 69,
           "titleSize": 16,
           "descriptionSize": 10,
           "meta": "below"
@@ -416,7 +416,7 @@
       "description": "和網友的圖換圖",
       "cardLayout": {
         "desktop": {
-          "ratio": "global",
+          "ratio": "1 / 1",
           "fit": "contain",
           "x": 50,
           "y": 50,
@@ -447,7 +447,7 @@
       "description": "和網友的圖換圖",
       "cardLayout": {
         "desktop": {
-          "ratio": "global",
+          "ratio": "1 / 1",
           "fit": "contain",
           "x": 50,
           "y": 50,
@@ -478,7 +478,7 @@
       "description": "羅最帥了",
       "cardLayout": {
         "desktop": {
-          "ratio": "global",
+          "ratio": "1 / 1",
           "fit": "contain",
           "x": 50,
           "y": 50,
@@ -602,10 +602,10 @@
       "description": "角色設計作品：機器人。",
       "cardLayout": {
         "desktop": {
-          "ratio": "global",
-          "fit": "contain",
+          "ratio": "16 / 9",
+          "fit": "cover",
           "x": 50,
-          "y": 50,
+          "y": 31,
           "titleSize": 16,
           "descriptionSize": 10,
           "meta": "below"
@@ -664,10 +664,10 @@
       "description": "角色設計作品：BOSS。",
       "cardLayout": {
         "desktop": {
-          "ratio": "global",
-          "fit": "contain",
+          "ratio": "16 / 9",
+          "fit": "cover",
           "x": 50,
-          "y": 50,
+          "y": 33,
           "titleSize": 16,
           "descriptionSize": 10,
           "meta": "below"
@@ -695,10 +695,10 @@
       "description": "角色設計作品：群像。",
       "cardLayout": {
         "desktop": {
-          "ratio": "global",
-          "fit": "contain",
+          "ratio": "16 / 9",
+          "fit": "cover",
           "x": 50,
-          "y": 50,
+          "y": 32,
           "titleSize": 16,
           "descriptionSize": 10,
           "meta": "below"
