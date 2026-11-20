@@ -127,7 +127,7 @@ function layoutLoadRegion(key){layoutSelected=key;$("#layout-selected-title").te
 async function layoutLoad(){try{const d=await api("/api/layout");layoutOriginal=layoutClone(d);layoutDraft=layoutClone(d);layoutUndoStack=[];layoutLoadRegion("topbar");$("#layout-status").textContent="已載入設定。選取左側圖層即可調整。";layoutPreviewApply()}catch(e){$("#layout-status").textContent=e.message}}
 $("#layout-toggle").onclick=()=>{$("#layout-panel").hidden=!$("#layout-panel").hidden;if(!$("#layout-panel").hidden){layoutLoad();layoutPreviewLoad()}};
 function layoutPreviewLoad(){const f=$("#layout-preview-frame"),page=$("#layout-page").value,device=$("#layout-device").value;f.style.width=device==="mobile"?"390px":"1440px";f.style.maxWidth="none";f.style.height="820px";f.src="https://cookieyummy0423-netizen.github.io/611/"+page+"?layout-editor=1";f.onload=()=>{layoutPreviewApply();if(page==="about.html")layoutAboutPreviewSync()}}
-$("#layout-page").onchange=layoutPreviewLoad;
+$("#layout-page").onchange=()=>{if($("#layout-page").value==="about.html"&&!["topbar","footer"].includes(layoutSelected))layoutLoadRegion("topbar");layoutRenderLayers();layoutPreviewLoad()};
 $("#layout-device").onchange=()=>{layoutMode=$("#layout-device").value;$("#layout-mode-status").textContent=layoutMode==="mobile"?"目前編輯：手機版（獨立設定）":"目前編輯：桌面版（獨立設定）";layoutRenderControls();layoutPreviewLoad()};
 
 $("#layout-align").onchange=e=>{layoutPushUndo();layoutDraft.regions[layoutSelected][layoutMode].textAlign=e.target.value;layoutPreviewApply()};
