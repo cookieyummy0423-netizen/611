@@ -364,3 +364,10 @@ body{background:var(--site-bg);color:var(--site-text);font-size:calc(1em * var(-
 .collections-page[data-layout-id],.collections-page-heading[data-layout-id],.collection-card-grid[data-layout-id],.collection-card[data-layout-id]{min-width:0}
 .collection-card-grid{align-items:start}
 @media(max-width:760px){.collection-order-actions button{min-width:34px;min-height:34px}}
+
+/* Floating ambient audio control; shown only when the soundtrack file exists. */
+.site-music-toggle{position:fixed;z-index:1200;right:22px;bottom:22px;width:48px;height:48px;display:grid;place-items:center;border:1px solid rgba(255,255,255,.35);border-radius:50%;background:rgba(8,8,8,.86);color:#eee;backdrop-filter:blur(12px);cursor:pointer;transition:background .2s,border-color .2s,color .2s,transform .2s}
+.site-music-toggle svg{width:20px;height:20px}
+.site-music-toggle:hover,.site-music-toggle.is-playing{border-color:var(--site-accent,#2effe7);color:var(--site-accent,#2effe7)}
+.site-music-toggle:active{transform:scale(.94)}
+@media(max-width:760px){.site-music-toggle{right:14px;bottom:14px;width:44px;height:44px}}
