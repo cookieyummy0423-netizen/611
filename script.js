@@ -262,5 +262,6 @@ if(grid){
       saveOrder();
       refreshCards();
     })
-    .catch(error=>console.warn("611 works.json:",error));
+    .catch(error=>console.warn("611 works.json:",error))
+    .finally(()=>window.__611MarkReady?.("works"));
 }
