@@ -272,7 +272,7 @@ if(grid){
     .then(data=>{
       if(!Array.isArray(data.works))return;
       grid.replaceChildren();
-      data.works.forEach(work=>grid.appendChild(makeLocalCard(work)));
+      data.works.filter(work=>work.hidden!==true).forEach(work=>grid.appendChild(makeLocalCard(work)));
       saveOrder();
       refreshCards();
     })
