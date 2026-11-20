@@ -25,7 +25,7 @@
   "typography": {
     "desktop": {
       "heroTitle": 104,
-      "pageTitle": 104,
+      "pageTitle": 80,
       "sectionTitle": 90,
       "headingAside": 13,
       "filter": 10,
