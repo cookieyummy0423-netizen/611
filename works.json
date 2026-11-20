@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-20T11:16:15.087Z",
+  "updatedAt": "2026-11-20T11:41:28.324Z",
   "works": [
     {
       "id": "work-69-6c-6c-75-73-74-72-61-74-69-6f-6e-2d-9df2-5c3e-8aa0-53f8",
@@ -10,7 +10,7 @@
       "subtitle": "個人插畫・角色創作",
       "mediaKind": "image",
       "media": "images/插圖 20261010~2.jpg",
-      "description": "個人角色風格創作，透過造型與畫面呈現探索自己的視覺語言。",
+      "description": "",
       "sortOrder": 0
     },
     {
@@ -397,6 +397,17 @@
       "media": "人形の夜.mp4",
       "description": "動態影像作品：人形の夜｜根目錄。可直接在作品卡片中播放影片。",
       "sortOrder": 35
+    },
+    {
+      "id": "work-63df9826-c74e-4646-a926-071307fb431b",
+      "title": "餅乾",
+      "category": "illustration",
+      "typeLabel": "ILLUSTRATION / PERSONAL",
+      "subtitle": "",
+      "mediaKind": "image",
+      "media": "images/1795174852306-1000077237_4f687739b96e3964d49a89f697d937b6-2026_10_17-上午12_.jpg",
+      "description": "",
+      "sortOrder": 36
     }
   ]
 }
