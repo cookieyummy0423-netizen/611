@@ -1813,8 +1813,8 @@
         "minHeight": 600,
         "paddingTop": 0,
         "paddingBottom": 0,
-        "marginTop": 0,
-        "marginBottom": 0,
+        "marginTop": 76,
+        "marginBottom": 84,
         "fontSize": 0,
         "lineHeight": 0,
         "gap": 0,
@@ -1850,5 +1850,5 @@
       }
     }
   },
-  "updatedAt": "2026-11-20T23:04:57.671Z"
+  "updatedAt": "2026-11-20T23:07:19.384Z"
 }
