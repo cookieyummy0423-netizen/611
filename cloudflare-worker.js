@@ -120,11 +120,11 @@ function layoutRenderControls(){
   const wrap=document.createElement("div");wrap.className="layout-control";
   const head=document.createElement("div");head.className="bar";
   const name=document.createElement("strong");name.textContent=label;
-  const val=document.createElement("output");val.textContent=key==="lineHeight"?(d[key]||"原始"):(d[key]?d[key]+" px":"原始");
+  const val=document.createElement("output");const unit=key==="opacity"||key==="imageWidth"||key==="objectPositionX"||key==="objectPositionY"?"%":key==="lineHeight"?"":" px";val.textContent=d[key]?(d[key]+unit):"原始";
   head.append(name,val);
   const range=document.createElement("input");range.type="range";range.min=min;range.max=max;range.step=step;range.value=d[key]||0;
   const number=document.createElement("input");number.type="number";number.min=min;number.max=max;number.step=step;number.value=d[key]||0;number.placeholder="沿用原始";
-  const update=v=>{const n=Math.max(min,Math.min(max,Number(v)||0));layoutPushUndo();layoutDraft.regions[editingRegion][editingMode][key]=n;range.value=n;number.value=n;val.textContent=n?(key==="lineHeight"?n:n+" px"):"原始";layoutPreviewApply()};
+  const update=v=>{const n=Math.max(min,Math.min(max,Number(v)||0));layoutPushUndo();layoutDraft.regions[editingRegion][editingMode][key]=n;range.value=n;number.value=n;val.textContent=n?(n+(key==="opacity"||key==="imageWidth"||key==="objectPositionX"||key==="objectPositionY"?"%":key==="lineHeight"?"":" px")):"原始";layoutPreviewApply()};
   range.oninput=()=>{const n=Number(range.value);layoutDraft.regions[editingRegion][editingMode][key]=n;number.value=range.value;val.textContent=n?(key==="lineHeight"?n:n+" px"):"原始";layoutPreviewApply()};
   range.onpointerdown=()=>layoutPushUndo();range.onkeydown=()=>layoutPushUndo();
   number.onchange=()=>update(number.value);
