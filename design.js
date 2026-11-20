@@ -13,9 +13,9 @@
   set("--site-mobile-section-space",(Number(mobile.sectionSpace)||60)+"px");
   const type=d.typography||{},groups=["heroTitle","sectionTitle","workTitle","workMeta","eyebrow","statementTitle","body","navigation"];
   groups.forEach(key=>{
-   const desk=Number(type.desktop?.[key]),mob=Number(type.mobile?.[key]);
-   if(desk>0)set("--font-"+key,desk+"px");
-   if(mob>0)set("--font-mobile-"+key,mob+"px");
+   const desk=Number(type.desktop?.[key]),mob=Number(type.mobile?.[key]),cssKey=key.replace(/[A-Z]/g,m=>"-"+m.toLowerCase());
+   if(desk>0)set("--font-"+cssKey,desk+"px");
+   if(mob>0)set("--font-mobile-"+cssKey,mob+"px");
   });
  }catch(e){console.warn("611 design settings:",e)}
 })();
