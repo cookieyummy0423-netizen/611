@@ -42,14 +42,29 @@ function saveOrder(){
   try{localStorage.setItem(ORDER_KEY,JSON.stringify([...grid.querySelectorAll(".work-card")].map(card=>card.dataset.workId)));}
   catch(error){alert("瀏覽器無法儲存排列，請確認本機儲存空間。");}
 }
+let archivePage=1,archivePageSize=12;
+let archivePager=null;
+function ensureArchivePager(){
+  if(currentPage!=="all"||!grid||archivePager)return;
+  archivePager=document.createElement("nav");archivePager.className="archive-pagination";archivePager.setAttribute("aria-label","作品分頁");
+  archivePager.innerHTML='<label class="mono">每頁顯示 <select aria-label="每頁作品數"><option value="12">12 件</option><option value="16">16 件</option></select></label><div class="archive-page-actions"><button type="button" data-page-prev>← 上一頁</button><span class="archive-page-count mono" aria-live="polite"></span><button type="button" data-page-next>下一頁 →</button></div>';
+  grid.insertAdjacentElement("afterend",archivePager);
+  const select=archivePager.querySelector("select");select.value=String(archivePageSize);
+  select.addEventListener("change",()=>{archivePageSize=Number(select.value)||12;archivePage=1;refreshCards();});
+  archivePager.querySelector("[data-page-prev]").addEventListener("click",()=>{archivePage=Math.max(1,archivePage-1);refreshCards();grid.scrollIntoView({behavior:"smooth",block:"start"});});
+  archivePager.querySelector("[data-page-next]").addEventListener("click",()=>{archivePage++;refreshCards();grid.scrollIntoView({behavior:"smooth",block:"start"});});
+}
 function refreshCards(){
   if(!grid)return;
   const cards=[...grid.querySelectorAll(".work-card")];
-  let visible=0;
+  const matching=cards.filter(card=>currentPage==="all"||getCardCategory(card)===currentPage);
+  const pages=currentPage==="all"?Math.max(1,Math.ceil(matching.length/archivePageSize)):1;
+  archivePage=Math.min(archivePage,pages);
+  const start=(archivePage-1)*archivePageSize,end=start+archivePageSize;
   cards.forEach((card,index)=>{
-    const show=currentPage==="all"||getCardCategory(card)===currentPage;
-    card.hidden=!show;
-    if(show)visible++;
+    const categoryMatch=currentPage==="all"||getCardCategory(card)===currentPage;
+    const matchIndex=matching.indexOf(card);
+    card.hidden=!categoryMatch||(currentPage==="all"&&(matchIndex<start||matchIndex>=end));
     const indexLabel=card.querySelector(".image-index");
     if(indexLabel)indexLabel.textContent="FIG. "+String(index+1).padStart(3,"0");
     const number=card.querySelector(".work-number");
@@ -57,8 +72,18 @@ function refreshCards(){
   });
   categoryLinks.forEach(link=>{
     if(link.dataset.pageLink===currentPage){link.classList.add("active");link.setAttribute("aria-current","page");}
+    else{link.classList.remove("active");link.removeAttribute("aria-current");}
   });
-  if(emptyMessage)emptyMessage.hidden=visible!==0;
+  if(emptyMessage)emptyMessage.hidden=matching.length!==0;
+  if(currentPage==="all"){
+    ensureArchivePager();
+    if(archivePager){
+      archivePager.hidden=matching.length===0;
+      archivePager.querySelector(".archive-page-count").textContent="PAGE "+archivePage+" / "+pages+" · "+matching.length+" WORKS";
+      archivePager.querySelector("[data-page-prev]").disabled=archivePage<=1;
+      archivePager.querySelector("[data-page-next]").disabled=archivePage>=pages;
+    }
+  }else if(archivePager)archivePager.hidden=true;
 }
 function makeLocalCard(work){
   const card=document.createElement("article");
