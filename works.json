@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-20T11:49:21.109Z",
+  "updatedAt": "2026-11-20T11:50:16.654Z",
   "works": [
     {
       "id": "work-63df9826-c74e-4646-a926-071307fb431b",
@@ -397,6 +397,17 @@
       "media": "人形の夜.mp4",
       "description": "動態影像作品：人形の夜｜根目錄。可直接在作品卡片中播放影片。",
       "sortOrder": 35
+    },
+    {
+      "id": "work-e1bd5f55-1d6b-4b7f-a9d9-b37658115067",
+      "title": "雙人組合頁",
+      "category": "illustration",
+      "typeLabel": "ILLUSTRATION / ARTWORK",
+      "subtitle": "",
+      "mediaKind": "image",
+      "media": "images/1795175408094-1000071458_054d1117fa8de3b70537b0c349404d36-2026_10_17-上午12_.jpg",
+      "description": "和網友的圖換圖",
+      "sortOrder": 36
     }
   ]
 }
