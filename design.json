@@ -1,8 +1,8 @@
 {
-  "columns": 3,
+  "columns": 4,
   "mobileColumns": 2,
   "gap": 20,
-  "ratio": "16 / 9",
+  "ratio": "original",
   "background": "#080808",
   "text": "#f1f0ec",
   "accent": "#0939fb",
