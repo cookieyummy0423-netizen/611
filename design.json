@@ -7,5 +7,41 @@
   "text": "#f2f2ed",
   "accent": "#2effe7",
   "fontScale": 1,
-  "sectionSpace": 80
+  "sectionSpace": 80,
+  "responsive": {
+    "desktop": {
+      "columns": 4,
+      "gap": 10,
+      "ratio": "16 / 9",
+      "sectionSpace": 80
+    },
+    "mobile": {
+      "columns": 2,
+      "gap": 12,
+      "ratio": "4 / 3",
+      "sectionSpace": 58
+    }
+  },
+  "typography": {
+    "desktop": {
+      "heroTitle": 104,
+      "sectionTitle": 90,
+      "workTitle": 16,
+      "workMeta": 10,
+      "eyebrow": 10,
+      "statementTitle": 132,
+      "body": 14,
+      "navigation": 12
+    },
+    "mobile": {
+      "heroTitle": 52,
+      "sectionTitle": 58,
+      "workTitle": 15,
+      "workMeta": 9,
+      "eyebrow": 9,
+      "statementTitle": 76,
+      "body": 13,
+      "navigation": 10
+    }
+  }
 }
