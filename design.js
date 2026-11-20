@@ -1,2 +1,21 @@
-/* 611 visual design settings — public, read-only */
-(async()=>{try{const r=await fetch("design.json",{cache:"no-store"});if(!r.ok)return;const d=await r.json(),root=document.documentElement;root.style.setProperty("--site-bg",d.background||"#080808");root.style.setProperty("--site-text",d.text||"#f1f0ec");root.style.setProperty("--site-accent",d.accent||"#ffffff");root.style.setProperty("--site-gap",(Number(d.gap)||20)+"px");root.style.setProperty("--site-font-scale",Number(d.fontScale)||1);root.style.setProperty("--site-section-space",(Number(d.sectionSpace)||76)+"px");root.style.setProperty("--site-columns",Math.max(1,Math.min(4,Number(d.columns)||4)));root.style.setProperty("--site-mobile-columns",Math.max(1,Math.min(2,Number(d.mobileColumns)||2)));root.style.setProperty("--site-ratio",d.ratio==="original"?"auto":(d.ratio||"4 / 3"));}catch(e){console.warn("611 design settings:",e)}})();
+/* 611 visual design settings — desktop and mobile controls */
+(async()=>{
+ try{
+  const r=await fetch("design.json",{cache:"no-store"});if(!r.ok)return;
+  const d=await r.json(),root=document.documentElement,base=d.responsive||{},desktop=base.desktop||d,mobile=base.mobile||{};
+  const set=(k,v)=>root.style.setProperty(k,String(v));
+  set("--site-bg",d.background||"#080808");set("--site-text",d.text||"#f1f0ec");set("--site-accent",d.accent||"#ffffff");
+  set("--site-columns",Math.max(1,Math.min(4,Number(desktop.columns??d.columns)||4)));
+  set("--site-mobile-columns",Math.max(1,Math.min(2,Number(mobile.columns??d.mobileColumns)||2)));
+  set("--site-gap",(Number(desktop.gap??d.gap)||20)+"px");set("--site-ratio",desktop.ratio==="original"?"auto":(desktop.ratio||d.ratio||"4 / 3"));
+  set("--site-section-space",(Number(desktop.sectionSpace??d.sectionSpace)||76)+"px");
+  set("--site-mobile-gap",(Number(mobile.gap)||12)+"px");set("--site-mobile-ratio",mobile.ratio==="original"?"auto":(mobile.ratio||"4 / 3"));
+  set("--site-mobile-section-space",(Number(mobile.sectionSpace)||60)+"px");
+  const type=d.typography||{},groups=["heroTitle","sectionTitle","workTitle","workMeta","eyebrow","statementTitle","body","navigation"];
+  groups.forEach(key=>{
+   const desk=Number(type.desktop?.[key]),mob=Number(type.mobile?.[key]);
+   if(desk>0)set("--font-"+key,desk+"px");
+   if(mob>0)set("--font-mobile-"+key,mob+"px");
+  });
+ }catch(e){console.warn("611 design settings:",e)}
+})();
