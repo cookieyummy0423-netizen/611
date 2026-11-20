@@ -12,7 +12,8 @@
   set("--site-mobile-gap",(Number(mobile.gap)||12)+"px");set("--site-mobile-ratio",mobile.ratio==="original"?"auto":(mobile.ratio||"4 / 3"));
   set("--site-mobile-section-space",(Number(mobile.sectionSpace)||60)+"px");
   const type=d.typography||{},groups=["heroTitle","pageTitle","sectionTitle","headingAside","filter","workCategory","workTitle","workDescription","workIndex","eyebrow","statementTitle","statementFooter","body","navigation","contactTitle","footer"];
-  groups.forEach(key=>{
+  /* About typography is owned by the About editor, not global design settings. */
+  if(!document.querySelector("#about-content"))groups.forEach(key=>{
    const desk=Number(type.desktop?.[key]),mob=Number(type.mobile?.[key]),cssKey=key.replace(/[A-Z]/g,m=>"-"+m.toLowerCase());
    if(desk>0)set("--font-"+cssKey,desk+"px");
    if(mob>0)set("--font-mobile-"+cssKey,mob+"px");
