@@ -15,7 +15,7 @@
   if(!work||!work.detailPage?.enabled){fail("找不到這件作品，或作品詳情頁尚未啟用。");return}
   const detail=work.detailPage;
   document.title=(work.title||"作品詳情")+"｜611";
-  const meta=document.querySelector('meta[name="description"]');if(meta)meta.content=(detail.concept||work.description||"611 作品詳情").slice(0,150);
+  const description=(detail.concept||work.description||"611 作品詳情").slice(0,150);const meta=document.querySelector('meta[name="description"]');if(meta)meta.content=description;const ogTitle=document.querySelector('meta[property="og:title"]');if(ogTitle)ogTitle.content=work.title+"｜611";const ogDescription=document.querySelector('meta[property="og:description"]');if(ogDescription)ogDescription.content=description;const ogImage=document.querySelector('meta[property="og:image"]');if(ogImage)ogImage.content=mediaUrl(work.media);let canonical=document.querySelector('link[rel="canonical"]');if(canonical)canonical.href=location.href.split("#")[0];const ld=document.createElement("script");ld.type="application/ld+json";ld.textContent=JSON.stringify({"@context":"https://schema.org","@type":"VisualArtwork","name":work.title,"description":description,"image":mediaUrl(work.media),"artform":work.typeLabel||work.category,"dateCreated":detail.year?String(detail.year):undefined,"creator":{"@type":"Person","name":"611"}});document.head.append(ld);
   root.replaceChildren();
   const top=node("div","work-detail-top");const kicker=node("p","work-detail-kicker",work.typeLabel||work.category.toUpperCase());const metaLine=node("p","work-detail-meta",[detail.year,detail.tools].filter(Boolean).join(" / "));top.append(kicker,metaLine);root.append(top);
   root.append(node("h1","work-detail-title",work.title||"Untitled"));
