@@ -24,5 +24,31 @@
     "statementFootLeft": "LIFE IS SHORT AND YOU DESERVE TO BE HAPPY.",
     "statementFootRight": ""
   },
-  "updatedAt": "2026-11-20T13:16:49.041Z"
+  "updatedAt": "2026-11-20T13:16:49.041Z",
+  "mobile": {
+    "sections": [
+      {
+        "id": "works",
+        "label": "作品典藏",
+        "visible": true,
+        "order": 1
+      },
+      {
+        "id": "statement",
+        "label": "創作宣言",
+        "visible": true,
+        "order": 2
+      }
+    ],
+    "copy": {
+      "worksEyebrow": "01 — SELECTED WORKS",
+      "worksTitle1": "MY",
+      "worksTitle2": "PORTFOLIO",
+      "worksAside": "",
+      "statementEyebrow": "A NOTE TO MYSELF / 002",
+      "statementTitle": "THINGS WILL \nWORK OUT \nIN THE END.",
+      "statementFootLeft": "LIFE IS SHORT AND YOU DESERVE TO BE HAPPY.",
+      "statementFootRight": ""
+    }
+  }
 }
