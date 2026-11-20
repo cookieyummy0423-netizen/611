@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-16T08:50:47.301Z",
+  "updatedAt": "2026-11-20T11:10:10.299Z",
   "works": [
     {
       "id": "work-69-6c-6c-75-73-74-72-61-74-69-6f-6e-2d-9df2-5c3e-8aa0-53f8",
@@ -397,17 +397,6 @@
       "media": "人形の夜.mp4",
       "description": "動態影像作品：人形の夜｜根目錄。可直接在作品卡片中播放影片。",
       "sortOrder": 35
-    },
-    {
-      "id": "work-e42c9191-cc03-4939-8d65-3b6943d92d0f",
-      "title": "測試",
-      "category": "illustration",
-      "typeLabel": "測試",
-      "subtitle": "",
-      "mediaKind": "image",
-      "media": "images/1794817559112-未命名.png",
-      "description": "",
-      "sortOrder": 36
     }
   ]
 }
