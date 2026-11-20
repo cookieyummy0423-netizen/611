@@ -11,7 +11,7 @@
   set("--site-section-space",(Number(desktop.sectionSpace??d.sectionSpace)||76)+"px");
   set("--site-mobile-gap",(Number(mobile.gap)||12)+"px");set("--site-mobile-ratio",mobile.ratio==="original"?"auto":(mobile.ratio||"4 / 3"));
   set("--site-mobile-section-space",(Number(mobile.sectionSpace)||60)+"px");
-  const type=d.typography||{},groups=["heroTitle","sectionTitle","workTitle","workMeta","eyebrow","statementTitle","body","navigation"];
+  const type=d.typography||{},groups=["heroTitle","pageTitle","sectionTitle","headingAside","filter","workCategory","workTitle","workDescription","workIndex","eyebrow","statementTitle","statementFooter","body","navigation","contactTitle","footer"];
   groups.forEach(key=>{
    const desk=Number(type.desktop?.[key]),mob=Number(type.mobile?.[key]),cssKey=key.replace(/[A-Z]/g,m=>"-"+m.toLowerCase());
    if(desk>0)set("--font-"+cssKey,desk+"px");
