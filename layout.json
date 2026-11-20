@@ -1,5 +1,5 @@
 {
-  "version": 5,
+  "version": 3,
   "regions": {
     "topbar": {
       "desktop": {
@@ -1293,8 +1293,8 @@
     },
     "collectionSelectedMedia": {
       "desktop": {
-        "maxWidth": 0,
-        "minHeight": 0,
+        "maxWidth": 430,
+        "minHeight": 310,
         "paddingTop": 0,
         "paddingBottom": 0,
         "marginTop": 0,
@@ -1322,5 +1322,5 @@
       }
     }
   },
-  "updatedAt": "2026-11-20T22:12:12.775Z"
+  "updatedAt": "2026-11-20T22:30:47.316Z"
 }
