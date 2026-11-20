@@ -113,7 +113,7 @@ $("#layout-toggle").onclick=()=>{$("#layout-panel").hidden=!$("#layout-panel").h
 function layoutPreviewLoad(){const f=$("#layout-preview-frame"),page=$("#layout-page").value,device=$("#layout-device").value;f.style.width=device==="mobile"?"390px":"1440px";f.style.maxWidth="none";f.src="https://cookieyummy0423-netizen.github.io/611/"+page+"?layout-editor=1";f.onload=()=>layoutPreviewApply()}
 $("#layout-page").onchange=layoutPreviewLoad;
 $("#layout-device").onchange=()=>{layoutMode=$("#layout-device").value;const f=$("#layout-preview-frame");f.style.width=layoutMode==="mobile"?"390px":"1440px";layoutRenderControls();layoutPreviewLoad()};
-$("#layout-region").onchange=e=>layoutLoadRegion(e.target.value);
+
 $("#layout-align").onchange=e=>{layoutPushUndo();layoutRegionData().textAlign=e.target.value;layoutPreviewApply()};
 window.addEventListener("message",e=>{if(e.origin!=="https://cookieyummy0423-netizen.github.io"||e.data?.type!=="611-layout-select")return;layoutLoadRegion(e.data.region)});
 $("#layout-reset-region").onclick=()=>{layoutPushUndo();layoutDraft.regions[layoutSelected][layoutMode]={maxWidth:0,minHeight:0,paddingTop:0,paddingBottom:0,marginTop:0,marginBottom:0,fontSize:0,lineHeight:0,gap:0,textAlign:"inherit"};layoutRenderControls();layoutPreviewApply()};
