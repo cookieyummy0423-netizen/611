@@ -225,3 +225,20 @@ body{background:var(--site-bg);color:var(--site-text);font-size:calc(1em * var(-
 
 /* Keep archive pages hidden until published content and settings are ready. */
 .site-booting body{visibility:hidden}
+
+/* Per-work card visual controls: responsive crop, image ratio and typography. */
+.work-card{position:relative;min-width:0}
+.work-card .work-image,.work-card .video-frame{aspect-ratio:var(--card-ratio-desktop,var(--site-desktop-ratio,var(--site-ratio,4 / 3)))}
+.work-card .work-image img{object-fit:var(--card-fit-desktop,contain);object-position:var(--card-x-desktop,50%) var(--card-y-desktop,50%)}
+.work-card .work-meta h3{font-size:var(--card-title-desktop,var(--font-work-title,16px))}
+.work-card .work-meta div>span{font-size:var(--card-description-desktop,var(--font-work-description,10px))}
+.work-card[data-card-meta-desktop="overlay"] .work-meta{position:absolute;z-index:3;left:0;right:0;bottom:0;padding:16px;background:linear-gradient(transparent,rgba(0,0,0,.9));color:#fff}
+.work-card[data-card-meta-desktop="overlay"] .work-meta p,.work-card[data-card-meta-desktop="overlay"] .work-meta div>span,.work-card[data-card-meta-desktop="overlay"] .work-number{color:rgba(255,255,255,.78)}
+@media(max-width:760px){
+ .work-card .work-image,.work-card .video-frame{aspect-ratio:var(--card-ratio-mobile,var(--site-mobile-ratio,var(--site-ratio,4 / 3)))}
+ .work-card .work-image img{object-fit:var(--card-fit-mobile,contain);object-position:var(--card-x-mobile,50%) var(--card-y-mobile,50%)}
+ .work-card .work-meta h3{font-size:var(--card-title-mobile,var(--font-mobile-work-title,15px))}
+ .work-card .work-meta div>span{font-size:var(--card-description-mobile,var(--font-mobile-work-description,9px))}
+ .work-card[data-card-meta-mobile="overlay"] .work-meta{position:absolute;z-index:3;left:0;right:0;bottom:0;padding:12px;background:linear-gradient(transparent,rgba(0,0,0,.9));color:#fff}
+ .work-card[data-card-meta-mobile="overlay"] .work-meta p,.work-card[data-card-meta-mobile="overlay"] .work-meta div>span,.work-card[data-card-meta-mobile="overlay"] .work-number{color:rgba(255,255,255,.78)}
+}
