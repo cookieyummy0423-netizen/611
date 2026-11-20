@@ -1,7 +1,7 @@
 {
   "columns": 4,
   "mobileColumns": 2,
-  "gap": 20,
+  "gap": 10,
   "ratio": "16 / 9",
   "background": "#080808",
   "text": "#f2f2ed",
