@@ -2,27 +2,27 @@
   "version": 1,
   "sections": [
     {
-      "id": "statement",
-      "label": "創作宣言",
+      "id": "works",
+      "label": "作品典藏",
       "visible": true,
       "order": 1
     },
     {
-      "id": "works",
-      "label": "作品典藏",
+      "id": "statement",
+      "label": "創作宣言",
       "visible": true,
       "order": 2
     }
   ],
   "copy": {
     "worksEyebrow": "01 — SELECTED WORKS",
-    "worksTitle1": "THE",
-    "worksTitle2": "ARCHIVE.",
-    "worksAside": "我愛畫畫\n畫畫不愛我。",
+    "worksTitle1": "MY",
+    "worksTitle2": "PORTFOLIO",
+    "worksAside": "畫畫真開心\n有人喜歡我的作品更開心。",
     "statementEyebrow": "A NOTE TO MYSELF / 002",
-    "statementTitle": "MAKE IT\nWEIRD.\nMAKE IT ME.",
-    "statementFootLeft": "DON'T POLISH THE STRANGE OUT OF IT.",
-    "statementFootRight": "不必每個想法都有標準答案。"
+    "statementTitle": "THINGS WILL WORK OUT IN THE END.",
+    "statementFootLeft": "LIFE IS SHORT AND YOU DESERVE TO BE HAPPY.",
+    "statementFootRight": "沒人喜歡就算了我喜歡。"
   },
-  "updatedAt": "2026-11-20T12:57:52.749Z"
+  "updatedAt": "2026-11-20T13:07:22.394Z"
 }
