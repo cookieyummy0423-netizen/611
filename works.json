@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-20T15:16:01.469Z",
+  "updatedAt": "2026-11-20T15:19:20.091Z",
   "works": [
     {
       "id": "work-63df9826-c74e-4646-a926-071307fb431b",
@@ -509,10 +509,10 @@
       "description": "角色設計作品：王者。",
       "cardLayout": {
         "desktop": {
-          "ratio": "global",
-          "fit": "contain",
-          "x": 50,
-          "y": 50,
+          "ratio": "16 / 9",
+          "fit": "cover",
+          "x": 51,
+          "y": 29,
           "titleSize": 16,
           "descriptionSize": 10,
           "meta": "below"
@@ -540,10 +540,10 @@
       "description": "角色設計作品：戰士。",
       "cardLayout": {
         "desktop": {
-          "ratio": "global",
-          "fit": "contain",
-          "x": 50,
-          "y": 50,
+          "ratio": "16 / 9",
+          "fit": "cover",
+          "x": 53,
+          "y": 26,
           "titleSize": 16,
           "descriptionSize": 10,
           "meta": "below"
@@ -561,20 +561,20 @@
       "sortOrder": 17
     },
     {
-      "id": "work-63-68-61-72-61-63-74-65-72-2d-42-4f-53-53",
-      "title": "BOSS",
+      "id": "work-63-68-61-72-61-63-74-65-72-2d-602a-7269",
+      "title": "怪物",
       "category": "character",
       "typeLabel": "CHARACTER DESIGN",
       "subtitle": "角色設定・造型設計",
       "mediaKind": "image",
-      "media": "images/BOSS.png",
-      "description": "角色設計作品：BOSS。",
+      "media": "images/怪物.png",
+      "description": "角色設計作品：怪物。",
       "cardLayout": {
         "desktop": {
-          "ratio": "global",
-          "fit": "contain",
-          "x": 50,
-          "y": 50,
+          "ratio": "16 / 9",
+          "fit": "cover",
+          "x": 51,
+          "y": 22,
           "titleSize": 16,
           "descriptionSize": 10,
           "meta": "below"
@@ -590,37 +590,6 @@
         }
       },
       "sortOrder": 18
-    },
-    {
-      "id": "work-63-68-61-72-61-63-74-65-72-2d-602a-7269",
-      "title": "怪物",
-      "category": "character",
-      "typeLabel": "CHARACTER DESIGN",
-      "subtitle": "角色設定・造型設計",
-      "mediaKind": "image",
-      "media": "images/怪物.png",
-      "description": "角色設計作品：怪物。",
-      "cardLayout": {
-        "desktop": {
-          "ratio": "global",
-          "fit": "contain",
-          "x": 50,
-          "y": 50,
-          "titleSize": 16,
-          "descriptionSize": 10,
-          "meta": "below"
-        },
-        "mobile": {
-          "ratio": "global",
-          "fit": "contain",
-          "x": 50,
-          "y": 50,
-          "titleSize": 15,
-          "descriptionSize": 9,
-          "meta": "below"
-        }
-      },
-      "sortOrder": 19
     },
     {
       "id": "work-63-68-61-72-61-63-74-65-72-2d-6a5f-5668-4eba",
@@ -651,7 +620,7 @@
           "meta": "below"
         }
       },
-      "sortOrder": 20
+      "sortOrder": 19
     },
     {
       "id": "work-63-68-61-72-61-63-74-65-72-2d-7378-4eba",
@@ -662,6 +631,37 @@
       "mediaKind": "image",
       "media": "images/獸人.png",
       "description": "角色設計作品：獸人。",
+      "cardLayout": {
+        "desktop": {
+          "ratio": "16 / 9",
+          "fit": "cover",
+          "x": 50,
+          "y": 34,
+          "titleSize": 16,
+          "descriptionSize": 10,
+          "meta": "below"
+        },
+        "mobile": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 15,
+          "descriptionSize": 9,
+          "meta": "below"
+        }
+      },
+      "sortOrder": 20
+    },
+    {
+      "id": "work-63-68-61-72-61-63-74-65-72-2d-42-4f-53-53",
+      "title": "BOSS",
+      "category": "character",
+      "typeLabel": "CHARACTER DESIGN",
+      "subtitle": "角色設定・造型設計",
+      "mediaKind": "image",
+      "media": "images/BOSS.png",
+      "description": "角色設計作品：BOSS。",
       "cardLayout": {
         "desktop": {
           "ratio": "global",
