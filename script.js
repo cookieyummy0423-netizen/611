@@ -123,7 +123,7 @@ function makeLocalCard(work){
   const desc=document.createElement("span");desc.textContent=work.subtitle||work.description||"";
   info.append(category,title,desc);
   const number=document.createElement("span");number.className="work-number mono";number.textContent="NEW";
-  meta.append(info,number);card.appendChild(meta);
+  meta.append(info,number);const detail=work.detailPage||{};if(detail.enabled){const link=document.createElement("a");link.className="work-detail-link";link.href="work.html?"+(detail.slug?"slug="+encodeURIComponent(detail.slug):"id="+encodeURIComponent(work.id));link.textContent="VIEW FULL PROJECT ↗";meta.append(link)}card.appendChild(meta);
   applyCardLayout(card,work);
   return card;
 }
