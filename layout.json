@@ -312,6 +312,84 @@
         "gap": 0,
         "textAlign": "inherit"
       }
+    },
+    "aboutPhoto": {
+      "desktop": {
+        "maxWidth": 0,
+        "minHeight": 0,
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "marginTop": 0,
+        "marginBottom": 0,
+        "fontSize": 0,
+        "lineHeight": 0,
+        "gap": 0,
+        "textAlign": "inherit"
+      },
+      "mobile": {
+        "maxWidth": 0,
+        "minHeight": 0,
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "marginTop": 0,
+        "marginBottom": 0,
+        "fontSize": 0,
+        "lineHeight": 0,
+        "gap": 0,
+        "textAlign": "inherit"
+      }
+    },
+    "aboutExperience": {
+      "desktop": {
+        "maxWidth": 0,
+        "minHeight": 0,
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "marginTop": 0,
+        "marginBottom": 0,
+        "fontSize": 0,
+        "lineHeight": 0,
+        "gap": 0,
+        "textAlign": "inherit"
+      },
+      "mobile": {
+        "maxWidth": 0,
+        "minHeight": 0,
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "marginTop": 0,
+        "marginBottom": 0,
+        "fontSize": 0,
+        "lineHeight": 0,
+        "gap": 0,
+        "textAlign": "inherit"
+      }
+    },
+    "aboutExtra": {
+      "desktop": {
+        "maxWidth": 0,
+        "minHeight": 0,
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "marginTop": 0,
+        "marginBottom": 0,
+        "fontSize": 0,
+        "lineHeight": 0,
+        "gap": 0,
+        "textAlign": "inherit"
+      },
+      "mobile": {
+        "maxWidth": 0,
+        "minHeight": 0,
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "marginTop": 0,
+        "marginBottom": 0,
+        "fontSize": 0,
+        "lineHeight": 0,
+        "gap": 0,
+        "textAlign": "inherit"
+      }
     }
   }
 }
