@@ -284,3 +284,40 @@ body{background:var(--site-bg);color:var(--site-text);font-size:calc(1em * var(-
 .collections-page-index{font:10px "DM Mono",monospace;letter-spacing:.08em;color:#777;white-space:nowrap;padding-bottom:4px}
 .topbar nav a[aria-current="page"]{color:#fff}
 @media(max-width:760px){.collections-page{padding:30px 6vw 64px}.collections-page-heading{align-items:flex-start;flex-direction:column;gap:12px}.collections-page-heading h1{font-size:34px}.collections-page-index{font-size:9px}}
+
+/* Curated project detail: editorial intro, featured first work, and consistent project rhythm. */
+.collection-intro{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:30px;align-items:end;border-bottom:1px solid #444;padding:10px 0 34px;margin-bottom:34px}
+.collection-intro-copy{max-width:900px}
+.collection-intro-copy .work-detail-kicker{margin:0 0 18px}
+.collection-project-title{font-size:clamp(48px,8vw,112px);line-height:.92;letter-spacing:-.075em;margin:0 0 20px;overflow-wrap:anywhere}
+.collection-project-description{font-size:clamp(15px,1.7vw,20px);line-height:1.9;color:#bbb;max-width:760px;margin:0;white-space:pre-line}
+.collection-project-stats{display:flex;flex-direction:column;align-items:flex-end;border-left:1px solid #444;padding-left:24px;padding-bottom:4px}
+.collection-stat-number{font-size:clamp(42px,6vw,76px);font-weight:700;line-height:1;letter-spacing:-.08em}
+.collection-stat-label{font:9px "DM Mono",monospace;letter-spacing:.12em;color:#888;margin-top:8px;white-space:nowrap}
+.collection-project-lead{display:flex;justify-content:space-between;gap:24px;align-items:center;margin:0 0 18px}
+.collection-project-lead .work-detail-kicker{margin:0}
+.collection-project-lead-note{font-size:11px;color:#888;margin:0;text-align:right}
+.collection-work-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:48px 24px;margin:0 0 70px;align-items:start}
+.collection-work-card{min-width:0;border-top:1px solid #444;padding-top:12px}
+.collection-media{width:100%;aspect-ratio:4/3;background:#111;overflow:hidden;display:flex;align-items:center;justify-content:center}
+.collection-media img,.collection-media video{display:block;width:100%;height:100%;object-fit:contain}
+.collection-work-card:first-child{grid-column:1/-1}
+.collection-work-card:first-child .collection-media{aspect-ratio:16/9}
+.collection-work-info{padding-top:14px}
+.collection-work-info .work-detail-kicker{margin:0 0 10px}
+.collection-work-info h2{font-size:clamp(20px,2.6vw,34px);letter-spacing:-.045em;margin:0 0 8px}
+.collection-work-description{font-size:13px;line-height:1.9;color:#aaa;white-space:pre-line;margin:0}
+.collection-return{display:inline-block;border-top:1px solid #555;padding-top:18px;margin:0 0 24px;font:10px "DM Mono",monospace;letter-spacing:.08em;color:#aaa}
+.collection-return:hover{color:#fff}
+@media(max-width:760px){
+ .collection-intro{grid-template-columns:1fr;gap:22px;padding-bottom:24px;margin-bottom:26px}
+ .collection-project-title{font-size:clamp(42px,12vw,68px);margin-bottom:14px}
+ .collection-project-stats{align-items:flex-start;border-left:0;border-top:1px solid #444;padding:14px 0 0}
+ .collection-stat-number{font-size:42px}
+ .collection-project-lead{align-items:flex-start;flex-direction:column;gap:8px}
+ .collection-project-lead-note{text-align:left;line-height:1.7}
+ .collection-work-grid{grid-template-columns:1fr;gap:34px;margin-bottom:50px}
+ .collection-work-card:first-child{grid-column:auto}
+ .collection-work-card:first-child .collection-media{aspect-ratio:4/3}
+ .collection-media{aspect-ratio:4/3}
+}
