@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-20T22:18:57.550Z",
+  "updatedAt": "2026-11-20T22:32:20.612Z",
   "works": [
     {
       "id": "work-63df9826-c74e-4646-a926-071307fb431b",
@@ -1488,9 +1488,10 @@
       "slug": "character-design",
       "description": "",
       "cover": "",
+      "featuredWorkId": "work-63-68-61-72-61-63-74-65-72-2d-7fa4-50cf",
       "concept": "在距離地球164,597光年的一顆星球上，佇立著遠古戰爭的殘骸。數萬年前，這片土地曾由五位國王統治，這裡有著比地球先進幾萬年的科技，卻因三大國的爭鬥而陷入無盡戰火。在這場動盪中，兩個國家攜帶子民踏入時空裂縫，逃離了這片即將毀滅的世界。而在殘存的戰場上，七位勇者挺身而出，誓言反抗這場吞噬一切的戰爭，成為了革命的火種。",
-      "tools": "",
-      "year": null,
+      "tools": "CSP",
+      "year": 2025,
       "gallery": [],
       "process": [],
       "workIds": [
@@ -1510,9 +1511,10 @@
       "slug": "scene-design",
       "description": "",
       "cover": "",
+      "featuredWorkId": "work-73-63-65-6e-65-2d-8d77-627f-8f49-5408-30fb-627f",
       "concept": "角色設計的衍生作品，根據背景設定畫出他們所生活的星球的樣子。四張場景主要是在描繪Alex找到Silens，以及前往打敗Angel的路上。",
-      "tools": "",
-      "year": null,
+      "tools": "CSP, PS",
+      "year": 2025,
       "gallery": [],
       "process": [],
       "workIds": [
