@@ -2,14 +2,14 @@
   "version": 1,
   "sections": [
     {
-      "id": "works",
-      "label": "作品典藏",
+      "id": "statement",
+      "label": "創作宣言",
       "visible": true,
       "order": 1
     },
     {
-      "id": "statement",
-      "label": "創作宣言",
+      "id": "works",
+      "label": "作品典藏",
       "visible": true,
       "order": 2
     }
@@ -24,5 +24,5 @@
     "statementFootLeft": "DON'T POLISH THE STRANGE OUT OF IT.",
     "statementFootRight": "不必每個想法都有標準答案。"
   },
-  "updatedAt": "2026-11-20T12:56:42.232Z"
+  "updatedAt": "2026-11-20T12:57:52.749Z"
 }
