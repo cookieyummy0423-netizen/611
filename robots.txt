@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://cookieyummy0423-netizen.github.io/611/sitemap.xml
