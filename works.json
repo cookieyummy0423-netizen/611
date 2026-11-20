@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-20T20:37:41.235Z",
+  "updatedAt": "2026-11-20T20:41:50.869Z",
   "works": [
     {
       "id": "work-63df9826-c74e-4646-a926-071307fb431b",
@@ -12,7 +12,7 @@
       "media": "images/1795174852306-1000077237_4f687739b96e3964d49a89f697d937b6-2026_10_17-上午12_.jpg",
       "description": "插畫作品",
       "detailPage": {
-        "enabled": true,
+        "enabled": false,
         "slug": "",
         "concept": "",
         "tools": "CSP",
