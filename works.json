@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-20T23:09:24.687Z",
+  "updatedAt": "2026-11-20T23:11:36.736Z",
   "works": [
     {
       "id": "work-63df9826-c74e-4646-a926-071307fb431b",
@@ -958,7 +958,7 @@
       "description": "故事開端與情境建立。",
       "hidden": false,
       "detailPage": {
-        "enabled": false,
+        "enabled": true,
         "slug": "",
         "concept": "漂浮在大陸中央的島嶼",
         "tools": "CSP",
@@ -999,7 +999,7 @@
       "description": "延續情節並推進故事。",
       "hidden": false,
       "detailPage": {
-        "enabled": false,
+        "enabled": true,
         "slug": "",
         "concept": "Alex和Silens第一次見面",
         "tools": "CSP",
@@ -1040,7 +1040,7 @@
       "description": "情節轉折與視覺變化。",
       "hidden": false,
       "detailPage": {
-        "enabled": false,
+        "enabled": true,
         "slug": "",
         "concept": "革命軍找到Boss的據點",
         "tools": "CSP",
@@ -1081,7 +1081,7 @@
       "description": "收束故事並完成段落。",
       "hidden": false,
       "detailPage": {
-        "enabled": false,
+        "enabled": true,
         "slug": "",
         "concept": "革命軍們和Angel對峙",
         "tools": "CSP",
