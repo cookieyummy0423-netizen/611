@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-20T15:24:37.174Z",
+  "updatedAt": "2026-11-20T15:34:05.417Z",
   "works": [
     {
       "id": "work-63df9826-c74e-4646-a926-071307fb431b",
@@ -375,20 +375,20 @@
       "sortOrder": 11
     },
     {
-      "id": "work-69-6c-6c-75-73-74-72-61-74-69-6f-6e-2d-63d2-5716-20-31-30-34",
+      "id": "work-69-6c-6c-75-73-74-72-61-74-69-6f-6e-2d-63d2-5716-20-31-30-39",
       "title": "單人組合頁",
       "category": "illustration",
       "typeLabel": "ILLUSTRATION / ARTWORK",
       "subtitle": "插畫作品",
       "mediaKind": "image",
-      "media": "images/插圖104.png",
-      "description": "和網友的圖換圖",
+      "media": "images/插圖109.png",
+      "description": "羅最帥了",
       "cardLayout": {
         "desktop": {
           "ratio": "1 / 1",
-          "fit": "cover",
+          "fit": "contain",
           "x": 50,
-          "y": 69,
+          "y": 50,
           "titleSize": 16,
           "descriptionSize": 10,
           "meta": "below"
@@ -468,20 +468,20 @@
       "sortOrder": 14
     },
     {
-      "id": "work-69-6c-6c-75-73-74-72-61-74-69-6f-6e-2d-63d2-5716-20-31-30-39",
+      "id": "work-69-6c-6c-75-73-74-72-61-74-69-6f-6e-2d-63d2-5716-20-31-30-34",
       "title": "單人組合頁",
       "category": "illustration",
       "typeLabel": "ILLUSTRATION / ARTWORK",
       "subtitle": "插畫作品",
       "mediaKind": "image",
-      "media": "images/插圖109.png",
-      "description": "羅最帥了",
+      "media": "images/插圖104.png",
+      "description": "和網友的圖換圖",
       "cardLayout": {
         "desktop": {
           "ratio": "1 / 1",
-          "fit": "contain",
+          "fit": "cover",
           "x": 50,
-          "y": 50,
+          "y": 69,
           "titleSize": 16,
           "descriptionSize": 10,
           "meta": "below"
