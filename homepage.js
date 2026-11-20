@@ -1,7 +1,7 @@
 /* 611 homepage sections and copy — desktop/mobile draft-aware settings */
 (()=>{
  const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
- let activeData=null,hasDraftPreview=false;
+ let activeData=null;
  const apply=d=>{
   const main=document.querySelector("main");if(!main||!d)return;
   activeData=d;
@@ -23,11 +23,7 @@
   const foot=document.querySelector("#statement .statement-foot");
   if(foot){const spans=foot.querySelectorAll("span");if(spans[0]&&c.statementFootLeft!==undefined)spans[0].textContent=c.statementFootLeft;if(spans[1]&&c.statementFootRight!==undefined)spans[1].textContent=c.statementFootRight;}
  };
- window.addEventListener("message",event=>{
-  if(event.origin!=="https://611-portfolio-admin.cookieyummy0423.workers.dev")return;
-  if(event.data?.type==="611-homepage-preview"){hasDraftPreview=true;apply(event.data.homepage)}
- });
  let wasMobile=window.matchMedia("(max-width: 760px)").matches;
  window.addEventListener("resize",()=>{const now=window.matchMedia("(max-width: 760px)").matches;if(now!==wasMobile){wasMobile=now;if(activeData)apply(activeData)}});
- fetch("homepage.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).then(d=>{if(d&&!hasDraftPreview)apply(d)}).catch(e=>console.warn("611 homepage settings:",e)).finally(()=>window.__611MarkReady?.("homepage"));
+ fetch("homepage.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).then(d=>{if(d)apply(d)}).catch(e=>console.warn("611 homepage settings:",e)).finally(()=>window.__611MarkReady?.("homepage"));
 })();
