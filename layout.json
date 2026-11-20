@@ -89,7 +89,7 @@
         "marginBottom": 0,
         "fontSize": 0,
         "lineHeight": 0,
-        "gap": 0,
+        "gap": 4,
         "textAlign": "inherit"
       },
       "mobile": {
@@ -392,5 +392,5 @@
       }
     }
   },
-  "updatedAt": "2026-11-20T17:10:15.417Z"
+  "updatedAt": "2026-11-20T17:10:53.751Z"
 }
