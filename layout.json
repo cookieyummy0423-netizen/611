@@ -52,9 +52,9 @@
         "paddingTop": 0,
         "paddingBottom": 0,
         "marginTop": 0,
-        "marginBottom": 0,
+        "marginBottom": 20,
         "fontSize": 0,
-        "lineHeight": 0,
+        "lineHeight": 0.1,
         "gap": 0,
         "offsetX": 0,
         "offsetY": 0,
@@ -84,8 +84,8 @@
         "marginTop": 0,
         "marginBottom": 0,
         "fontSize": 0,
-        "lineHeight": 0,
-        "gap": 0,
+        "lineHeight": 0.1,
+        "gap": 10,
         "offsetX": 0,
         "offsetY": 0,
         "textAlign": "inherit"
@@ -137,7 +137,7 @@
         "textAlign": "inherit"
       },
       "mobile": {
-        "maxWidth": 1800,
+        "maxWidth": 0,
         "minHeight": 0,
         "paddingTop": 20,
         "paddingBottom": 12,
@@ -452,5 +452,5 @@
       }
     }
   },
-  "updatedAt": "2026-11-20T18:15:32.254Z"
+  "updatedAt": "2026-11-20T18:18:44.455Z"
 }
