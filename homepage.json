@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "sections": [
     {
       "id": "works",
@@ -24,7 +24,6 @@
     "statementFootLeft": "LIFE IS SHORT AND YOU DESERVE TO BE HAPPY.",
     "statementFootRight": ""
   },
-  "updatedAt": "2026-11-20T13:16:49.041Z",
   "mobile": {
     "sections": [
       {
@@ -50,5 +49,6 @@
       "statementFootLeft": "LIFE IS SHORT AND YOU DESERVE TO BE HAPPY.",
       "statementFootRight": ""
     }
-  }
+  },
+  "updatedAt": "2026-11-20T13:45:22.187Z"
 }
