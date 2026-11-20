@@ -18,7 +18,7 @@
     "mobile": {
       "columns": 2,
       "gap": 8,
-      "ratio": "3 / 4",
+      "ratio": "1 / 1",
       "sectionSpace": 36
     }
   },
