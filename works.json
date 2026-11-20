@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-20T15:49:56.590Z",
+  "updatedAt": "2026-11-20T16:01:41.478Z",
   "works": [
     {
       "id": "work-63df9826-c74e-4646-a926-071307fb431b",
@@ -385,10 +385,10 @@
       "description": "羅最帥了",
       "cardLayout": {
         "desktop": {
-          "ratio": "1 / 1",
-          "fit": "contain",
-          "x": 50,
-          "y": 50,
+          "ratio": "4 / 3",
+          "fit": "cover",
+          "x": 46,
+          "y": 31,
           "titleSize": 16,
           "descriptionSize": 10,
           "meta": "overlay"
@@ -416,10 +416,10 @@
       "description": "和網友的圖換圖",
       "cardLayout": {
         "desktop": {
-          "ratio": "1 / 1",
-          "fit": "contain",
+          "ratio": "4 / 3",
+          "fit": "cover",
           "x": 50,
-          "y": 50,
+          "y": 2,
           "titleSize": 16,
           "descriptionSize": 10,
           "meta": "overlay"
@@ -447,10 +447,10 @@
       "description": "和網友的圖換圖",
       "cardLayout": {
         "desktop": {
-          "ratio": "1 / 1",
-          "fit": "contain",
+          "ratio": "4 / 3",
+          "fit": "cover",
           "x": 50,
-          "y": 50,
+          "y": 39,
           "titleSize": 16,
           "descriptionSize": 10,
           "meta": "overlay"
@@ -478,10 +478,10 @@
       "description": "和網友的圖換圖",
       "cardLayout": {
         "desktop": {
-          "ratio": "1 / 1",
+          "ratio": "4 / 3",
           "fit": "cover",
           "x": 50,
-          "y": 69,
+          "y": 25,
           "titleSize": 16,
           "descriptionSize": 10,
           "meta": "overlay"
