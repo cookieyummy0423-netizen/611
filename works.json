@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-20T21:49:10.325Z",
+  "updatedAt": "2026-11-20T21:52:55.886Z",
   "works": [
     {
       "id": "work-63df9826-c74e-4646-a926-071307fb431b",
@@ -960,9 +960,9 @@
       "detailPage": {
         "enabled": false,
         "slug": "",
-        "concept": "",
-        "tools": "",
-        "year": null,
+        "concept": "漂浮在大陸中央的島嶼",
+        "tools": "CSP",
+        "year": 2025,
         "gallery": [],
         "process": []
       },
@@ -1001,9 +1001,9 @@
       "detailPage": {
         "enabled": false,
         "slug": "",
-        "concept": "",
-        "tools": "",
-        "year": null,
+        "concept": "Alex和Silens第一次見面",
+        "tools": "CSP",
+        "year": 2025,
         "gallery": [],
         "process": []
       },
@@ -1042,9 +1042,9 @@
       "detailPage": {
         "enabled": false,
         "slug": "",
-        "concept": "",
-        "tools": "",
-        "year": null,
+        "concept": "革命軍找到Boss的據點",
+        "tools": "CSP",
+        "year": 2025,
         "gallery": [],
         "process": []
       },
@@ -1083,9 +1083,9 @@
       "detailPage": {
         "enabled": false,
         "slug": "",
-        "concept": "",
-        "tools": "",
-        "year": null,
+        "concept": "革命軍們和Angel對峙",
+        "tools": "CSP",
+        "year": 2025,
         "gallery": [],
         "process": []
       },
