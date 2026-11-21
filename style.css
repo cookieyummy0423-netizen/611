@@ -409,12 +409,15 @@ html.ambient-light-off .work-card::before,html.ambient-light-off .collection-wor
 }
 
 
-/* Mobile selected-work cards: preserve the full information hierarchy and isolate the detail action below it. */
+/* Mobile selected-work cards: force a full-width single-column information stack. */
 @media(max-width:760px){
- .collection-work-info{display:flex;flex-direction:column;align-items:flex-start;min-width:0;padding-top:12px;}
- .collection-work-info .work-detail-kicker{margin:0 0 8px;font-size:9px;line-height:1.4;letter-spacing:.09em;color:#888;}
- .collection-work-info h2{width:100%;font-size:clamp(18px,5vw,21px);line-height:1.3;margin:0 0 8px;overflow-wrap:anywhere;}
- .collection-work-info .collection-work-description{width:100%;font-size:12px;line-height:1.8;margin:0;color:#aaa;white-space:pre-line;overflow-wrap:anywhere;}
- .collection-work-info .work-detail-link{align-self:flex-start;display:inline-flex;align-items:center;justify-content:center;width:auto;max-width:100%;white-space:nowrap;flex:0 0 auto;margin:14px 0 0;padding:8px 0 5px;border-top:1px solid #555;border-bottom:0;font-size:9px;line-height:1.2;letter-spacing:.08em;color:#aaa;}
- .collection-work-info .work-detail-link:hover{color:var(--site-accent,#2effe7);}
+ .collection-selected-section .collection-work-grid{display:grid!important;grid-template-columns:minmax(0,1fr)!important;gap:34px!important;}
+ .collection-selected-section .collection-work-card{display:block!important;width:100%!important;min-width:0!important;}
+ .collection-selected-section .collection-work-info{display:flex!important;flex-direction:column!important;align-items:stretch!important;justify-content:flex-start!important;gap:0!important;width:100%!important;min-width:0!important;max-width:none!important;padding-top:14px!important;}
+ .collection-selected-section .collection-work-copy{display:flex!important;flex-direction:column!important;align-items:stretch!important;width:100%!important;min-width:0!important;max-width:none!important;}
+ .collection-selected-section .collection-work-info .work-detail-kicker{display:block!important;width:100%!important;margin:0 0 8px!important;font-size:9px!important;line-height:1.4!important;letter-spacing:.09em!important;color:#888!important;}
+ .collection-selected-section .collection-work-info h2{display:block!important;width:100%!important;max-width:none!important;margin:0 0 8px!important;font-size:clamp(20px,5.4vw,25px)!important;line-height:1.35!important;letter-spacing:-.035em!important;white-space:normal!important;word-break:normal!important;overflow-wrap:normal!important;}
+ .collection-selected-section .collection-work-info .collection-work-description{display:block!important;width:100%!important;max-width:none!important;margin:0!important;font-size:13px!important;line-height:1.85!important;color:#aaa!important;white-space:pre-line!important;overflow-wrap:break-word!important;}
+ .collection-selected-section .collection-work-info .work-detail-link{display:inline-flex!important;align-self:flex-start!important;justify-self:start!important;flex:0 0 auto!important;width:max-content!important;max-width:100%!important;margin:16px 0 0!important;padding:8px 0 5px!important;border-top:1px solid #555!important;border-bottom:0!important;font-size:10px!important;line-height:1.3!important;letter-spacing:.08em!important;white-space:nowrap!important;float:none!important;color:#aaa!important;grid-column:1/-1!important;}
+ .collection-selected-section .collection-work-info .work-detail-link:hover{color:var(--site-accent,#2effe7)!important;}
 }
