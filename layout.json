@@ -1881,7 +1881,7 @@
         "lineHeight": 0.1,
         "gap": 0,
         "offsetX": 0,
-        "offsetY": 48,
+        "offsetY": 24,
         "letterSpacing": 0,
         "opacity": 0,
         "borderRadius": 0,
@@ -1944,5 +1944,5 @@
       "easing": "smooth"
     }
   },
-  "updatedAt": "2026-11-21T19:20:25.160Z"
+  "updatedAt": "2026-11-21T19:21:05.367Z"
 }
