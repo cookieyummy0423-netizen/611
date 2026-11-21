@@ -62,7 +62,7 @@
   },
   "ambient": {
     "enabled": true,
-    "color": "#8c9cff",
+    "color": "#e3e5f2",
     "opacity": 0.3,
     "spread": 70,
     "feather": 70
