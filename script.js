@@ -108,11 +108,11 @@ function makeLocalCard(work){
   let media;
   if(isVideo){
     media=document.createElement("div");media.className="video-frame";
-    const video=document.createElement("video");video.controls=true;video.preload="metadata";video.playsInline=true;
+    const video=document.createElement("video");video.controls=true;video.preload="none";video.playsInline=true;
     const source=document.createElement("source");source.src=work.media;source.type="video/mp4";video.appendChild(source);media.appendChild(video);
   }else{
     media=document.createElement("a");media.className="work-image image-square";media.href="#work-detail";media.setAttribute("aria-label","查看作品："+work.title);
-    const img=document.createElement("img");img.src=work.media;img.alt=work.title;img.loading="lazy";media.appendChild(img);
+    const img=document.createElement("img");img.src=work.media;img.alt=work.title;img.loading="lazy";img.decoding="async";media.appendChild(img);
   }
   const fig=document.createElement("span");fig.className="image-index mono";fig.textContent="FIG. NEW";media.appendChild(fig);
   card.appendChild(media);
