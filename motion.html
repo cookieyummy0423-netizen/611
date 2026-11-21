@@ -13,7 +13,7 @@
 document.documentElement.classList.add("site-booting");
 (()=>{const file=location.pathname.split("/").pop()||"index.html";const needsHome=/^(index|illustration|character|scene|motion)\.html$/i.test(file);const pending=new Set(["design","works",...(needsHome?["homepage"]:[])]);let released=false;const release=()=>{if(released||pending.size)return;released=true;document.documentElement.classList.remove("site-booting")};window.__611MarkReady=key=>{pending.delete(key);release()};window.setTimeout(()=>{pending.clear();release()},3500)})();
 </script>
-<meta property="og:type" content="website"><meta property="og:title" content="動態影像｜611 Visual Archive"><meta property="og:description" content="611 動態影像作品集，收錄動態設計、影像敘事與動畫創作。"><meta property="og:site_name" content="611 Visual Archive"><link rel="canonical" href="https://cookieyummy0423-netizen.github.io/611/motion.html"></head>
+<meta property="og:type" content="website"><meta property="og:title" content="動態影像｜611 Visual Archive"><meta property="og:description" content="611 動態影像作品集，收錄動態設計、影像敘事與動畫創作。"><meta property="og:site_name" content="611 Visual Archive"><link rel="canonical" href="https://611-portfolio.pages.dev/motion.html"></head>
 <body data-page="motion">
 <div class="grain" aria-hidden="true"></div>
 <header class="topbar">
