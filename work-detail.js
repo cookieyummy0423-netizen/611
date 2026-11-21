@@ -7,9 +7,9 @@
  const categoryPages={illustration:"illustration.html",character:"character.html",scene:"scene.html",motion:"motion.html"};
  const node=(tag,cls,text)=>{const el=document.createElement(tag);if(cls)el.className=cls;if(text!==undefined)el.textContent=text;return el};
  const mediaUrl=path=>path?(path.startsWith("http")?path:base+path):"";
- const addMedia=(parent,path,title)=>{const figure=node("figure");const src=mediaUrl(path);if(/\.mp4(?:$|\?)/i.test(path)){const video=node("video");video.controls=true;video.preload="metadata";video.playsInline=true;const source=node("source");source.src=src;source.type="video/mp4";video.append(source);figure.append(video)}else{const img=node("img");img.src=src;img.alt=title||"";img.loading="lazy";figure.append(img)}parent.append(figure)};
+ const addMedia=(parent,path,title)=>{const figure=node("figure");const src=mediaUrl(path);if(/\.mp4(?:$|\?)/i.test(path)){const video=node("video");video.controls=true;video.preload="none";video.playsInline=true;const source=node("source");source.src=src;source.type="video/mp4";video.append(source);figure.append(video)}else{const img=node("img");img.src=src;img.alt=title||"";img.loading="lazy";img.decoding="async";figure.append(img)}parent.append(figure)};
  const fail=message=>{root.replaceChildren(node("div","work-detail-empty",message))};
- fetch("works.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("作品資料讀取失敗");return r.json()}).then(data=>{
+ fetch("works.json",{cache:"no-cache"}).then(r=>{if(!r.ok)throw Error("作品資料讀取失敗");return r.json()}).then(data=>{
   const works=Array.isArray(data.works)?data.works:[];
   const work=works.find(w=>(id&&w.id===id)||(slug&&w.detailPage?.slug===slug));
   if(!work||!work.detailPage?.enabled){fail("找不到這件作品，或作品詳情頁尚未啟用。");return}
