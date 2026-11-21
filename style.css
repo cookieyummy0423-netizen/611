@@ -388,7 +388,7 @@ body{background:var(--site-bg);color:var(--site-text);font-size:calc(1em * var(-
   filter:blur(24px);
   opacity:.28;
   pointer-events:none;
-  animation:611-artwork-breathe 8s ease-in-out infinite alternate;
+  animation:artwork-breathe-611 8s ease-in-out infinite alternate;
 }
 .work-card>.work-image,.work-card>.video-frame,.work-card>.work-meta,
 .collection-work-card>.collection-media,.collection-work-card>.collection-work-info,
@@ -400,7 +400,7 @@ body{background:var(--site-bg);color:var(--site-text);font-size:calc(1em * var(-
 .work-card:hover::before,.collection-work-card:hover::before,.collection-gallery-item:hover::before,.collection-card:hover::before{
   opacity:.48;
 }
-@keyframes 611-artwork-breathe{
+@keyframes artwork-breathe-611{
   from{opacity:.18}
   to{opacity:.38}
 }
