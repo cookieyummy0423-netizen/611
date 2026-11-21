@@ -42,7 +42,7 @@
  };
  const easing={smooth:"cubic-bezier(.22,1,.36,1)",ease:"ease", "ease-in":"ease-in","ease-out":"ease-out","ease-in-out":"ease-in-out",linear:"linear"};
  const style=document.createElement("style");
- style.textContent=".motion-611-item{will-change:opacity,transform}.motion-611-preview{animation:611MotionPreview 1.1s cubic-bezier(.22,1,.36,1)}@keyframes 611MotionPreview{0%{opacity:.25;transform:translateY(20px) scale(.96)}65%{opacity:1;transform:translateY(-3px) scale(1.01)}100%{opacity:1;transform:none}}@media(prefers-reduced-motion:reduce){.motion-611-item{transition:none!important;transform:none!important;opacity:1!important;will-change:auto!important}}";
+ style.textContent=".motion-611-item{will-change:auto}.motion-611-preview{animation:611MotionPreview 1.1s cubic-bezier(.22,1,.36,1)}@keyframes 611MotionPreview{0%{opacity:.25;transform:translateY(20px) scale(.96)}65%{opacity:1;transform:translateY(-3px) scale(1.01)}100%{opacity:1;transform:none}}@media(prefers-reduced-motion:reduce){.motion-611-item{transition:none!important;transform:none!important;opacity:1!important;will-change:auto!important}}";
  document.head.append(style);
  const reduced=window.matchMedia?.("(prefers-reduced-motion: reduce)").matches;
  let config=defaults,observer=null;
