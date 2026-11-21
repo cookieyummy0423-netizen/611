@@ -373,40 +373,9 @@ body{background:var(--site-bg);color:var(--site-text);font-size:calc(1em * var(-
 @media(max-width:760px){.site-music-toggle{right:14px;bottom:14px;width:44px;height:44px}}
 
 
-/* 611 cyber glow — visible ambient halo around artwork, low-cost opacity animation */
-.work-card,.collection-work-card,.collection-gallery-item,.collection-card{
-  position:relative;
-  isolation:isolate;
-}
-.work-card::before,.collection-work-card::before,.collection-gallery-item::before,.collection-card::before{
-  content:"";
-  position:absolute;
-  z-index:0;
-  inset:-16% -10% 10%;
-  border-radius:48%;
-  background:radial-gradient(ellipse at 50% 48%,rgba(46,255,231,.42) 0%,rgba(88,110,255,.30) 34%,rgba(170,70,255,.20) 58%,transparent 78%);
-  filter:none;
-  opacity:.62;
-  pointer-events:none;
-  animation:artwork-breathe-611 7s ease-in-out infinite alternate;
-}
-.work-card>.work-image,.work-card>.video-frame,.work-card>.work-meta,
-.collection-work-card>.collection-media,.collection-work-card>.collection-work-info,
-.collection-gallery-item>.collection-media,.collection-gallery-item>figcaption,
-.collection-card>*{
-  position:relative;
-  z-index:1;
-}
-.work-card:hover::before,.collection-work-card:hover::before,.collection-gallery-item:hover::before,.collection-card:hover::before{
-  opacity:.92;
-}
-@keyframes artwork-breathe-611{
-  from{opacity:.42}
-  to{opacity:.78}
-}
-@media(prefers-reduced-motion:reduce){
-  .work-card::before,.collection-work-card::before,.collection-gallery-item::before,.collection-card::before{
-    animation:none;
-    opacity:.58;
-  }
-}
+/* 611 Ambient Light — soft color spill behind artwork, controlled from design.json */
+.work-card,.collection-work-card,.collection-gallery-item,.collection-card{position:relative;isolation:isolate}
+.work-card::before,.collection-work-card::before,.collection-gallery-item::before,.collection-card::before{content:"";position:absolute;z-index:0;inset:calc(var(--ambient-spread,70px) * -1);border-radius:50%;background:radial-gradient(ellipse at 50% 50%,var(--ambient-color,rgba(140,156,255,.3)) 0%,transparent var(--ambient-feather,70%));opacity:1;pointer-events:none;transition:opacity .35s ease}
+.work-card>.work-image,.work-card>.video-frame,.work-card>.work-meta,.collection-work-card>.collection-media,.collection-work-card>.collection-work-info,.collection-gallery-item>.collection-media,.collection-gallery-item>figcaption,.collection-card>*{position:relative;z-index:1}
+html.ambient-light-off .work-card::before,html.ambient-light-off .collection-work-card::before,html.ambient-light-off .collection-gallery-item::before,html.ambient-light-off .collection-card::before{display:none}
+@media(prefers-reduced-motion:reduce){.work-card::before,.collection-work-card::before,.collection-gallery-item::before,.collection-card::before{transition:none}}
