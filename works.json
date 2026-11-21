@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-21T19:34:31.070Z",
+  "updatedAt": "2026-11-21T19:36:15.259Z",
   "works": [
     {
       "id": "work-63df9826-c74e-4646-a926-071307fb431b",
@@ -1104,8 +1104,8 @@
           "fit": "contain",
           "x": 50,
           "y": 50,
-          "titleSize": 12,
-          "descriptionSize": 8,
+          "titleSize": 15,
+          "descriptionSize": 9,
           "meta": "below"
         }
       },
