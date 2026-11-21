@@ -191,11 +191,13 @@
         const article = node("article", "collection-work-card");
         article.append(visual(work.media, work.title));
         const info = node("div", "collection-work-info");
-        info.append(
+        const copy = node("div", "collection-work-copy");
+        copy.append(
           node("p", "work-detail-kicker", "FIG. " + String(index + 1).padStart(2, "0") + " / " + (work.typeLabel || work.category || "WORK")),
           node("h2", "", work.title),
           node("p", "collection-work-description", work.description || work.subtitle || "")
         );
+        info.append(copy);
         if (work.detailPage?.enabled) {
           const link = node("a", "work-detail-link", "VIEW FULL PROJECT ↗");
           link.href = "work.html?" + (work.detailPage.slug ? "slug=" + encodeURIComponent(work.detailPage.slug) : "id=" + encodeURIComponent(work.id));
