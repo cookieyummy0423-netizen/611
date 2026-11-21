@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-20T23:12:57.662Z",
+  "updatedAt": "2026-11-21T12:15:12.047Z",
   "works": [
     {
       "id": "work-63df9826-c74e-4646-a926-071307fb431b",
@@ -31,7 +31,7 @@
           "y": 50,
           "titleSize": 17,
           "descriptionSize": 10,
-          "meta": "overlay"
+          "meta": "below"
         },
         "mobile": {
           "ratio": "global",
