@@ -3,7 +3,7 @@
  const root=document.querySelector("#work-detail-root");
  const params=new URLSearchParams(location.search);
  const id=params.get("id"),slug=params.get("slug");
- const base="https://cookieyummy0423-netizen.github.io/611/";
+ const base="https://611-portfolio.pages.dev/";
  const categoryPages={illustration:"illustration.html",character:"character.html",scene:"scene.html",motion:"motion.html"};
  const node=(tag,cls,text)=>{const el=document.createElement(tag);if(cls)el.className=cls;if(text!==undefined)el.textContent=text;return el};
  const mediaUrl=path=>path?(path.startsWith("http")?path:base+path):"";
