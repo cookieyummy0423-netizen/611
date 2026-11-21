@@ -10,7 +10,7 @@
     return el;
   };
   const asset = path => String(path || "").startsWith("http") ? path : base + String(path || "");
-  const isVideo = path => /\\.mp4($|\\?)/i.test(String(path || ""));
+  const isVideo = path => /\.mp4($|\?)/i.test(String(path || ""));
   const visual = (path, alt = "") => {
     const wrap = node("div", "collection-media");
     if (isVideo(path)) {
