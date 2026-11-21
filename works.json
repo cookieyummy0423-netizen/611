@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-21T18:59:03.175Z",
+  "updatedAt": "2026-11-21T19:00:20.366Z",
   "works": [
     {
       "id": "work-63df9826-c74e-4646-a926-071307fb431b",
@@ -1479,47 +1479,6 @@
         }
       },
       "sortOrder": 35
-    },
-    {
-      "id": "work-03115fd7-84c4-4f71-a35c-58ab0cd5a1f7",
-      "title": "測試",
-      "category": "illustration",
-      "typeLabel": "測試",
-      "subtitle": "",
-      "mediaKind": "image",
-      "media": "images/1795287486549-古代靈異雙頭戰象.png",
-      "description": "",
-      "hidden": false,
-      "detailPage": {
-        "enabled": false,
-        "slug": "",
-        "concept": "",
-        "tools": "",
-        "year": null,
-        "gallery": [],
-        "process": []
-      },
-      "cardLayout": {
-        "desktop": {
-          "ratio": "global",
-          "fit": "contain",
-          "x": 50,
-          "y": 50,
-          "titleSize": 16,
-          "descriptionSize": 10,
-          "meta": "below"
-        },
-        "mobile": {
-          "ratio": "global",
-          "fit": "contain",
-          "x": 50,
-          "y": 50,
-          "titleSize": 15,
-          "descriptionSize": 9,
-          "meta": "below"
-        }
-      },
-      "sortOrder": 36
     }
   ],
   "collections": [
