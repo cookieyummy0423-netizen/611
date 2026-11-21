@@ -272,7 +272,7 @@ if(grid){
     .then(data=>{
       if(!Array.isArray(data.works))return;
       grid.replaceChildren();
-      data.works.filter(work=>work.hidden!==true).forEach(work=>grid.appendChild(makeLocalCard(work)));
+      data.works.filter(work=>work.hidden!==true).forEach((work,index)=>{const card=makeLocalCard(work);if(index===0){const firstImage=card.querySelector(".work-image img");if(firstImage){firstImage.loading="eager";firstImage.fetchPriority="high";}}grid.appendChild(card);});
       saveOrder();
       refreshCards();
     })
