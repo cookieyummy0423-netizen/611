@@ -15,5 +15,5 @@
  let hasDraft=false,lastLayout=null;
  window.addEventListener("message",e=>{if(e.origin!==ADMIN_ORIGIN)return;const d=e.data||{};if(d.type==="611-layout-preview"){hasDraft=true;apply(d.layout||{});setEditing(d.select!==false)}});
  window.addEventListener("611-layout-refresh",()=>{if(lastLayout)apply(lastLayout)});
- fetch("layout.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).then(d=>{if(d&&!hasDraft)apply(d)}).catch(()=>{}).finally(()=>window.__611MarkReady?.("layout"));
+ fetch("layout.json",{cache:"no-cache"}).then(r=>r.ok?r.json():null).then(d=>{if(d&&!hasDraft)apply(d)}).catch(()=>{}).finally(()=>window.__611MarkReady?.("layout"));
 })();
