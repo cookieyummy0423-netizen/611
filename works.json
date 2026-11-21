@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-21T16:00:11.681Z",
+  "updatedAt": "2026-11-21T16:01:11.529Z",
   "works": [
     {
       "id": "work-63df9826-c74e-4646-a926-071307fb431b",
@@ -1526,6 +1526,64 @@
         "work-73-63-65-6e-65-2d-8d77-627f-8f49-5408-30fb-5408"
       ],
       "sortOrder": 1
+    },
+    {
+      "id": "collection-ad49c9f5-f1a2-4492-8ecb-44cb10eb0f8f",
+      "title": "測試",
+      "slug": "visual-design",
+      "description": "測試",
+      "cover": "",
+      "featuredWorkId": "work-63df9826-c74e-4646-a926-071307fb431b",
+      "concept": "測試",
+      "tools": "CSP",
+      "year": 2026,
+      "gallery": [],
+      "process": [
+        "測試"
+      ],
+      "sections": [
+        {
+          "id": "section-5a608e51-a072-4f17-bd12-ec26faef4bac",
+          "type": "text",
+          "title": "Project Overview｜企劃概述",
+          "body": "文字說明",
+          "media": [
+            "images/1795276635422-插圖-20261010-2.png"
+          ],
+          "caption": ""
+        },
+        {
+          "id": "section-e4500581-3e05-4d09-a87d-cf75f0adff55",
+          "type": "quote",
+          "title": "Background & Research｜背景與研究",
+          "body": "引言測試",
+          "media": [],
+          "caption": ""
+        },
+        {
+          "id": "section-d94f06d6-dda9-452d-98b1-985d590fb728",
+          "type": "image",
+          "title": "Target Audience｜目標受眾",
+          "body": "視覺測試",
+          "media": [
+            "images/1795276633237-未命名.png"
+          ],
+          "caption": ""
+        },
+        {
+          "id": "section-5657bf5d-a358-45a4-9906-daf10f08b943",
+          "type": "gallery",
+          "title": "Concept Development｜概念發展",
+          "body": "圖片測試",
+          "media": [],
+          "caption": ""
+        }
+      ],
+      "workIds": [
+        "work-63df9826-c74e-4646-a926-071307fb431b",
+        "work-69-6c-6c-75-73-74-72-61-74-69-6f-6e-2d-9df2-5c3e-8aa0-53f8"
+      ],
+      "sortOrder": 2
     }
   ]
 }
