@@ -2,7 +2,7 @@
   const root = document.querySelector("#collection-detail-root");
   const params = new URLSearchParams(location.search);
   const slug = params.get("slug");
-  const base = "https://cookieyummy0423-netizen.github.io/611/";
+  const base = "https://611-portfolio.pages.dev/";
   const node = (tag, cls, txt) => {
     const el = document.createElement(tag);
     if (cls) el.className = cls;
