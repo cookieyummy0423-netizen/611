@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-21T12:40:25.644Z",
+  "updatedAt": "2026-11-21T12:41:32.531Z",
   "works": [
     {
       "id": "work-63df9826-c74e-4646-a926-071307fb431b",
@@ -1112,6 +1112,47 @@
       "sortOrder": 26
     },
     {
+      "id": "work-6d-6f-74-69-6f-6e-2d-52d5-614b-4f5c-54c1-ff1a-6211-611b-8df3-821e",
+      "title": "動態作品：我愛跳舞",
+      "category": "motion",
+      "typeLabel": "MOTION / GIF",
+      "subtitle": "GIF 動態影像",
+      "mediaKind": "image",
+      "media": "我愛跳舞.gif",
+      "description": "GIF 動態影像。",
+      "hidden": false,
+      "detailPage": {
+        "enabled": false,
+        "slug": "",
+        "concept": "",
+        "tools": "",
+        "year": null,
+        "gallery": [],
+        "process": []
+      },
+      "cardLayout": {
+        "desktop": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 16,
+          "descriptionSize": 10,
+          "meta": "below"
+        },
+        "mobile": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 15,
+          "descriptionSize": 9,
+          "meta": "below"
+        }
+      },
+      "sortOrder": 27
+    },
+    {
       "id": "work-6d-6f-74-69-6f-6e-2d-52d5-614b-4f5c-54c1-ff1a-48-6f-74-20-44-6f-67",
       "title": "動態作品：Hot Dog",
       "category": "motion",
@@ -1150,7 +1191,48 @@
           "meta": "below"
         }
       },
-      "sortOrder": 27
+      "sortOrder": 28
+    },
+    {
+      "id": "work-6d-6f-74-69-6f-6e-2d-52d5-614b-4f5c-54c1-ff1a-963f-79cb-9738",
+      "title": "動態作品：阿秋霸",
+      "category": "motion",
+      "typeLabel": "MOTION / GIF",
+      "subtitle": "GIF 動態影像",
+      "mediaKind": "image",
+      "media": "阿秋霸.gif",
+      "description": "GIF 動態影像。",
+      "hidden": false,
+      "detailPage": {
+        "enabled": false,
+        "slug": "",
+        "concept": "",
+        "tools": "",
+        "year": null,
+        "gallery": [],
+        "process": []
+      },
+      "cardLayout": {
+        "desktop": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 16,
+          "descriptionSize": 10,
+          "meta": "below"
+        },
+        "mobile": {
+          "ratio": "global",
+          "fit": "contain",
+          "x": 50,
+          "y": 50,
+          "titleSize": 15,
+          "descriptionSize": 9,
+          "meta": "below"
+        }
+      },
+      "sortOrder": 29
     },
     {
       "id": "work-6d-6f-74-69-6f-6e-2d-52d5-614b-4f5c-54c1-ff1a-5c0f-7cbe-9748",
@@ -1191,48 +1273,7 @@
           "meta": "below"
         }
       },
-      "sortOrder": 28
-    },
-    {
-      "id": "work-6d-6f-74-69-6f-6e-2d-52d5-614b-4f5c-54c1-ff1a-6211-611b-8df3-821e",
-      "title": "動態作品：我愛跳舞",
-      "category": "motion",
-      "typeLabel": "MOTION / GIF",
-      "subtitle": "GIF 動態影像",
-      "mediaKind": "image",
-      "media": "我愛跳舞.gif",
-      "description": "GIF 動態影像。",
-      "hidden": false,
-      "detailPage": {
-        "enabled": false,
-        "slug": "",
-        "concept": "",
-        "tools": "",
-        "year": null,
-        "gallery": [],
-        "process": []
-      },
-      "cardLayout": {
-        "desktop": {
-          "ratio": "global",
-          "fit": "contain",
-          "x": 50,
-          "y": 50,
-          "titleSize": 16,
-          "descriptionSize": 10,
-          "meta": "below"
-        },
-        "mobile": {
-          "ratio": "global",
-          "fit": "contain",
-          "x": 50,
-          "y": 50,
-          "titleSize": 15,
-          "descriptionSize": 9,
-          "meta": "below"
-        }
-      },
-      "sortOrder": 29
+      "sortOrder": 30
     },
     {
       "id": "work-6d-6f-74-69-6f-6e-2d-52d5-614b-4f5c-54c1-ff1a-6d41-6c34-7dda",
@@ -1273,7 +1314,7 @@
           "meta": "below"
         }
       },
-      "sortOrder": 30
+      "sortOrder": 31
     },
     {
       "id": "work-6d-6f-74-69-6f-6e-2d-52d5-614b-4f5c-54c1-ff1a-6ef4-6ef4-7b54",
@@ -1283,47 +1324,6 @@
       "subtitle": "GIF 動態影像",
       "mediaKind": "image",
       "media": "滴滴答.gif",
-      "description": "GIF 動態影像。",
-      "hidden": false,
-      "detailPage": {
-        "enabled": false,
-        "slug": "",
-        "concept": "",
-        "tools": "",
-        "year": null,
-        "gallery": [],
-        "process": []
-      },
-      "cardLayout": {
-        "desktop": {
-          "ratio": "global",
-          "fit": "contain",
-          "x": 50,
-          "y": 50,
-          "titleSize": 16,
-          "descriptionSize": 10,
-          "meta": "below"
-        },
-        "mobile": {
-          "ratio": "global",
-          "fit": "contain",
-          "x": 50,
-          "y": 50,
-          "titleSize": 15,
-          "descriptionSize": 9,
-          "meta": "below"
-        }
-      },
-      "sortOrder": 31
-    },
-    {
-      "id": "work-6d-6f-74-69-6f-6e-2d-52d5-614b-4f5c-54c1-ff1a-963f-79cb-9738",
-      "title": "動態作品：阿秋霸",
-      "category": "motion",
-      "typeLabel": "MOTION / GIF",
-      "subtitle": "GIF 動態影像",
-      "mediaKind": "image",
-      "media": "阿秋霸.gif",
       "description": "GIF 動態影像。",
       "hidden": false,
       "detailPage": {
