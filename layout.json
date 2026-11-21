@@ -1850,5 +1850,57 @@
       }
     }
   },
-  "updatedAt": "2026-11-21T12:40:20.538Z"
+  "motion": {
+    "headings": {
+      "enabled": true,
+      "effect": "stretch",
+      "duration": 1000,
+      "delay": 0,
+      "distance": 28,
+      "stretchX": 1.5,
+      "stretchY": 1.5,
+      "easing": "smooth"
+    },
+    "body": {
+      "enabled": true,
+      "effect": "fade-up",
+      "duration": 850,
+      "delay": 60,
+      "distance": 20,
+      "stretchX": 1,
+      "stretchY": 1,
+      "easing": "smooth"
+    },
+    "navigation": {
+      "enabled": true,
+      "effect": "fade",
+      "duration": 500,
+      "delay": 0,
+      "distance": 16,
+      "stretchX": 1,
+      "stretchY": 1,
+      "easing": "smooth"
+    },
+    "buttons": {
+      "enabled": true,
+      "effect": "zoom",
+      "duration": 500,
+      "delay": 0,
+      "distance": 12,
+      "stretchX": 1,
+      "stretchY": 1,
+      "easing": "smooth"
+    },
+    "quotes": {
+      "enabled": true,
+      "effect": "stretch",
+      "duration": 900,
+      "delay": 80,
+      "distance": 20,
+      "stretchX": 0.92,
+      "stretchY": 1.04,
+      "easing": "smooth"
+    }
+  },
+  "updatedAt": "2026-11-21T18:40:41.706Z"
 }
