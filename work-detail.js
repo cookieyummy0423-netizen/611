@@ -28,6 +28,6 @@
   fact("YEAR",detail.year?String(detail.year):"");fact("TOOLS",detail.tools||"");fact("CATEGORY",work.typeLabel||work.category);columns.append(facts);root.append(columns);
   if(Array.isArray(detail.gallery)&&detail.gallery.length){root.append(node("h2","","作品圖集"));const gallery=node("div","work-detail-gallery");detail.gallery.forEach((path,i)=>addMedia(gallery,path,work.title+" 圖集 "+(i+1)));root.append(gallery)}
   if(Array.isArray(detail.process)&&detail.process.length){root.append(node("h2","","製作過程"));const process=node("div","work-detail-process");detail.process.forEach((step,i)=>{const article=node("article");article.append(node("span","work-detail-process-index","STEP / "+String(i+1).padStart(2,"0")),node("p","",step));process.append(article)});root.append(process)}
-  const back=node("a","work-detail-back","← 返回作品分類");back.href=categoryPages[work.category]||"index.html#works";root.append(back);
+  const back=node("a","work-detail-back","← BACK TO CATEGORY");back.href=categoryPages[work.category]||"index.html#works";root.append(back);
  }).catch(e=>fail(e.message||"作品頁載入失敗。")).finally(()=>window.__611MarkReady?.("work"));
 })();
