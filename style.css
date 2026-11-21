@@ -379,3 +379,16 @@ body{background:var(--site-bg);color:var(--site-text);font-size:calc(1em * var(-
 .work-card>.work-image,.work-card>.video-frame,.work-card>.work-meta,.collection-work-card>.collection-media,.collection-work-card>.collection-work-info,.collection-gallery-item>.collection-media,.collection-gallery-item>figcaption,.collection-card>*,.collection-cover-section>.collection-media,.collection-cover-section>.work-detail-kicker{position:relative;z-index:1}
 html.ambient-light-off .work-card::before,html.ambient-light-off .collection-work-card::before,html.ambient-light-off .collection-gallery-item::before,html.ambient-light-off .collection-card::before,html.ambient-light-off .collection-cover-section::before{display:none}
 @media(prefers-reduced-motion:reduce){.work-card::before,.collection-work-card::before,.collection-gallery-item::before,.collection-card::before,.collection-cover-section::before{transition:none}}
+
+
+/* Flexible project proposal chapters */
+.project-section-editor{margin:22px 0;padding:16px;border:1px solid #444;background:#111}
+.project-section-editor>h4{margin:0 0 8px}
+.project-section-card{margin:14px 0;padding:14px;border:1px solid #444;background:#171717}
+.project-section-card .bar{align-items:center;margin-bottom:12px}
+.project-section-card .bar button{min-width:38px}
+.collection-custom-quote{max-width:980px;margin:clamp(48px,8vw,120px) auto;padding:clamp(24px,5vw,64px);border-left:1px solid var(--text-color,#aaa);background:rgba(255,255,255,.025)}
+.collection-project-quote{margin:24px 0 0;font-size:clamp(22px,3.2vw,42px);line-height:1.55;letter-spacing:-.025em;font-weight:500}
+.collection-quote-caption{margin-top:24px;font:10px/1.6 "DM Mono",monospace;opacity:.65}
+.collection-custom-quote .collection-section-heading{margin-bottom:12px}
+@media(max-width:700px){.project-section-editor{padding:12px}.project-section-card{padding:10px}.collection-custom-quote{margin:48px 0;padding:24px 18px}.collection-project-quote{font-size:22px}}
