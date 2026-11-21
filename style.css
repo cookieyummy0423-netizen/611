@@ -373,7 +373,7 @@ body{background:var(--site-bg);color:var(--site-text);font-size:calc(1em * var(-
 @media(max-width:760px){.site-music-toggle{right:14px;bottom:14px;width:44px;height:44px}}
 
 
-/* 611 cyber glow — subtle breathing light behind artwork, opacity-only animation */
+/* 611 cyber glow — visible ambient halo around artwork, low-cost opacity animation */
 .work-card,.collection-work-card,.collection-gallery-item,.collection-card{
   position:relative;
   isolation:isolate;
@@ -382,13 +382,13 @@ body{background:var(--site-bg);color:var(--site-text);font-size:calc(1em * var(-
   content:"";
   position:absolute;
   z-index:0;
-  inset:14% 8% 26%;
-  border-radius:50%;
-  background:radial-gradient(ellipse at 50% 50%,rgba(46,255,231,.20) 0%,rgba(88,110,255,.13) 38%,rgba(170,70,255,.08) 58%,transparent 76%);
+  inset:-16% -10% 10%;
+  border-radius:48%;
+  background:radial-gradient(ellipse at 50% 48%,rgba(46,255,231,.42) 0%,rgba(88,110,255,.30) 34%,rgba(170,70,255,.20) 58%,transparent 78%);
   filter:none;
-  opacity:.28;
+  opacity:.62;
   pointer-events:none;
-  animation:artwork-breathe-611 8s ease-in-out infinite alternate;
+  animation:artwork-breathe-611 7s ease-in-out infinite alternate;
 }
 .work-card>.work-image,.work-card>.video-frame,.work-card>.work-meta,
 .collection-work-card>.collection-media,.collection-work-card>.collection-work-info,
@@ -398,15 +398,15 @@ body{background:var(--site-bg);color:var(--site-text);font-size:calc(1em * var(-
   z-index:1;
 }
 .work-card:hover::before,.collection-work-card:hover::before,.collection-gallery-item:hover::before,.collection-card:hover::before{
-  opacity:.48;
+  opacity:.92;
 }
 @keyframes artwork-breathe-611{
-  from{opacity:.18}
-  to{opacity:.38}
+  from{opacity:.42}
+  to{opacity:.78}
 }
 @media(prefers-reduced-motion:reduce){
   .work-card::before,.collection-work-card::before,.collection-gallery-item::before,.collection-card::before{
     animation:none;
-    opacity:.24;
+    opacity:.58;
   }
 }
