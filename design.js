@@ -4,6 +4,9 @@
   const r=await fetch("design.json",{cache:"no-cache"});if(!r.ok)return;
   const d=await r.json(),root=document.documentElement,base=d.responsive||{},desktop=base.desktop||d,mobile=base.mobile||{};
   const set=(k,v)=>root.style.setProperty(k,String(v));
+  const ambient=d.ambient||{},hex=String(ambient.color||"#8c9cff"),rgb=hex.match(/^#([0-9a-f]{6})$/i);
+  const color=rgb?"rgba("+parseInt(rgb[1].slice(0,2),16)+","+parseInt(rgb[1].slice(2,4),16)+","+parseInt(rgb[1].slice(4,6),16)+","+Math.max(0,Math.min(.8,Number(ambient.opacity??.3)))+")":"rgba(140,156,255,.3)";
+  set("--ambient-color",color);set("--ambient-spread",Math.max(0,Math.min(180,Number(ambient.spread??70)))+"px");set("--ambient-feather",Math.max(20,Math.min(100,Number(ambient.feather??70)))+"%");root.classList.toggle("ambient-light-off",ambient.enabled===false);
   set("--site-bg",d.background||"#080808");set("--site-text",d.text||"#f1f0ec");set("--site-accent",d.accent||"#ffffff");
   set("--site-columns",Math.max(1,Math.min(4,Number(desktop.columns??d.columns)||4)));
   set("--site-mobile-columns",Math.max(1,Math.min(2,Number(mobile.columns??d.mobileColumns)||2)));
