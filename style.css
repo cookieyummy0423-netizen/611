@@ -385,7 +385,7 @@ body{background:var(--site-bg);color:var(--site-text);font-size:calc(1em * var(-
   inset:14% 8% 26%;
   border-radius:50%;
   background:radial-gradient(ellipse at 50% 50%,rgba(46,255,231,.20) 0%,rgba(88,110,255,.13) 38%,rgba(170,70,255,.08) 58%,transparent 76%);
-  filter:blur(24px);
+  filter:none;
   opacity:.28;
   pointer-events:none;
   animation:artwork-breathe-611 8s ease-in-out infinite alternate;
