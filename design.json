@@ -62,9 +62,9 @@
   },
   "ambient": {
     "enabled": true,
-    "color": "#e3e5f2",
-    "opacity": 0.3,
-    "spread": 44,
+    "color": "#ecf4f3",
+    "opacity": 0.21,
+    "spread": 70,
     "feather": 70
   }
 }
