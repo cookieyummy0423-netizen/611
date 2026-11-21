@@ -1853,7 +1853,7 @@
   "motion": {
     "headings": {
       "enabled": true,
-      "effect": "stretch",
+      "effect": "slide-left",
       "duration": 1000,
       "delay": 0,
       "distance": 28,
@@ -1863,12 +1863,12 @@
     },
     "body": {
       "enabled": true,
-      "effect": "fade-up",
+      "effect": "stretch",
       "duration": 850,
       "delay": 60,
       "distance": 20,
-      "stretchX": 1,
-      "stretchY": 1,
+      "stretchX": 1.5,
+      "stretchY": 1.5,
       "easing": "smooth"
     },
     "navigation": {
@@ -1902,5 +1902,5 @@
       "easing": "smooth"
     }
   },
-  "updatedAt": "2026-11-21T18:40:41.706Z"
+  "updatedAt": "2026-11-21T18:41:58.950Z"
 }
