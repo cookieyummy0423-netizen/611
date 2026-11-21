@@ -1,7 +1,7 @@
 /* 611 visual design settings — desktop and mobile controls */
 (async()=>{
  try{
-  const r=await fetch("design.json",{cache:"no-store"});if(!r.ok)return;
+  const r=await fetch("design.json",{cache:"no-cache"});if(!r.ok)return;
   const d=await r.json(),root=document.documentElement,base=d.responsive||{},desktop=base.desktop||d,mobile=base.mobile||{};
   const set=(k,v)=>root.style.setProperty(k,String(v));
   set("--site-bg",d.background||"#080808");set("--site-text",d.text||"#f1f0ec");set("--site-accent",d.accent||"#ffffff");
