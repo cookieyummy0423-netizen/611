@@ -392,3 +392,18 @@ html.ambient-light-off .work-card::before,html.ambient-light-off .collection-wor
 .collection-quote-caption{margin-top:24px;font:10px/1.6 "DM Mono",monospace;opacity:.65}
 .collection-custom-quote .collection-section-heading{margin-bottom:12px}
 @media(max-width:700px){.project-section-editor{padding:12px}.project-section-card{padding:10px}.collection-custom-quote{margin:48px 0;padding:24px 18px}.collection-project-quote{font-size:22px}}
+
+
+/* Mobile card metadata must fully override desktop overlay positioning. */
+@media(max-width:760px){
+ .work-card[data-card-meta-mobile="below"] .work-meta{position:static;inset:auto;z-index:auto;display:flex;justify-content:space-between;gap:8px;padding:17px 0 0;margin:0;background:none;color:var(--site-text);}
+ .work-card[data-card-meta-mobile="below"] .work-meta p,.work-card[data-card-meta-mobile="below"] .work-meta div>span,.work-card[data-card-meta-mobile="below"] .work-meta .work-number{color:#888;}
+ .work-card[data-card-meta-mobile="below"] .work-meta h3{color:var(--site-text);}
+}
+
+/* Reduce off-screen rendering work on phones. */
+@media(max-width:760px){
+ .grain{opacity:0;background-image:none;}
+ .work-card,.collection-card{content-visibility:auto;contain-intrinsic-size:auto 380px;}
+ .collection-concept,.collection-process,.collection-gallery-section,.collection-selected-section{content-visibility:auto;contain-intrinsic-size:auto 520px;}
+}
