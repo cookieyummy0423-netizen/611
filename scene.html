@@ -1,7 +1,33 @@
 <!doctype html>
 <html lang="zh-Hant">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<script>
+/* 611 Site Boot System — reveal only after this page's published settings are applied. */
+(()=> {
+ const file=(location.pathname.split("/").pop()||"index.html").toLowerCase();
+ const groups={
+  "index.html":["design","layout","homepage","works"],
+  "illustration.html":["design","layout","homepage","works"],
+  "character.html":["design","layout","homepage","works"],
+  "scene.html":["design","layout","homepage","works"],
+  "motion.html":["design","layout","homepage","works"],
+  "about.html":["design","layout","about"],
+  "contact.html":["design","layout"],
+  "collections.html":["design","layout","collections"],
+  "collection.html":["design","layout","collection"],
+  "work.html":["design","layout","work"]
+ };
+ const pending=new Set(groups[file]||["design","layout"]);
+ let released=false;
+ const release=()=>{if(released||pending.size)return;released=true;document.documentElement.classList.remove("site-booting");};
+ document.documentElement.classList.add("site-booting");
+ window.__611MarkReady=key=>{pending.delete(key);release();};
+ window.__611BootPending=()=>Array.from(pending);
+ window.setTimeout(()=>{pending.clear();release();},5000);
+ if(!pending.size)release();
+})();
+</script><meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#080808">
 <meta name="description" content="611 — Visual artist & digital media designer. Illustration, graphic experiments and visual stories.">
 <title>場景設計｜611 Visual Archive</title>
@@ -9,10 +35,6 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
-<script>
-document.documentElement.classList.add("site-booting");
-(()=>{const file=location.pathname.split("/").pop()||"index.html";const needsHome=/^(index|illustration|character|scene|motion)\.html$/i.test(file);const pending=new Set(["design","works",...(needsHome?["homepage"]:[])]);let released=false;const release=()=>{if(released||pending.size)return;released=true;document.documentElement.classList.remove("site-booting")};window.__611MarkReady=key=>{pending.delete(key);release()};window.setTimeout(()=>{pending.clear();release()},3500)})();
-</script>
 <meta property="og:type" content="website"><meta property="og:title" content="場景設計｜611 Visual Archive"><meta property="og:description" content="611 場景設計作品集，收錄環境概念、空間氛圍與場景視覺創作。"><meta property="og:site_name" content="611 Visual Archive"><link rel="canonical" href="https://611-portfolio.pages.dev/scene.html"></head>
 <body data-page="scene">
 <div class="grain" aria-hidden="true"></div>
