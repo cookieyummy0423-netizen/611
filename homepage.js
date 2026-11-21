@@ -25,5 +25,5 @@
  };
  let wasMobile=window.matchMedia("(max-width: 760px)").matches;
  window.addEventListener("resize",()=>{const now=window.matchMedia("(max-width: 760px)").matches;if(now!==wasMobile){wasMobile=now;if(activeData)apply(activeData)}});
- fetch("homepage.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).then(d=>{if(d)apply(d)}).catch(e=>console.warn("611 homepage settings:",e)).finally(()=>window.__611MarkReady?.("homepage"));
+ fetch("homepage.json",{cache:"no-cache"}).then(r=>r.ok?r.json():null).then(d=>{if(d)apply(d)}).catch(e=>console.warn("611 homepage settings:",e)).finally(()=>window.__611MarkReady?.("homepage"));
 })();
