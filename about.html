@@ -3,6 +3,9 @@
 <head><title>關於 611｜Visual Archive</title>
 <meta charset="utf-8">
 <script>
+(()=>{const p=new Set(["design","layout","about"]);let done=false;const release=()=>{if(!done&&!p.size){done=true;document.documentElement.classList.remove("site-booting")}};document.documentElement.classList.add("site-booting");window.__611MarkReady=k=>{p.delete(k);release()};window.setTimeout(()=>{p.clear();release()},5000)})();
+</script>
+<script>
 /* 611 Site Boot System — reveal only after this page's published settings are applied. */
 (()=> {
  const file=(location.pathname.split("/").pop()||"index.html").toLowerCase();
