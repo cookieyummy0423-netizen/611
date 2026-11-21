@@ -14,5 +14,5 @@
  };
  let draft=false;
  window.addEventListener("message",e=>{if(e.origin!==ADMIN_ORIGIN||e.data?.type!=="611-about-preview")return;draft=true;render(e.data.about)});
- fetch("about.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).then(d=>{if(d&&!draft)render(d)}).catch(e=>console.warn("611 about settings:",e));
+ fetch("about.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).then(d=>{if(d&&!draft)render(d)}).catch(e=>console.warn("611 about settings:",e)).finally(()=>window.__611MarkReady?.("about"));
 })();
