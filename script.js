@@ -267,7 +267,7 @@ document.addEventListener("keydown",event=>{if(event.key==="Escape")closeWorkMod
 
 /* Official portfolio content: load the published GitHub manifest. */
 if(grid){
-  fetch("works.json",{cache:"no-store"})
+  fetch("works.json",{cache:"no-cache"})
     .then(response=>{if(!response.ok)throw new Error("作品資料讀取失敗");return response.json();})
     .then(data=>{
       if(!Array.isArray(data.works))return;
