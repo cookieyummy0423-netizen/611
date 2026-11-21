@@ -1863,7 +1863,7 @@
     },
     "body": {
       "enabled": true,
-      "effect": "stretch",
+      "effect": "fade-up",
       "duration": 850,
       "delay": 60,
       "distance": 20,
@@ -1902,5 +1902,5 @@
       "easing": "smooth"
     }
   },
-  "updatedAt": "2026-11-21T18:41:58.950Z"
+  "updatedAt": "2026-11-21T18:44:59.710Z"
 }
