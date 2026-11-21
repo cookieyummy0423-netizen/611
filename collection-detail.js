@@ -212,5 +212,6 @@
       root.append(back);
       window.dispatchEvent(new Event("611-layout-refresh"));
     })
-    .catch(error => root.replaceChildren(node("p", "work-detail-empty", error.message)));
+    .catch(error => root.replaceChildren(node("p", "work-detail-empty", error.message)))
+    .finally(() => window.__611MarkReady?.("collection"));
 })();
