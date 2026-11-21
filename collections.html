@@ -1,6 +1,9 @@
 <!doctype html>
 <html lang="zh-Hant"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta charset="utf-8">
+<script>
+(()=>{const p=new Set(["design","layout","collections"]);let done=false;const release=()=>{if(!done&&!p.size){done=true;document.documentElement.classList.remove("site-booting")}};document.documentElement.classList.add("site-booting");window.__611MarkReady=k=>{p.delete(k);release()};window.setTimeout(()=>{p.clear();release()},5000)})();
+</script><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#080808">
 <meta name="description" content="611 主題作品集，依創作主題整理插畫、角色設計、場景設計與動態影像。">
 <meta property="og:type" content="website"><meta property="og:title" content="主題作品集｜611"><meta property="og:description" content="依創作主題整理的視覺作品。"><meta property="og:site_name" content="611 Visual Archive">
@@ -19,4 +22,4 @@
   <div id="collection-list-root" class="collection-card-grid"><p>正在讀取主題作品…</p></div>
 </main>
 <footer class="footer mono"><a class="logo" href="index.html#top">611®</a><span>VISUAL ARCHIVE / 2026</span><a href="index.html#top">BACK TO TOP ↑</a></footer>
-<script src="design.js"></script><script src="collections.js"></script><script src="music.js"></script></body></html>
+<script src="design.js"></script><script src="layout.js"></script><script src="collections.js"></script><script src="music.js"></script></body></html>
