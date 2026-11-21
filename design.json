@@ -59,5 +59,12 @@
       "contactTitle": 78,
       "footer": 9
     }
+  },
+  "ambient": {
+    "enabled": true,
+    "color": "#8c9cff",
+    "opacity": 0.3,
+    "spread": 70,
+    "feather": 70
   }
 }
