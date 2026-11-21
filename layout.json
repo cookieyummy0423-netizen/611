@@ -1884,8 +1884,8 @@
     "buttons": {
       "enabled": true,
       "effect": "zoom",
-      "duration": 1000,
-      "delay": 100,
+      "duration": 500,
+      "delay": 0,
       "distance": 12,
       "stretchX": 1,
       "stretchY": 1,
@@ -1902,5 +1902,5 @@
       "easing": "smooth"
     }
   },
-  "updatedAt": "2026-11-21T18:57:25.788Z"
+  "updatedAt": "2026-11-21T19:01:05.762Z"
 }
