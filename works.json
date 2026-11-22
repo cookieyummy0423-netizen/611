@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-22T08:25:41.750Z",
+  "updatedAt": "2026-11-22T08:34:15.687Z",
   "works": [
     {
       "id": "work-63df9826-c74e-4646-a926-071307fb431b",
@@ -1132,7 +1132,7 @@
       },
       "cardLayout": {
         "desktop": {
-          "ratio": "global",
+          "ratio": "16 / 9",
           "fit": "contain",
           "x": 50,
           "y": 50,
@@ -1173,7 +1173,7 @@
       },
       "cardLayout": {
         "desktop": {
-          "ratio": "global",
+          "ratio": "16 / 9",
           "fit": "contain",
           "x": 50,
           "y": 50,
@@ -1186,7 +1186,7 @@
           "fit": "contain",
           "x": 50,
           "y": 50,
-          "titleSize": 15,
+          "titleSize": "global",
           "descriptionSize": 9,
           "meta": "below"
         }
@@ -1214,7 +1214,7 @@
       },
       "cardLayout": {
         "desktop": {
-          "ratio": "global",
+          "ratio": "16 / 9",
           "fit": "contain",
           "x": 50,
           "y": 50,
@@ -1227,7 +1227,7 @@
           "fit": "contain",
           "x": 50,
           "y": 50,
-          "titleSize": 15,
+          "titleSize": "global",
           "descriptionSize": 9,
           "meta": "below"
         }
@@ -1255,7 +1255,7 @@
       },
       "cardLayout": {
         "desktop": {
-          "ratio": "global",
+          "ratio": "16 / 9",
           "fit": "contain",
           "x": 50,
           "y": 50,
@@ -1268,7 +1268,7 @@
           "fit": "contain",
           "x": 50,
           "y": 50,
-          "titleSize": 15,
+          "titleSize": "global",
           "descriptionSize": 9,
           "meta": "below"
         }
@@ -1296,7 +1296,7 @@
       },
       "cardLayout": {
         "desktop": {
-          "ratio": "global",
+          "ratio": "16 / 9",
           "fit": "contain",
           "x": 50,
           "y": 50,
@@ -1309,7 +1309,7 @@
           "fit": "contain",
           "x": 50,
           "y": 50,
-          "titleSize": 15,
+          "titleSize": "global",
           "descriptionSize": 9,
           "meta": "below"
         }
@@ -1337,7 +1337,7 @@
       },
       "cardLayout": {
         "desktop": {
-          "ratio": "global",
+          "ratio": "16 / 9",
           "fit": "contain",
           "x": 50,
           "y": 50,
@@ -1350,7 +1350,7 @@
           "fit": "contain",
           "x": 50,
           "y": 50,
-          "titleSize": 15,
+          "titleSize": "global",
           "descriptionSize": 9,
           "meta": "below"
         }
@@ -1359,13 +1359,13 @@
     },
     {
       "id": "work-6d-6f-74-69-6f-6e-2d-52d5-614b-5f71-50cf-20-30-31",
-      "title": "動態影像 01",
+      "title": "帥哥微笑",
       "category": "motion",
       "typeLabel": "MOTION / VIDEO",
       "subtitle": "動態影像・影片",
       "mediaKind": "video",
       "media": "images/lv_0_20260423123754.mp4",
-      "description": "動態影像作品：動態影像 01。可直接在作品卡片中播放影片。",
+      "description": "動態影像作品",
       "hidden": false,
       "detailPage": {
         "enabled": false,
@@ -1378,7 +1378,7 @@
       },
       "cardLayout": {
         "desktop": {
-          "ratio": "global",
+          "ratio": "16 / 9",
           "fit": "contain",
           "x": 50,
           "y": 50,
@@ -1400,13 +1400,13 @@
     },
     {
       "id": "work-6d-6f-74-69-6f-6e-2d-52d5-614b-5f71-50cf-20-30-32",
-      "title": "動態影像 02",
+      "title": "動態練習",
       "category": "motion",
       "typeLabel": "MOTION / VIDEO",
       "subtitle": "動態影像・影片",
       "mediaKind": "video",
       "media": "images/插圖243.mp4",
-      "description": "動態影像作品：動態影像 02。可直接在作品卡片中播放影片。",
+      "description": "動態影像作品",
       "hidden": false,
       "detailPage": {
         "enabled": false,
@@ -1419,7 +1419,7 @@
       },
       "cardLayout": {
         "desktop": {
-          "ratio": "global",
+          "ratio": "16 / 9",
           "fit": "contain",
           "x": 50,
           "y": 50,
@@ -1447,7 +1447,7 @@
       "subtitle": "動態影像・影片",
       "mediaKind": "video",
       "media": "人形の夜.mp4",
-      "description": "動態影像作品：人形の夜｜根目錄。可直接在作品卡片中播放影片。",
+      "description": "文字PV練習",
       "hidden": false,
       "detailPage": {
         "enabled": false,
@@ -1460,7 +1460,7 @@
       },
       "cardLayout": {
         "desktop": {
-          "ratio": "global",
+          "ratio": "16 / 9",
           "fit": "contain",
           "x": 50,
           "y": 50,
@@ -1473,7 +1473,7 @@
           "fit": "contain",
           "x": 50,
           "y": 50,
-          "titleSize": 15,
+          "titleSize": "global",
           "descriptionSize": 9,
           "meta": "below"
         }
