@@ -5,7 +5,13 @@
   const d=await r.json(),root=document.documentElement,base=d.responsive||{},desktop=base.desktop||d,mobile=base.mobile||{};
   const set=(k,v)=>root.style.setProperty(k,String(v));
   const fontFamily=d.fontFamily==="serif"?"serif":"sans";
-  if(fontFamily==="serif"){set("--sans",'"Cormorant Garamond","Noto Serif TC","Songti TC",serif');if(!document.querySelector('link[data-611-serif-font]')){const link=document.createElement("link");link.rel="stylesheet";link.href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Noto+Serif+TC:wght@400;500;600;700;900&display=swap";link.dataset.611SerifFont="1";document.head.append(link)}}else{set("--sans",'"Manrope","Noto Sans TC",sans-serif')}
+  root.dataset.611FontFamily=fontFamily;
+  if(fontFamily==="serif"){
+   set("--sans",'"Cormorant Garamond","Noto Serif TC","Songti TC",serif');
+   if(!document.querySelector('link[data-611-serif-font]')){const link=document.createElement("link");link.rel="stylesheet";link.href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Noto+Serif+TC:wght@400;500;600;700;900&display=swap";link.dataset.611SerifFont="1";document.head.append(link)}
+  }else{
+   set("--sans",'"Manrope","Noto Sans TC",sans-serif');
+  }
   const ambient=d.ambient||{},hex=String(ambient.color||"#8c9cff"),rgb=hex.match(/^#([0-9a-f]{6})$/i);
   const color=rgb?"rgba("+parseInt(rgb[1].slice(0,2),16)+","+parseInt(rgb[1].slice(2,4),16)+","+parseInt(rgb[1].slice(4,6),16)+","+Math.max(0,Math.min(.8,Number(ambient.opacity??.3)))+")":"rgba(140,156,255,.3)";
   set("--ambient-color",color);set("--ambient-spread",Math.max(0,Math.min(180,Number(ambient.spread??70)))+"px");set("--ambient-feather",Math.max(20,Math.min(100,Number(ambient.feather??70)))+"%");root.classList.toggle("ambient-light-off",ambient.enabled===false);
