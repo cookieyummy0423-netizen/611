@@ -24,7 +24,7 @@
  document.documentElement.classList.add("site-booting");
  window.__611MarkReady=key=>{pending.delete(key);release();};
  window.__611BootPending=()=>Array.from(pending);
- window.setTimeout(()=>{pending.clear();release();},2500);
+ window.setTimeout(()=>{pending.clear();release();},1500);
  if(!pending.size)release();
 })();
 </script><meta name="viewport" content="width=device-width, initial-scale=1">
