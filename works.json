@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-22T07:37:52.840Z",
+  "updatedAt": "2026-11-22T08:20:27.167Z",
   "works": [
     {
       "id": "work-63df9826-c74e-4646-a926-071307fb431b",
@@ -66,8 +66,8 @@
       },
       "cardLayout": {
         "desktop": {
-          "ratio": "global",
-          "fit": "contain",
+          "ratio": "16 / 9",
+          "fit": "cover",
           "x": 50,
           "y": 50,
           "titleSize": 16,
@@ -107,8 +107,8 @@
       },
       "cardLayout": {
         "desktop": {
-          "ratio": "global",
-          "fit": "contain",
+          "ratio": "16 / 9",
+          "fit": "cover",
           "x": 50,
           "y": 50,
           "titleSize": 16,
@@ -148,8 +148,8 @@
       },
       "cardLayout": {
         "desktop": {
-          "ratio": "global",
-          "fit": "contain",
+          "ratio": "16 / 9",
+          "fit": "cover",
           "x": 50,
           "y": 50,
           "titleSize": 16,
@@ -230,8 +230,8 @@
       },
       "cardLayout": {
         "desktop": {
-          "ratio": "global",
-          "fit": "contain",
+          "ratio": "16 / 9",
+          "fit": "cover",
           "x": 50,
           "y": 50,
           "titleSize": 16,
@@ -271,7 +271,7 @@
       },
       "cardLayout": {
         "desktop": {
-          "ratio": "global",
+          "ratio": "16 / 9",
           "fit": "contain",
           "x": 50,
           "y": 50,
@@ -312,7 +312,7 @@
       },
       "cardLayout": {
         "desktop": {
-          "ratio": "global",
+          "ratio": "16 / 9",
           "fit": "contain",
           "x": 50,
           "y": 50,
