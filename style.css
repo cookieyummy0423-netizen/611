@@ -224,7 +224,12 @@ body{background:var(--site-bg);color:var(--site-text);font-size:calc(1em * var(-
 }
 
 /* Keep archive pages hidden until published content and settings are ready. */
-.site-booting body{visibility:hidden}
+/* Keep the page visible while settings and content load; avoid a blank-screen boot delay. */
+.site-booting body{visibility:visible}
+
+/* Apply the selected global serif family to all normal text, while preserving mono labels. */
+html[data-611-font-family="serif"] body,
+html[data-611-font-family="serif"] body :not(.mono):not(.mono *){font-family:"Cormorant Garamond","Noto Serif TC","Songti TC",serif!important}
 
 /* Per-work card visual controls: responsive crop, image ratio and typography. */
 .work-card{position:relative;min-width:0}
