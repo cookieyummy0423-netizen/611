@@ -192,10 +192,10 @@
         article.append(visual(work.media, work.title));
         const info = node("div", "collection-work-info");
         const cardLayout = work.cardLayout || {};
-        const desktopTitleSize = Math.max(8, Math.min(48, Number(cardLayout.desktop?.titleSize) || 16));
-        const mobileTitleSize = Math.max(8, Math.min(48, Number(cardLayout.mobile?.titleSize) || 15));
-        info.style.setProperty("--collection-work-title-desktop", desktopTitleSize + "px");
-        info.style.setProperty("--collection-work-title-mobile", mobileTitleSize + "px");
+        const desktopTitleSize = cardLayout.desktop?.titleSize === "global" ? "var(--font-work-title,16px)" : Math.max(8, Math.min(48, Number(cardLayout.desktop?.titleSize) || 16)) + "px";
+        const mobileTitleSize = cardLayout.mobile?.titleSize === "global" ? "var(--font-mobile-work-title,15px)" : Math.max(8, Math.min(48, Number(cardLayout.mobile?.titleSize) || 15)) + "px";
+        info.style.setProperty("--collection-work-title-desktop", desktopTitleSize);
+        info.style.setProperty("--collection-work-title-mobile", mobileTitleSize);
         const copy = node("div", "collection-work-copy");
         copy.append(
           node("p", "work-detail-kicker", "FIG. " + String(index + 1).padStart(2, "0") + " / " + (work.typeLabel || work.category || "WORK")),
