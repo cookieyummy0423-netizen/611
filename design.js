@@ -8,7 +8,7 @@
   root.dataset["611FontFamily"]=fontFamily;
   if(fontFamily==="serif"){
    set("--sans",'"Cormorant Garamond","Noto Serif TC","Songti TC",serif');
-   if(!document.querySelector('link[data-611-serif-font]')){const link=document.createElement("link");link.rel="stylesheet";link.href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Noto+Serif+TC:wght@400;500;600;700;900&display=swap";link.dataset.611SerifFont="1";document.head.append(link)}
+   if(!document.querySelector('link[data-611-serif-font]')){const link=document.createElement("link");link.rel="stylesheet";link.href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Noto+Serif+TC:wght@400;500;600;700;900&display=swap";link.dataset["611SerifFont"]="1";document.head.append(link)}
   }else{
    set("--sans",'"Manrope","Noto Sans TC",sans-serif');
   }
@@ -50,9 +50,9 @@
  };
  const easing={smooth:"cubic-bezier(.22,1,.36,1)",ease:"ease", "ease-in":"ease-in","ease-out":"ease-out","ease-in-out":"ease-in-out",linear:"linear"};
  const style=document.createElement("style");
- style.textContent=".motion-611-item{will-change:auto}.motion-611-preview{animation:611MotionPreview 1.1s cubic-bezier(.22,1,.36,1)}@keyframes 611MotionPreview{0%{opacity:.25;transform:translateY(20px) scale(.96)}65%{opacity:1;transform:translateY(-3px) scale(1.01)}100%{opacity:1;transform:none}}@media(prefers-reduced-motion:reduce){.motion-611-item{transition:none!important;transform:none!important;opacity:1!important;will-change:auto!important}}";
+ style.textContent=".motion-611-item{will-change:auto}.motion-611-preview{animation:611MotionPreview 1.1s cubic-bezier(.22,1,.36,1)}@keyframes 611MotionPreview{0%{opacity:.25;transform:translateY(20px) scale(.96)}65%{opacity:1;transform:translateY(-3px) scale(1.01)}100%{opacity:1;transform:none}}";
  document.head.append(style);
- const reduced=window.matchMedia?.("(prefers-reduced-motion: reduce)").matches;
+ const reduced=false;
  let config=defaults,observer=null;
  const excluded=".work-card,.collection-card,.collection-work-card,.work-grid,.collection-card-grid,.collection-selected-section,.collection-gallery-section,.collection-media,.work-image,.work-detail-media,img,video,audio,canvas,svg";
  function transform(d,enter){const effect=d.effect||"fade-up",distance=Math.max(0,Number(d.distance)||0),sx=Number(d.stretchX)||1,sy=Number(d.stretchY)||1;if(enter)return "translate3d(0,0,0) scale(1,1)";if(effect==="fade-up")return "translate3d(0,"+distance+"px,0) scale(1,1)";if(effect==="fade-down")return "translate3d(0,-"+distance+"px,0) scale(1,1)";if(effect==="slide-left")return "translate3d("+distance+"px,0,0) scale(1,1)";if(effect==="slide-right")return "translate3d(-"+distance+"px,0,0) scale(1,1)";if(effect==="zoom")return "translate3d(0,0,0) scale(.88,.88)";if(effect==="stretch")return "translate3d(0,"+Math.round(distance*.25)+"px,0) scale("+sx+","+sy+")";return "translate3d(0,0,0) scale(1,1)"}
