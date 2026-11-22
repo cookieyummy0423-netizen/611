@@ -5,7 +5,7 @@
   const d=await r.json(),root=document.documentElement,base=d.responsive||{},desktop=base.desktop||d,mobile=base.mobile||{};
   const set=(k,v)=>root.style.setProperty(k,String(v));
   const fontFamily=d.fontFamily==="serif"?"serif":"sans";
-  root.dataset.611FontFamily=fontFamily;
+  root.dataset["611FontFamily"]=fontFamily;
   if(fontFamily==="serif"){
    set("--sans",'"Cormorant Garamond","Noto Serif TC","Songti TC",serif');
    if(!document.querySelector('link[data-611-serif-font]')){const link=document.createElement("link");link.rel="stylesheet";link.href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Noto+Serif+TC:wght@400;500;600;700;900&display=swap";link.dataset.611SerifFont="1";document.head.append(link)}
