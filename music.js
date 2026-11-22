@@ -22,3 +22,6 @@
  install();
  if(state.playing){audio.addEventListener("canplay",()=>{if(state.playing&&audio.paused){audio.currentTime=state.time||0;audio.play().then(update).catch(()=>{button.title="點擊音樂圖示繼續播放"})}},{once:true});}
 })();
+
+/* 611 private traffic counter: one local visitor ID, page views only. */
+(()=>{try{if(location.hostname!=="611-portfolio.pages.dev"||new URLSearchParams(location.search).has("layout-editor")||new URLSearchParams(location.search).has("about-editor"))return;let visitor=localStorage.getItem("611-analytics-visitor");if(!visitor){visitor=crypto.randomUUID();localStorage.setItem("611-analytics-visitor",visitor)}const payload=JSON.stringify({visitor,path:location.pathname});const endpoint="https://611-portfolio-admin.cookieyummy0423.workers.dev/track";if(navigator.sendBeacon)navigator.sendBeacon(endpoint,new Blob([payload],{type:"text/plain;charset=UTF-8"}));else fetch(endpoint,{method:"POST",mode:"cors",keepalive:true,headers:{"Content-Type":"text/plain;charset=UTF-8"},body:payload}).catch(()=>{})}catch(e){}})();
