@@ -225,7 +225,7 @@ body{background:var(--site-bg);color:var(--site-text);font-size:calc(1em * var(-
 
 /* Keep archive pages hidden until published content and settings are ready. */
 /* Keep the page visible while settings and content load; avoid a blank-screen boot delay. */
-.site-booting body{visibility:visible}
+.site-booting body{visibility:hidden}
 
 /* Apply the selected global serif family to all normal text, while preserving mono labels. */
 html[data-611-font-family="serif"] body,
