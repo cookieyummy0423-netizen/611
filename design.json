@@ -1,4 +1,5 @@
 {
+  "fontFamily": "serif",
   "columns": 4,
   "mobileColumns": 2,
   "gap": 10,
