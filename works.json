@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-23T06:45:37.609Z",
+  "updatedAt": "2026-11-23T06:52:49.877Z",
   "works": [
     {
       "id": "work-63df9826-c74e-4646-a926-071307fb431b",
@@ -523,7 +523,7 @@
           "y": 0,
           "titleSize": 16,
           "descriptionSize": 10,
-          "meta": "below"
+          "meta": "overlay"
         },
         "mobile": {
           "ratio": "global",
@@ -564,7 +564,7 @@
           "y": 2,
           "titleSize": 16,
           "descriptionSize": 10,
-          "meta": "below"
+          "meta": "overlay"
         },
         "mobile": {
           "ratio": "global",
@@ -605,7 +605,7 @@
           "y": 39,
           "titleSize": 16,
           "descriptionSize": 10,
-          "meta": "below"
+          "meta": "overlay"
         },
         "mobile": {
           "ratio": "global",
@@ -646,7 +646,7 @@
           "y": 25,
           "titleSize": 16,
           "descriptionSize": 10,
-          "meta": "below"
+          "meta": "overlay"
         },
         "mobile": {
           "ratio": "global",
