@@ -64,7 +64,7 @@
   "ambient": {
     "enabled": true,
     "color": "#ecf4f3",
-    "opacity": 0.21,
+    "opacity": 0.29,
     "spread": 70,
     "feather": 70
   }
