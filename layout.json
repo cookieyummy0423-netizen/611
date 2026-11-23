@@ -137,7 +137,7 @@
         "marginBottom": 0,
         "fontSize": 0,
         "lineHeight": 0,
-        "gap": 4,
+        "gap": 8,
         "offsetX": 0,
         "offsetY": 0,
         "letterSpacing": 0,
@@ -1944,5 +1944,5 @@
       "easing": "smooth"
     }
   },
-  "updatedAt": "2026-11-23T06:53:59.588Z"
+  "updatedAt": "2026-11-23T06:59:22.132Z"
 }
