@@ -1,0 +1,74 @@
+{
+  "intro": "目前開放插畫委託。單人、雙人皆可，其他形式歡迎提出需求討論。",
+  "items": [
+    {
+      "id": "surprise-package",
+      "title": "組合頁驚喜包",
+      "subtitle": "COMMISSION PACKAGE",
+      "description": "保底內容：半身插畫＋大頭插畫＋Q版角色，並包含潦草背景、裝飾與整體排版。",
+      "singlePrice": "",
+      "doublePrice": "",
+      "image": "",
+      "enabled": true,
+      "order": 1,
+      "includes": [
+        "半身插畫",
+        "大頭插畫",
+        "Q版角色",
+        "潦草背景、裝飾與排版"
+      ]
+    },
+    {
+      "id": "headshot",
+      "title": "大頭",
+      "subtitle": "HEADSHOT",
+      "description": "單人或雙人角色大頭插畫。",
+      "singlePrice": "",
+      "doublePrice": "",
+      "image": "",
+      "enabled": true,
+      "order": 2,
+      "includes": []
+    },
+    {
+      "id": "half-body",
+      "title": "半身",
+      "subtitle": "HALF BODY",
+      "description": "單人或雙人角色半身插畫。",
+      "singlePrice": "",
+      "doublePrice": "",
+      "image": "",
+      "enabled": true,
+      "order": 3,
+      "includes": []
+    },
+    {
+      "id": "full-body",
+      "title": "全身",
+      "subtitle": "FULL BODY",
+      "description": "單人或雙人角色全身插畫。",
+      "singlePrice": "",
+      "doublePrice": "",
+      "image": "",
+      "enabled": true,
+      "order": 4,
+      "includes": []
+    },
+    {
+      "id": "other",
+      "title": "其他",
+      "subtitle": "OTHER REQUESTS",
+      "description": "其他形式或特殊需求，只要能力範圍內能承接，都歡迎提出討論。",
+      "singlePrice": "依需求報價",
+      "doublePrice": "依需求報價",
+      "image": "",
+      "enabled": true,
+      "order": 5,
+      "includes": []
+    }
+  ],
+  "notes": [
+    "價格與委託細節請以實際討論及確認內容為準。",
+    "商業使用、急件、額外修改或特殊需求，請事先提出。"
+  ]
+}
