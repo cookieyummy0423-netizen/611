@@ -95,7 +95,7 @@ function applyCardLayout(card,work){
     card.style.setProperty("--card-y-"+mode,Math.max(0,Math.min(100,Number(v.y)||0))+"%");
     card.style.setProperty("--card-title-"+mode,v.titleSize==="global"?"var(--font-"+(mode==="mobile"?"mobile-":"")+"work-title,"+(mode==="mobile"?"15":"16")+"px)":Math.max(8,Math.min(48,Number(v.titleSize)||16))+"px");
     card.style.setProperty("--card-description-"+mode,Math.max(8,Math.min(32,Number(v.descriptionSize)||10))+"px");
-    card.dataset["cardMeta"+(mode==="desktop"?"Desktop":"Mobile")]=v.meta==="overlay"?"overlay":"below";
+    card.setAttribute("data-card-meta-"+mode,v.meta==="overlay"?"overlay":"below");
   }
 }
 function makeLocalCard(work){
