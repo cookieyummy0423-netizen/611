@@ -8,6 +8,9 @@
       "description": "保底內容：半身插畫＋大頭插畫＋Q版角色，並包含潦草背景、裝飾與整體排版。",
       "singlePrice": "1000up",
       "doublePrice": "2000up",
+      "images": [
+        "images/插圖 20260801~2.jpg"
+      ],
       "image": "images/插圖 20260801~2.jpg",
       "enabled": true,
       "order": 1,
@@ -16,9 +19,6 @@
         "大頭插畫",
         "Q版角色",
         "潦草背景、裝飾與排版"
-      ],
-      "images": [
-        "images/插圖 20260801~2.jpg"
       ]
     },
     {
@@ -28,24 +28,24 @@
       "description": "單人或雙人角色大頭插畫。",
       "singlePrice": "450up",
       "doublePrice": "900up",
+      "images": [],
       "image": "",
       "enabled": true,
       "order": 2,
-      "includes": [],
-      "images": []
+      "includes": []
     },
     {
       "id": "half-body",
       "title": "半身",
       "subtitle": "HALF BODY",
       "description": "單人或雙人角色半身插畫。",
-      "singlePrice": "",
-      "doublePrice": "",
+      "singlePrice": "600up",
+      "doublePrice": "1200up",
+      "images": [],
       "image": "",
       "enabled": true,
       "order": 3,
-      "includes": [],
-      "images": []
+      "includes": []
     },
     {
       "id": "full-body",
@@ -54,11 +54,11 @@
       "description": "單人或雙人角色全身插畫。",
       "singlePrice": "",
       "doublePrice": "",
+      "images": [],
       "image": "",
       "enabled": true,
       "order": 4,
-      "includes": [],
-      "images": []
+      "includes": []
     },
     {
       "id": "other",
@@ -67,11 +67,11 @@
       "description": "其他形式或特殊需求，只要能力範圍內能承接，都歡迎提出討論。",
       "singlePrice": "依需求報價",
       "doublePrice": "依需求報價",
+      "images": [],
       "image": "",
       "enabled": true,
       "order": 5,
-      "includes": [],
-      "images": []
+      "includes": []
     }
   ],
   "notes": [
