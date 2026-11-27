@@ -32,13 +32,13 @@ function makeOrbit(images,title){
  const count=el("span","service-orbit-count");shell.append(prev,count,next);
  const render=()=>{
   const width=viewport.clientWidth||600;
-  const step=width*(images.length===2?.34:.32);
+  const step=width*(images.length===2 ? 0.34 : 0.32);
   slides.forEach((slide,i)=>{
    let offset=i-active;
    if(images.length>2){if(offset>images.length/2)offset-=images.length;if(offset< -images.length/2)offset+=images.length}
    if(images.length===2&&i!==active)offset=1;
    const distance=Math.abs(offset),isActive=offset===0;
-   const slideWidth=Math.min(width*(isActive?.82:.68),isActive?500:420);
+   const slideWidth=Math.min(width*(isActive ? 0.82 : 0.68),isActive?500:420);
    const slideHeight=viewport.clientHeight*(isActive?.94:.78);
    slide.style.width=slideWidth+"px";slide.style.height=slideHeight+"px";
    slide.style.transform="translate(-50%,-50%) translateX("+(offset*step)+"px) translateZ("+(-distance*95)+"px) rotateY("+(-offset*17)+"deg) scale("+(isActive?1:.76)+")";
