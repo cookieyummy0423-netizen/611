@@ -39,7 +39,7 @@ function makeOrbit(images,title){
    slide.style.setProperty("--orbit-offset",offset);
    const distance=Math.abs(offset);
    const mobile=window.matchMedia("(max-width:760px)").matches;
-   slide.style.transform="translate(-50%,-50%) translateX("+(offset*(mobile?58:62))+"%) translateZ("+(-distance*(mobile?65:100))+"px) rotateY("+(-offset*(mobile?14:19))+"deg) scale("+(1-distance*(mobile?.18:.2))+")";
+   slide.style.transform="translate(-50%,-50%) translateX("+(offset*(mobile?58:62))+"%) translateZ("+(-distance*(mobile?65:100))+"px) rotateY("+(-offset*(mobile?14:19))+"deg) scale("+(1-distance*(mobile ? 0.18 : 0.2))+")";
    slide.style.opacity=String(1-distance*.28);
    slide.style.zIndex=String(5-distance);
    slide.classList.toggle("is-active",offset===0);
