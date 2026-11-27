@@ -427,7 +427,17 @@ html.ambient-light-off .work-card::before,html.ambient-light-off .collection-wor
  .collection-selected-section .collection-work-info .work-detail-link:hover{color:var(--site-accent,#2effe7)!important;}
 }
 
-/* Consistent work-card captions: metadata stays below the artwork on every archive page. */
+/* Preserve each artwork's own caption mode: overlay or below. */
 .work-card[data-card-meta-desktop="below"] .work-meta{position:static;inset:auto;z-index:auto;display:flex;justify-content:space-between;gap:20px;padding:17px 0 0;margin:0;background:none;color:var(--site-text)}
 .work-card[data-card-meta-desktop="below"] .work-meta p,.work-card[data-card-meta-desktop="below"] .work-meta div>span,.work-card[data-card-meta-desktop="below"] .work-meta .work-number{color:#888}
 .work-card[data-card-meta-desktop="below"] .work-meta h3{color:var(--site-text)}
+
+/* Ambient light extends to image-led sections on interior pages. */
+.service-image-trigger,.about-photo,.work-detail-hero,.work-detail-gallery figure,.about-custom-block:has(>img){position:relative;isolation:isolate}
+.service-image-trigger::before,.about-photo::before,.work-detail-hero::before,.work-detail-gallery figure::before,.about-custom-block:has(>img)::before{content:"";position:absolute;z-index:0;inset:calc(var(--ambient-spread,70px) * -1);border-radius:50%;background:radial-gradient(ellipse at 50% 50%,var(--ambient-color,rgba(140,156,255,.3)) 0%,transparent var(--ambient-feather,70%));opacity:1;pointer-events:none;transition:opacity .35s ease}
+.service-image-trigger>.service-image,.about-photo>img,.work-detail-hero>figure,.work-detail-gallery figure>img,.work-detail-gallery figure>video,.about-custom-block>img{position:relative;z-index:1}
+.work-detail-hero{overflow:visible}
+.work-detail-hero>figure{width:100%;margin:0}
+.about-photo{overflow:visible}
+html.ambient-light-off .service-image-trigger::before,html.ambient-light-off .about-photo::before,html.ambient-light-off .work-detail-hero::before,html.ambient-light-off .work-detail-gallery figure::before,html.ambient-light-off .about-custom-block:has(>img)::before{display:none}
+@media(prefers-reduced-motion:reduce){.service-image-trigger::before,.about-photo::before,.work-detail-hero::before,.work-detail-gallery figure::before,.about-custom-block:has(>img)::before{transition:none}}
