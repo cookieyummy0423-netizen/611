@@ -14,11 +14,11 @@
 .service-active-info .service-includes{margin:16px 0 24px}
 .service-active-info .service-prices{margin-top:auto;padding-top:30px}
 .service-active-visual{min-width:0;position:relative}
-.service-orbit{position:relative;min-height:420px;display:grid;grid-template-columns:42px minmax(0,1fr) 42px;align-items:center;gap:8px}
+.service-orbit{position:relative;min-height:500px;display:grid;grid-template-columns:42px minmax(0,1fr) 42px;align-items:center;gap:8px}
 .service-orbit::before{content:"";position:absolute;left:8%;right:8%;top:50%;height:62%;border:1px solid rgba(255,255,255,.13);border-bottom-color:transparent;border-radius:50%;transform:translateY(-50%) rotate(-8deg);pointer-events:none}
-.service-orbit-viewport{position:relative;height:390px;min-width:0;perspective:1100px;touch-action:pan-y;outline:none;z-index:1}
+.service-orbit-viewport{position:relative;height:470px;min-width:0;perspective:1300px;touch-action:pan-y;outline:none;z-index:1;overflow:visible}
 .service-orbit-viewport:focus-visible{outline:1px solid #888;outline-offset:5px}
-.service-orbit-track{position:relative;width:100%;height:100%;transform-style:preserve-3d}
+.service-orbit-track{position:relative;width:100%;height:100%;transform-style:preserve-3d;overflow:visible}
 .service-orbit-slide{position:absolute;left:50%;top:50%;width:min(62%,340px);height:min(88%,360px);padding:0;border:1px solid rgba(255,255,255,.18);background:#111;overflow:hidden;cursor:grab;box-shadow:0 24px 60px rgba(0,0,0,.55);transform:translate(-50%,-50%);opacity:1;z-index:1;transition:transform .65s cubic-bezier(.2,.75,.2,1),opacity .5s,border-color .4s;will-change:transform}
 .service-orbit-slide.is-active{cursor:zoom-in;border-color:rgba(255,255,255,.55)}
 .service-orbit-image{display:block;width:100%;height:100%;object-fit:contain;background:#111;pointer-events:none}
@@ -35,9 +35,9 @@
  .service-active-panel{grid-template-columns:minmax(0,1fr);gap:24px;padding:22px 16px;min-height:0}
  .service-active-info h2{font-size:42px;margin:12px 0}
  .service-active-info .service-prices{padding-top:12px}
- .service-orbit{min-height:310px;grid-template-columns:30px minmax(0,1fr) 30px;gap:4px}
- .service-orbit-viewport{height:290px}
- .service-orbit-slide{width:min(70%,260px);height:84%;transform:translate(-50%,-50%)}
+ .service-orbit{min-height:360px;grid-template-columns:30px minmax(0,1fr) 30px;gap:4px}
+ .service-orbit-viewport{height:340px}
+ .service-orbit-slide{width:82%;height:90%;transform:translate(-50%,-50%)}
  .service-orbit-arrow{width:30px;height:30px;font-size:15px}
  .service-orbit-count{bottom:-2px}
 }
