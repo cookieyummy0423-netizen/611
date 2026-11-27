@@ -24,14 +24,16 @@ function makeOrbit(images,title){
  const slides=images.map((src,index)=>{
   const slide=el("button","service-orbit-slide");slide.type="button";
   const img=el("img","service-orbit-image");img.src=src;img.alt=title+"範例 "+(index+1);img.loading=index===0?"eager":"lazy";
-  slide.append(img);slide.addEventListener("click",()=>{if(dragged)return;if(index!==active){active=index;render()}else ensureLightbox().openImage(src,img.alt)});track.append(slide);return slide
+  slide.append(img);slide.addEventListener("click",()=>{if(dragged)return;ensureLightbox().openImage(src,img.alt)});track.append(slide);return slide
  });
  viewport.append(track);shell.append(viewport);
  const prev=el("button","service-orbit-arrow service-orbit-prev","←");prev.type="button";prev.setAttribute("aria-label","上一張範例");
  const next=el("button","service-orbit-arrow service-orbit-next","→");next.type="button";next.setAttribute("aria-label","下一張範例");
  const count=el("span","service-orbit-count");shell.append(prev,count,next);
  const render=()=>{
-  const width=viewport.clientWidth||600;
+  const width=viewport.clientWidth;
+  const height=viewport.clientHeight;
+  if(width<80||height<80)return;
   const step=width*(images.length===2 ? 0.34 : 0.32);
   slides.forEach((slide,i)=>{
    let offset=i-active;
@@ -39,8 +41,13 @@ function makeOrbit(images,title){
    if(images.length===2&&i!==active)offset=1;
    const distance=Math.abs(offset),isActive=offset===0;
    const slideWidth=Math.min(width*(isActive ? 0.82 : 0.68),isActive?560:440);
-   const slideHeight=viewport.clientHeight*(isActive?.94:.78);
-   slide.style.width=slideWidth+"px";slide.style.height=slideHeight+"px";slide.style.top=(50+distance*5)+"%";
+   const ratio=images.ratio||"4 / 3";
+   const natural=slides[i].querySelector("img");
+   const aspect=ratio==="original"?(natural.naturalWidth&&natural.naturalHeight?natural.naturalWidth/natural.naturalHeight:4/3):ratio==="1 / 1"?1:ratio==="3 / 4"?3/4:ratio==="16 / 9"?16/9:4/3;
+   const maxHeight=height*(isActive?.94:.78);
+   const slideHeight=Math.min(maxHeight,slideWidth/aspect);
+   const finalWidth=Math.min(slideWidth,slideHeight*aspect);
+   slide.style.width=finalWidth+"px";slide.style.height=slideHeight+"px";slide.style.top=(50+distance*5)+"%";
    slide.style.transform="translate(-50%,-50%) translateX("+(offset*step)+"px) translateZ("+(-distance*95)+"px) rotateY("+(-offset*17)+"deg) scale("+(isActive?1:.76)+")";
    slide.style.opacity=String(isActive?1:.68);
    slide.style.zIndex=String(isActive?10:5-distance);
@@ -56,7 +63,7 @@ function makeOrbit(images,title){
  viewport.addEventListener("pointerdown",e=>{if(e.pointerType==="mouse"&&e.button!==0)return;pointerDown=true;dragged=false;startX=e.clientX;viewport.setPointerCapture?.(e.pointerId)});
  viewport.addEventListener("pointerup",e=>{if(!pointerDown)return;pointerDown=false;const delta=e.clientX-startX;if(Math.abs(delta)>35){dragged=true;move(delta<0?1:-1);setTimeout(()=>{dragged=false},0)}});
  viewport.addEventListener("pointercancel",()=>{pointerDown=false});
- render();window.addEventListener("resize",render,{passive:true});return shell
+ const observer=new ResizeObserver(()=>render());observer.observe(viewport);slides.forEach(slide=>{const image=slide.querySelector("img");image.addEventListener("load",render,{once:true});image.addEventListener("error",()=>{slide.classList.add("is-broken");slide.setAttribute("aria-label","圖片載入失敗："+image.alt)},{once:true})});requestAnimationFrame(()=>requestAnimationFrame(render));window.addEventListener("resize",render,{passive:true});return shell
 }
 fetch("services.json?v=orbit-gallery-20261128",{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("無法讀取委託資料");return r.json()}).then(data=>{
  document.querySelector("#services-intro").textContent=data.intro||"";
@@ -79,7 +86,7 @@ fetch("services.json?v=orbit-gallery-20261128",{cache:"no-store"}).then(r=>{if(!
    info.append(prices);
    const visual=el("div","service-active-visual");
    const images=(Array.isArray(item.images)?item.images:(item.image?[item.image]:[])).slice(0,3);
-   if(images.length)visual.append(makeOrbit(images,item.title||"委託"));
+   if(images.length){images.ratio=item.imageRatio||"4 / 3";visual.append(makeOrbit(images,item.title||"委託"));}
    else visual.append(el("div","service-orbit-empty","此項目目前沒有展示圖片"));
    panel.append(info,visual)
   };
