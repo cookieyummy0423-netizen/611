@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-27T16:55:53.715Z",
+  "updatedAt": "2026-11-27T17:07:39.172Z",
   "works": [
     {
       "id": "work-63df9826-c74e-4646-a926-071307fb431b",
@@ -31,7 +31,7 @@
           "y": 50,
           "titleSize": 17,
           "descriptionSize": 10,
-          "meta": "overlay"
+          "meta": "below"
         },
         "mobile": {
           "ratio": "global",
@@ -72,7 +72,7 @@
           "y": 50,
           "titleSize": 16,
           "descriptionSize": 10,
-          "meta": "overlay"
+          "meta": "below"
         },
         "mobile": {
           "ratio": "global",
@@ -113,7 +113,7 @@
           "y": 50,
           "titleSize": 16,
           "descriptionSize": 10,
-          "meta": "overlay"
+          "meta": "below"
         },
         "mobile": {
           "ratio": "global",
@@ -154,7 +154,7 @@
           "y": 50,
           "titleSize": 16,
           "descriptionSize": 10,
-          "meta": "overlay"
+          "meta": "below"
         },
         "mobile": {
           "ratio": "global",
@@ -195,7 +195,7 @@
           "y": 50,
           "titleSize": 16,
           "descriptionSize": 10,
-          "meta": "overlay"
+          "meta": "below"
         },
         "mobile": {
           "ratio": "global",
@@ -236,7 +236,7 @@
           "y": 50,
           "titleSize": 16,
           "descriptionSize": 10,
-          "meta": "overlay"
+          "meta": "below"
         },
         "mobile": {
           "ratio": "global",
@@ -277,7 +277,7 @@
           "y": 50,
           "titleSize": 16,
           "descriptionSize": 10,
-          "meta": "overlay"
+          "meta": "below"
         },
         "mobile": {
           "ratio": "global",
@@ -318,7 +318,7 @@
           "y": 50,
           "titleSize": 16,
           "descriptionSize": 10,
-          "meta": "overlay"
+          "meta": "below"
         },
         "mobile": {
           "ratio": "global",
@@ -359,7 +359,7 @@
           "y": 50,
           "titleSize": 16,
           "descriptionSize": 10,
-          "meta": "overlay"
+          "meta": "below"
         },
         "mobile": {
           "ratio": "global",
@@ -400,7 +400,7 @@
           "y": 50,
           "titleSize": 16,
           "descriptionSize": 10,
-          "meta": "overlay"
+          "meta": "below"
         },
         "mobile": {
           "ratio": "global",
@@ -441,7 +441,7 @@
           "y": 50,
           "titleSize": 16,
           "descriptionSize": 10,
-          "meta": "overlay"
+          "meta": "below"
         },
         "mobile": {
           "ratio": "global",
@@ -482,7 +482,7 @@
           "y": 50,
           "titleSize": 16,
           "descriptionSize": 10,
-          "meta": "overlay"
+          "meta": "below"
         },
         "mobile": {
           "ratio": "global",
@@ -523,7 +523,7 @@
           "y": 0,
           "titleSize": 16,
           "descriptionSize": 10,
-          "meta": "overlay"
+          "meta": "below"
         },
         "mobile": {
           "ratio": "global",
@@ -564,7 +564,7 @@
           "y": 2,
           "titleSize": 16,
           "descriptionSize": 10,
-          "meta": "overlay"
+          "meta": "below"
         },
         "mobile": {
           "ratio": "global",
@@ -605,7 +605,7 @@
           "y": 39,
           "titleSize": 16,
           "descriptionSize": 10,
-          "meta": "overlay"
+          "meta": "below"
         },
         "mobile": {
           "ratio": "global",
@@ -646,7 +646,7 @@
           "y": 25,
           "titleSize": 16,
           "descriptionSize": 10,
-          "meta": "overlay"
+          "meta": "below"
         },
         "mobile": {
           "ratio": "global",
@@ -892,7 +892,7 @@
           "y": 33,
           "titleSize": 17,
           "descriptionSize": 10,
-          "meta": "overlay"
+          "meta": "below"
         },
         "mobile": {
           "ratio": "global",
@@ -933,7 +933,7 @@
           "y": 0,
           "titleSize": 17,
           "descriptionSize": 10,
-          "meta": "overlay"
+          "meta": "below"
         },
         "mobile": {
           "ratio": "global",
@@ -974,7 +974,7 @@
           "y": 50,
           "titleSize": 16,
           "descriptionSize": 10,
-          "meta": "overlay"
+          "meta": "below"
         },
         "mobile": {
           "ratio": "global",
@@ -1015,7 +1015,7 @@
           "y": 50,
           "titleSize": 16,
           "descriptionSize": 10,
-          "meta": "overlay"
+          "meta": "below"
         },
         "mobile": {
           "ratio": "global",
@@ -1056,7 +1056,7 @@
           "y": 50,
           "titleSize": 16,
           "descriptionSize": 10,
-          "meta": "overlay"
+          "meta": "below"
         },
         "mobile": {
           "ratio": "global",
@@ -1097,7 +1097,7 @@
           "y": 50,
           "titleSize": 16,
           "descriptionSize": 10,
-          "meta": "overlay"
+          "meta": "below"
         },
         "mobile": {
           "ratio": "global",
@@ -1479,88 +1479,6 @@
         }
       },
       "sortOrder": 35
-    },
-    {
-      "id": "work-b52df2e2-5813-4126-a9de-36a7359d85a8",
-      "title": "單人及肩",
-      "category": "illustration",
-      "typeLabel": "ILLUSTRATION / PERSONAL",
-      "subtitle": "",
-      "mediaKind": "image",
-      "media": "images/1795798344880-20261108.png",
-      "description": "櫻蘭高校男公關部鏡夜",
-      "hidden": false,
-      "detailPage": {
-        "enabled": false,
-        "slug": "",
-        "concept": "",
-        "tools": "",
-        "year": null,
-        "gallery": [],
-        "process": []
-      },
-      "cardLayout": {
-        "desktop": {
-          "ratio": "16 / 9",
-          "fit": "cover",
-          "x": 50,
-          "y": 50,
-          "titleSize": 16,
-          "descriptionSize": 10,
-          "meta": "below"
-        },
-        "mobile": {
-          "ratio": "global",
-          "fit": "contain",
-          "x": 50,
-          "y": 50,
-          "titleSize": 15,
-          "descriptionSize": 9,
-          "meta": "below"
-        }
-      },
-      "sortOrder": 36
-    },
-    {
-      "id": "work-34d15033-c53e-4bad-b892-ae9e1bfdec38",
-      "title": "單人及肩",
-      "category": "illustration",
-      "typeLabel": "ILLUSTRATION / PERSONAL",
-      "subtitle": "",
-      "mediaKind": "image",
-      "media": "images/1795798471049-48_20261028191421.png",
-      "description": "守護甜心幾斗",
-      "hidden": false,
-      "detailPage": {
-        "enabled": false,
-        "slug": "",
-        "concept": "",
-        "tools": "",
-        "year": null,
-        "gallery": [],
-        "process": []
-      },
-      "cardLayout": {
-        "desktop": {
-          "ratio": "16 / 9",
-          "fit": "cover",
-          "x": 50,
-          "y": 50,
-          "titleSize": 16,
-          "descriptionSize": 10,
-          "meta": "below"
-        },
-        "mobile": {
-          "ratio": "global",
-          "fit": "contain",
-          "x": 50,
-          "y": 50,
-          "titleSize": 15,
-          "descriptionSize": 9,
-          "meta": "below"
-        }
-      },
-      "sortOrder": 37
     }
   ],
   "collections": [
