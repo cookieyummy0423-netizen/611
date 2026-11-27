@@ -67,7 +67,7 @@ input[type=range]{width:100%;accent-color:var(--accent);cursor:pointer}
  seek.addEventListener("input",()=>{seeking=true;if(Number.isFinite(audio.duration))elapsed.textContent=format(audio.duration*Number(seek.value)/100)});
  seek.addEventListener("change",()=>{if(Number.isFinite(audio.duration))audio.currentTime=audio.duration*Number(seek.value)/100;seeking=false;render();publish()});
  volume.addEventListener("input",()=>{audio.volume=Number(volume.value);audio.muted=false;render();publish()});
- window.addEventListener("beforeunload",()=>{publish();audio.pause();try{if(channel)channel.close()}catch(e){}});
+ window.addEventListener("pagehide",()=>{audio.pause();const state={playing:false,time:audio.currentTime||0,duration:Number.isFinite(audio.duration)?audio.duration:0,volume:audio.volume,muted:audio.muted};try{localStorage.setItem(KEY,JSON.stringify(state))}catch(e){}if(channel)channel.postMessage({type:"state",state});try{if(channel)channel.close()}catch(e){}});
  render();publish();
 })();
 </script>
