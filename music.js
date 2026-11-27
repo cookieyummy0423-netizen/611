@@ -90,6 +90,7 @@
    const nextDoc=new DOMParser().parseFromString(html,"text/html");
    if(!nextDoc.body||!nextDoc.querySelector("main"))throw new Error("頁面結構不相容");
    const nextScripts=Array.from(nextDoc.body.querySelectorAll("script"));
+   if(addHistory)history.pushState({url:target.href},"",target.href);
    document.querySelectorAll("style["+ROUTE_STYLE+"]").forEach(node=>node.remove());
    nextDoc.head.querySelectorAll("style").forEach(node=>{
     const style=document.createElement("style");style.setAttribute(ROUTE_STYLE,"");style.textContent=node.textContent;document.head.append(style);
@@ -105,7 +106,6 @@
    await runPageScripts(nextScripts,target);
    window.dispatchEvent(new Event("611-layout-refresh"));
    document.documentElement.classList.remove("site-booting");
-   if(addHistory)history.pushState({url:target.href},"",target.href);
    trackPageView();
    if(target.hash){
     const id=decodeURIComponent(target.hash.slice(1));
@@ -122,7 +122,7 @@
   if(!link||link.target||link.hasAttribute("download")||link.rel==="external")return;
   const url=new URL(link.href,location.href);
   if(url.origin!==location.origin||!url.pathname.toLowerCase().endsWith(".html"))return;
-  if(url.pathname===location.pathname&&url.search===location.search&&url.hash)return;
+  if(url.pathname===location.pathname&&url.search===location.search)return;
   if(new URLSearchParams(location.search).has("layout-editor")||new URLSearchParams(location.search).has("about-editor"))return;
   event.preventDefault();
   navigate(url.href,true);
