@@ -427,3 +427,7 @@ html.ambient-light-off .work-card::before,html.ambient-light-off .collection-wor
  .collection-selected-section .collection-work-info .work-detail-link:hover{color:var(--site-accent,#2effe7)!important;}
 }
 
+/* Consistent work-card captions: metadata stays below the artwork on every archive page. */
+.work-card[data-card-meta-desktop="below"] .work-meta{position:static;inset:auto;z-index:auto;display:flex;justify-content:space-between;gap:20px;padding:17px 0 0;margin:0;background:none;color:var(--site-text)}
+.work-card[data-card-meta-desktop="below"] .work-meta p,.work-card[data-card-meta-desktop="below"] .work-meta div>span,.work-card[data-card-meta-desktop="below"] .work-meta .work-number{color:#888}
+.work-card[data-card-meta-desktop="below"] .work-meta h3{color:var(--site-text)}
