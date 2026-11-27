@@ -238,6 +238,10 @@ html[data-611-font-family="serif"] body :not(.mono):not(.mono *){font-family:"Co
 .work-card .work-meta h3{font-size:var(--card-title-desktop,var(--font-work-title,16px))}
 .work-card .work-meta div>span{font-size:var(--card-description-desktop,var(--font-work-description,10px))}
 .work-card[data-card-meta-desktop="overlay"] .work-meta{position:absolute;z-index:3;left:0;right:0;bottom:0;padding:16px;background:linear-gradient(transparent,rgba(0,0,0,.9));color:#fff}
+.work-card[data-card-meta-desktop="overlay"] .work-meta p,.work-card[data-card-meta-desktop="overlay"] .work-meta div>span,.work-card[data-card-meta-desktop="overlay"] .work-meta .work-number{color:rgba(255,255,255,.82)}
+.work-card[data-card-meta-desktop="overlay"] .work-meta h3{color:#fff}
+.work-card[data-card-meta-desktop="overlay"] .work-meta{pointer-events:none}
+.work-card[data-card-meta-desktop="overlay"] .work-meta a,.work-card[data-card-meta-desktop="overlay"] .work-meta button{pointer-events:auto}
 .work-card[data-card-meta-desktop="overlay"] .work-meta p,.work-card[data-card-meta-desktop="overlay"] .work-meta div>span,.work-card[data-card-meta-desktop="overlay"] .work-number{color:rgba(255,255,255,.78)}
 @media(max-width:760px){
  .work-card .work-image,.work-card .video-frame{aspect-ratio:var(--card-ratio-mobile,var(--site-mobile-ratio,var(--site-ratio,4 / 3)))}
@@ -428,6 +432,9 @@ html.ambient-light-off .work-card::before,html.ambient-light-off .collection-wor
 }
 
 /* Preserve each artwork's own caption mode: overlay or below. */
+.work-card[data-card-meta-desktop="overlay"]>.work-meta{position:absolute!important;left:0!important;right:0!important;bottom:0!important;top:auto!important;z-index:3!important;background:linear-gradient(transparent,rgba(0,0,0,.9))!important;color:#fff!important}
+.work-card[data-card-meta-desktop="overlay"]>.work-meta h3{color:#fff!important}
+.work-card[data-card-meta-desktop="overlay"]>.work-meta p,.work-card[data-card-meta-desktop="overlay"]>.work-meta div>span,.work-card[data-card-meta-desktop="overlay"]>.work-meta .work-number{color:rgba(255,255,255,.82)!important}
 .work-card[data-card-meta-desktop="below"] .work-meta{position:static;inset:auto;z-index:auto;display:flex;justify-content:space-between;gap:20px;padding:17px 0 0;margin:0;background:none;color:var(--site-text)}
 .work-card[data-card-meta-desktop="below"] .work-meta p,.work-card[data-card-meta-desktop="below"] .work-meta div>span,.work-card[data-card-meta-desktop="below"] .work-meta .work-number{color:#888}
 .work-card[data-card-meta-desktop="below"] .work-meta h3{color:var(--site-text)}
