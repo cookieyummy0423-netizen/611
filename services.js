@@ -33,7 +33,7 @@ function makeOrbit(images,title){
  const render=()=>{
   const width=viewport.clientWidth;
   const height=viewport.clientHeight;
-  if(width<80||height<80)return;
+  if(width<80||height<80)return false;
   const step=width*(images.length===2 ? 0.34 : 0.32);
   slides.forEach((slide,i)=>{
    let offset=i-active;
@@ -56,6 +56,7 @@ function makeOrbit(images,title){
   });
   count.textContent=String(active+1).padStart(2,"0")+" / "+String(slides.length).padStart(2,"0");
   prev.disabled=slides.length<2;next.disabled=slides.length<2;
+  return true;
  };
  const move=step=>{if(slides.length<2)return;active=(active+step+slides.length)%slides.length;render()};
  prev.addEventListener("click",()=>move(-1));next.addEventListener("click",()=>move(1));
@@ -63,7 +64,7 @@ function makeOrbit(images,title){
  viewport.addEventListener("pointerdown",e=>{if(e.pointerType==="mouse"&&e.button!==0)return;pointerDown=true;dragged=false;startX=e.clientX;viewport.setPointerCapture?.(e.pointerId)});
  viewport.addEventListener("pointerup",e=>{if(!pointerDown)return;pointerDown=false;const delta=e.clientX-startX;if(Math.abs(delta)>35){dragged=true;move(delta<0?1:-1);setTimeout(()=>{dragged=false},0)}});
  viewport.addEventListener("pointercancel",()=>{pointerDown=false});
- const observer=new ResizeObserver(()=>render());observer.observe(viewport);slides.forEach(slide=>{const image=slide.querySelector("img");image.addEventListener("load",render,{once:true});image.addEventListener("error",()=>{slide.classList.add("is-broken");slide.setAttribute("aria-label","圖片載入失敗："+image.alt)},{once:true})});requestAnimationFrame(()=>requestAnimationFrame(()=>{render();slides.forEach(slide=>{slide.style.transition="none"});void track.offsetWidth;requestAnimationFrame(()=>{shell.classList.remove("is-initializing");slides.forEach(slide=>{slide.style.removeProperty("transition")})})}));window.addEventListener("resize",render,{passive:true});return shell
+ let initialized=false;const initialize=()=>{if(initialized)return;const ready=render();if(!ready)return;initialized=true;slides.forEach(slide=>{slide.style.transition="none"});void track.offsetWidth;requestAnimationFrame(()=>{shell.classList.remove("is-initializing");slides.forEach(slide=>{slide.style.removeProperty("transition")})})};const observer=new ResizeObserver(()=>{if(!initialized)initialize();else render()});observer.observe(viewport);slides.forEach(slide=>{const image=slide.querySelector("img");image.addEventListener("load",()=>{if(!initialized)initialize();else render()});image.addEventListener("error",()=>{slide.classList.add("is-broken");slide.setAttribute("aria-label","圖片載入失敗："+image.alt)},{once:true})});requestAnimationFrame(()=>requestAnimationFrame(initialize));window.addEventListener("resize",()=>{if(!initialized)initialize();else render()},{passive:true});return shell
 }
 fetch("services.json?v=orbit-gallery-20261128",{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("無法讀取委託資料");return r.json()}).then(data=>{
  document.querySelector("#services-intro").textContent=data.intro||"";
