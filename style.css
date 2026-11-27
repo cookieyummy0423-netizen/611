@@ -427,5 +427,3 @@ html.ambient-light-off .work-card::before,html.ambient-light-off .collection-wor
  .collection-selected-section .collection-work-info .work-detail-link:hover{color:var(--site-accent,#2effe7)!important;}
 }
 
-/* About page: keep the long two-line identity title inside narrow screens. */
-@media(max-width:760px){#about-content h1{font-size:clamp(40px,12vw,72px);letter-spacing:-.08em;overflow-wrap:anywhere}}
