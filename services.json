@@ -87,20 +87,6 @@
       "enabled": true,
       "order": 5,
       "includes": []
-    },
-    {
-      "id": "service-1795816484993",
-      "title": "測試",
-      "subtitle": "",
-      "description": "",
-      "singlePrice": "",
-      "doublePrice": "",
-      "imageRatio": "4 / 3",
-      "images": [],
-      "image": "",
-      "enabled": true,
-      "order": 6,
-      "includes": []
     }
   ],
   "navItems": [],
