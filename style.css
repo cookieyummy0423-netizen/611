@@ -426,3 +426,6 @@ html.ambient-light-off .work-card::before,html.ambient-light-off .collection-wor
  .collection-selected-section .collection-work-info .work-detail-link{display:inline-block!important;grid-column:1/-1!important;justify-self:start!important;align-self:start!important;width:max-content!important;max-width:100%!important;min-width:0!important;margin:12px 0 0!important;padding:6px 0 4px!important;border-top:1px solid #555!important;border-bottom:0!important;font-size:9px!important;line-height:1.2!important;letter-spacing:.07em!important;white-space:nowrap!important;overflow:visible!important;float:none!important;color:#aaa!important;}
  .collection-selected-section .collection-work-info .work-detail-link:hover{color:var(--site-accent,#2effe7)!important;}
 }
+
+/* About page: keep the long two-line identity title inside narrow screens. */
+@media(max-width:760px){#about-content h1{font-size:clamp(40px,12vw,72px);letter-spacing:-.08em;overflow-wrap:anywhere}}
