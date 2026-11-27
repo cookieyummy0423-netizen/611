@@ -20,6 +20,7 @@ function makeOrbit(images,title){
  const shell=el("div","service-orbit");
  const viewport=el("div","service-orbit-viewport");viewport.tabIndex=0;viewport.setAttribute("role","region");viewport.setAttribute("aria-label",title+"範例圖片，可使用方向鍵切換");
  const track=el("div","service-orbit-track");
+ let active=0,startX=0,dragged=false,pointerDown=false;
  const slides=images.map((src,index)=>{
   const slide=el("button","service-orbit-slide");slide.type="button";
   const img=el("img","service-orbit-image");img.src=src;img.alt=title+"範例 "+(index+1);img.loading=index===0?"eager":"lazy";
@@ -28,26 +29,26 @@ function makeOrbit(images,title){
  viewport.append(track);shell.append(viewport);
  const prev=el("button","service-orbit-arrow service-orbit-prev","←");prev.type="button";prev.setAttribute("aria-label","上一張範例");
  const next=el("button","service-orbit-arrow service-orbit-next","→");next.type="button";next.setAttribute("aria-label","下一張範例");
- const count=el("span","service-orbit-count");
- shell.append(prev,count,next);
- let active=0,startX=0,dragged=false,pointerDown=false;
+ const count=el("span","service-orbit-count");shell.append(prev,count,next);
  const render=()=>{
+  const width=viewport.clientWidth||600;
+  const step=width*(images.length===2?.34:.32);
   slides.forEach((slide,i)=>{
    let offset=i-active;
-   if(offset>slides.length/2)offset-=slides.length;
-   if(offset< -slides.length/2)offset+=slides.length;
-   slide.style.setProperty("--orbit-offset",offset);
-   const distance=Math.abs(offset);
-   const mobile=window.matchMedia("(max-width:760px)").matches;
-   slide.style.transform="translate(-50%,-50%) translateX("+(offset*(mobile?58:62))+"%) translateZ("+(-distance*(mobile?65:100))+"px) rotateY("+(-offset*(mobile?14:19))+"deg) scale("+(1-distance*(mobile ? 0.18 : 0.2))+")";
-   slide.style.opacity=String(1-distance*.28);
-   slide.style.zIndex=String(5-distance);
-   slide.classList.toggle("is-active",offset===0);
-   slide.setAttribute("aria-hidden",String(offset!==0));
-   slide.tabIndex=offset===0?0:-1;
+   if(images.length>2){if(offset>images.length/2)offset-=images.length;if(offset< -images.length/2)offset+=images.length}
+   if(images.length===2&&i!==active)offset=1;
+   const distance=Math.abs(offset),isActive=offset===0;
+   const slideWidth=Math.min(width*(isActive?.82:.68),isActive?500:420);
+   const slideHeight=viewport.clientHeight*(isActive?.94:.78);
+   slide.style.width=slideWidth+"px";slide.style.height=slideHeight+"px";
+   slide.style.transform="translate(-50%,-50%) translateX("+(offset*step)+"px) translateZ("+(-distance*95)+"px) rotateY("+(-offset*17)+"deg) scale("+(isActive?1:.76)+")";
+   slide.style.opacity=String(isActive?1:.68);
+   slide.style.zIndex=String(isActive?10:5-distance);
+   slide.classList.toggle("is-active",isActive);
+   slide.setAttribute("aria-hidden",String(!isActive));slide.tabIndex=isActive?0:-1;
   });
   count.textContent=String(active+1).padStart(2,"0")+" / "+String(slides.length).padStart(2,"0");
-  prev.disabled=slides.length<2;next.disabled=slides.length<2
+  prev.disabled=slides.length<2;next.disabled=slides.length<2;
  };
  const move=step=>{if(slides.length<2)return;active=(active+step+slides.length)%slides.length;render()};
  prev.addEventListener("click",()=>move(-1));next.addEventListener("click",()=>move(1));
