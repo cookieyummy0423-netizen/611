@@ -30,8 +30,12 @@
       "description": "單人或雙人角色大頭插畫。",
       "singlePrice": "450up",
       "doublePrice": "900up",
-      "images": [],
-      "image": "",
+      "images": [
+        "images/1795798471049-48_20261028191421.png",
+        "images/1795798344880-20261108.png",
+        "images/1795799005320-147-1.png"
+      ],
+      "image": "images/1795798471049-48_20261028191421.png",
       "enabled": true,
       "order": 2,
       "includes": []
@@ -43,8 +47,10 @@
       "description": "單人或雙人角色半身插畫。",
       "singlePrice": "600up",
       "doublePrice": "1200up",
-      "images": [],
-      "image": "",
+      "images": [
+        "images/1795798894422-145.png"
+      ],
+      "image": "images/1795798894422-145.png",
       "enabled": true,
       "order": 3,
       "includes": []
@@ -56,8 +62,10 @@
       "description": "單人或雙人角色全身插畫。",
       "singlePrice": "",
       "doublePrice": "",
-      "images": [],
-      "image": "",
+      "images": [
+        "images/插圖230.png"
+      ],
+      "image": "images/插圖230.png",
       "enabled": true,
       "order": 4,
       "includes": []
