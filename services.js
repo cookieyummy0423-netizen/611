@@ -55,7 +55,7 @@ function makeOrbit(images,title){
  viewport.addEventListener("pointerdown",e=>{if(e.pointerType==="mouse"&&e.button!==0)return;pointerDown=true;dragged=false;startX=e.clientX;viewport.setPointerCapture?.(e.pointerId)});
  viewport.addEventListener("pointerup",e=>{if(!pointerDown)return;pointerDown=false;const delta=e.clientX-startX;if(Math.abs(delta)>35){dragged=true;move(delta<0?1:-1);setTimeout(()=>{dragged=false},0)}});
  viewport.addEventListener("pointercancel",()=>{pointerDown=false});
- render();return shell
+ render();window.addEventListener("resize",render,{passive:true});return shell
 }
 fetch("services.json?v=orbit-gallery-20261128",{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("無法讀取委託資料");return r.json()}).then(data=>{
  document.querySelector("#services-intro").textContent=data.intro||"";
