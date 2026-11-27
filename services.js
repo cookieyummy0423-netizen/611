@@ -23,7 +23,7 @@ function makeOrbit(images,title){
  const slides=images.map((src,index)=>{
   const slide=el("button","service-orbit-slide");slide.type="button";
   const img=el("img","service-orbit-image");img.src=src;img.alt=title+"範例 "+(index+1);img.loading=index===0?"eager":"lazy";
-  slide.append(img);slide.addEventListener("click",()=>{if(!dragged)ensureLightbox().openImage(src,img.alt)});track.append(slide);return slide
+  slide.append(img);slide.addEventListener("click",()=>{if(dragged)return;if(index!==active){active=index;render()}else ensureLightbox().openImage(src,img.alt)});track.append(slide);return slide
  });
  viewport.append(track);shell.append(viewport);
  const prev=el("button","service-orbit-arrow service-orbit-prev","←");prev.type="button";prev.setAttribute("aria-label","上一張範例");
@@ -37,6 +37,11 @@ function makeOrbit(images,title){
    if(offset>slides.length/2)offset-=slides.length;
    if(offset< -slides.length/2)offset+=slides.length;
    slide.style.setProperty("--orbit-offset",offset);
+   const distance=Math.abs(offset);
+   const mobile=window.matchMedia("(max-width:760px)").matches;
+   slide.style.transform="translate(-50%,-50%) translateX("+(offset*(mobile?58:62))+"%) translateZ("+(-distance*(mobile?65:100))+"px) rotateY("+(-offset*(mobile?14:19))+"deg) scale("+(1-distance*(mobile?.18:.2))+")";
+   slide.style.opacity=String(1-distance*.28);
+   slide.style.zIndex=String(5-distance);
    slide.classList.toggle("is-active",offset===0);
    slide.setAttribute("aria-hidden",String(offset!==0));
    slide.tabIndex=offset===0?0:-1;
