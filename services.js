@@ -17,7 +17,7 @@ function ensureLightbox(){
  return lightbox
 }
 function makeOrbit(images,title){
- const shell=el("div","service-orbit");
+ const shell=el("div","service-orbit is-initializing");
  const viewport=el("div","service-orbit-viewport");viewport.tabIndex=0;viewport.setAttribute("role","region");viewport.setAttribute("aria-label",title+"範例圖片，可使用方向鍵切換");
  const track=el("div","service-orbit-track");
  let active=0,startX=0,dragged=false,pointerDown=false;
@@ -63,7 +63,7 @@ function makeOrbit(images,title){
  viewport.addEventListener("pointerdown",e=>{if(e.pointerType==="mouse"&&e.button!==0)return;pointerDown=true;dragged=false;startX=e.clientX;viewport.setPointerCapture?.(e.pointerId)});
  viewport.addEventListener("pointerup",e=>{if(!pointerDown)return;pointerDown=false;const delta=e.clientX-startX;if(Math.abs(delta)>35){dragged=true;move(delta<0?1:-1);setTimeout(()=>{dragged=false},0)}});
  viewport.addEventListener("pointercancel",()=>{pointerDown=false});
- const observer=new ResizeObserver(()=>render());observer.observe(viewport);slides.forEach(slide=>{const image=slide.querySelector("img");image.addEventListener("load",render,{once:true});image.addEventListener("error",()=>{slide.classList.add("is-broken");slide.setAttribute("aria-label","圖片載入失敗："+image.alt)},{once:true})});requestAnimationFrame(()=>requestAnimationFrame(render));window.addEventListener("resize",render,{passive:true});return shell
+ const observer=new ResizeObserver(()=>render());observer.observe(viewport);slides.forEach(slide=>{const image=slide.querySelector("img");image.addEventListener("load",render,{once:true});image.addEventListener("error",()=>{slide.classList.add("is-broken");slide.setAttribute("aria-label","圖片載入失敗："+image.alt)},{once:true})});requestAnimationFrame(()=>requestAnimationFrame(()=>{render();slides.forEach(slide=>{slide.style.transition="none"});void track.offsetWidth;requestAnimationFrame(()=>{shell.classList.remove("is-initializing");slides.forEach(slide=>{slide.style.removeProperty("transition")})})}));window.addEventListener("resize",render,{passive:true});return shell
 }
 fetch("services.json?v=orbit-gallery-20261128",{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("無法讀取委託資料");return r.json()}).then(data=>{
  document.querySelector("#services-intro").textContent=data.intro||"";
