@@ -8,6 +8,7 @@
       "description": "保底內容：半身插畫＋大頭插畫＋Q版角色，並包含潦草背景、裝飾與整體排版。",
       "singlePrice": "1000up",
       "doublePrice": "2000up",
+      "imageRatio": "original",
       "images": [
         "images/插圖 20260801~2.jpg",
         "images/1795175408094-1000071458_054d1117fa8de3b70537b0c349404d36-2026_10_17-上午12_.jpg",
@@ -30,6 +31,7 @@
       "description": "單人或雙人角色大頭插畫。",
       "singlePrice": "450up",
       "doublePrice": "900up",
+      "imageRatio": "original",
       "images": [
         "images/1795798471049-48_20261028191421.png",
         "images/1795798344880-20261108.png",
@@ -47,6 +49,7 @@
       "description": "單人或雙人角色半身插畫。",
       "singlePrice": "600up",
       "doublePrice": "1200up",
+      "imageRatio": "original",
       "images": [
         "images/1795798894422-145.png"
       ],
@@ -62,6 +65,7 @@
       "description": "單人或雙人角色全身插畫。",
       "singlePrice": "",
       "doublePrice": "",
+      "imageRatio": "original",
       "images": [
         "images/插圖230.png"
       ],
@@ -77,6 +81,7 @@
       "description": "其他形式或特殊需求，只要能力範圍內能承接，都歡迎提出討論。",
       "singlePrice": "依需求報價",
       "doublePrice": "依需求報價",
+      "imageRatio": "4 / 3",
       "images": [],
       "image": "",
       "enabled": true,
@@ -90,6 +95,7 @@
       "description": "",
       "singlePrice": "",
       "doublePrice": "",
+      "imageRatio": "4 / 3",
       "images": [],
       "image": "",
       "enabled": true,
