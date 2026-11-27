@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#080808">
+<title>611 — Ambient Player</title>
+<style>
+:root{color-scheme:dark;--bg:#080808;--paper:#f1f0ec;--muted:#888;--line:#303030;--accent:#2effe7}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;background:radial-gradient(ellipse at 50% 0%,#182321 0%,#080808 55%);color:var(--paper);font-family:Manrope,"Noto Sans TC",system-ui,sans-serif;padding:28px;display:flex;align-items:center;justify-content:center}
+.player{width:min(100%,360px);border:1px solid #383838;background:rgba(12,12,12,.88);padding:26px;box-shadow:0 24px 80px #0009}
+.kicker{font:10px "DM Mono",monospace;letter-spacing:.16em;color:#888;margin:0 0 38px}
+.mark{width:100%;aspect-ratio:1.25;background:linear-gradient(135deg,#142320,#0b0d0d 60%,#1b1b1b);border:1px solid #303a38;display:grid;place-items:center;position:relative;overflow:hidden}
+.mark:before,.mark:after{content:"";position:absolute;width:65%;aspect-ratio:1;border:1px solid #5b8a80;border-radius:50%;opacity:.55}
+.mark:after{width:42%;border-color:#d4e5df;opacity:.28}
+.mark span{font:800 clamp(62px,20vw,94px)/1 Manrope,sans-serif;letter-spacing:-.12em;color:#e9eee9;position:relative;z-index:1}
+.track{margin:26px 0 6px;font-size:17px;font-weight:600;letter-spacing:-.04em}
+.sub{margin:0;color:#858585;font:10px "DM Mono",monospace;letter-spacing:.1em}
+.controls{display:flex;align-items:center;justify-content:center;gap:22px;margin:28px 0 22px}
+button{font:inherit;color:inherit;cursor:pointer}
+.play{width:58px;height:58px;border:1px solid #eee;border-radius:50%;background:#eee;color:#080808;font-size:20px;display:grid;place-items:center}
+.secondary{width:38px;height:38px;border:1px solid #444;border-radius:50%;background:#111;color:#ccc;font-size:15px}
+.timeline{display:flex;align-items:center;gap:10px;color:#777;font:9px "DM Mono",monospace}
+input[type=range]{width:100%;accent-color:var(--accent);cursor:pointer}
+.volume{display:flex;align-items:center;gap:12px;margin-top:19px;color:#888;font:9px "DM Mono",monospace;letter-spacing:.1em}
+.volume input{max-width:130px}
+.status{min-height:30px;margin:23px 0 0;padding-top:15px;border-top:1px solid #292929;color:#777;font-size:10px;line-height:1.7}
+@media(max-width:420px){body{padding:16px}.player{padding:22px}}
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;600;800&family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<main class="player">
+<p class="kicker">611® / AMBIENT SOUNDTRACK</p>
+<div class="mark" aria-hidden="true"><span>611</span></div>
+<p class="track">A quiet place between pages</p>
+<p class="sub">SITE AMBIENCE / LOOP</p>
+<div class="controls">
+<button class="secondary" id="mute" type="button" aria-label="靜音切換">◖</button>
+<button class="play" id="play" type="button" aria-label="播放">▶</button>
+<button class="secondary" id="restart" type="button" aria-label="重新播放">↺</button>
+</div>
+<div class="timeline"><span id="elapsed">00:00</span><input id="seek" type="range" min="0" max="100" value="0" step=".1" aria-label="播放進度"><span id="duration">00:00</span></div>
+<div class="volume"><span>VOLUME</span><input id="volume" type="range" min="0" max="1" step=".01" value=".34"><span id="volume-value">34%</span></div>
+<p class="status" id="status" aria-live="polite">點擊播放，音樂會在你切換 611 網站頁面時持續播放。關閉此視窗會停止音樂。</p>
+</main>
+<script>
+(()=> {
+ const KEY="611-ambient-player-state-v3",CHANNEL_NAME="611-ambient-player-v3";
+ const audio=new Audio("music/611-ambient.mp3");audio.loop=true;audio.preload="auto";
+ const play=document.getElementById("play"),mute=document.getElementById("mute"),restart=document.getElementById("restart"),seek=document.getElementById("seek"),volume=document.getElementById("volume"),elapsed=document.getElementById("elapsed"),duration=document.getElementById("duration"),status=document.getElementById("status"),volumeValue=document.getElementById("volume-value");
+ let channel=null,lastWrite=0,seeking=false;
+ try{channel=new BroadcastChannel(CHANNEL_NAME)}catch(e){}
+ const read=()=>{try{return JSON.parse(localStorage.getItem(KEY)||"{}")}catch(e){return {}}};
+ const format=n=>{n=Math.max(0,Math.floor(Number(n)||0));return String(Math.floor(n/60)).padStart(2,"0")+":"+String(n%60).padStart(2,"0")};
+ const publish=()=>{const state={playing:!audio.paused,time:audio.currentTime||0,duration:Number.isFinite(audio.duration)?audio.duration:0,volume:audio.volume,muted:audio.muted};try{localStorage.setItem(KEY,JSON.stringify(state))}catch(e){}if(channel)channel.postMessage({type:"state",state});};
+ const render=()=>{play.textContent=audio.paused?"▶":"Ⅱ";play.setAttribute("aria-label",audio.paused?"播放":"暫停");mute.textContent=audio.muted||audio.volume===0?"◌":"◖";elapsed.textContent=format(audio.currentTime);if(Number.isFinite(audio.duration)&&audio.duration>0){duration.textContent=format(audio.duration);if(!seeking)seek.value=String(audio.currentTime/audio.duration*100)}volume.value=String(audio.volume);volumeValue.textContent=Math.round(audio.volume*100)+"%";};
+ const saved=read();audio.volume=typeof saved.volume==="number"?Math.min(1,Math.max(0,saved.volume)):.34;audio.muted=!!saved.muted;
+ audio.addEventListener("loadedmetadata",()=>{if(Number.isFinite(saved.time)&&saved.time>0&&saved.time<audio.duration)audio.currentTime=saved.time;render();publish()});
+ audio.addEventListener("timeupdate",()=>{render();if(Date.now()-lastWrite>1800){lastWrite=Date.now();publish()}});
+ ["play","pause","volumechange","seeked","ended"].forEach(type=>audio.addEventListener(type,()=>{render();publish()}));
+ play.addEventListener("click",async()=>{if(audio.paused){try{await audio.play();status.textContent="正在播放。你可以切換 611 網站頁面，音樂會留在這個播放器視窗中。"}catch(e){status.textContent="瀏覽器無法播放音訊，請確認音訊檔案存在並再次點擊播放。"}}else{audio.pause();status.textContent="已暫停播放。"}});
+ mute.addEventListener("click",()=>{audio.muted=!audio.muted;render();publish()});
+ restart.addEventListener("click",()=>{audio.currentTime=0;if(audio.paused){audio.play().then(()=>{status.textContent="已從頭播放。"}).catch(()=>{})}render();publish()});
+ seek.addEventListener("input",()=>{seeking=true;if(Number.isFinite(audio.duration))elapsed.textContent=format(audio.duration*Number(seek.value)/100)});
+ seek.addEventListener("change",()=>{if(Number.isFinite(audio.duration))audio.currentTime=audio.duration*Number(seek.value)/100;seeking=false;render();publish()});
+ volume.addEventListener("input",()=>{audio.volume=Number(volume.value);audio.muted=false;render();publish()});
+ window.addEventListener("beforeunload",()=>{publish();audio.pause();try{if(channel)channel.close()}catch(e){}});
+ render();publish();
+})();
+</script>
+</body>
+</html>
