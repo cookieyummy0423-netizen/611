@@ -24,7 +24,12 @@
  document.documentElement.classList.add("site-booting");
  window.__611MarkReady=key=>{pending.delete(key);release();};
  window.__611BootPending=()=>Array.from(pending);
- window.setTimeout(()=>{pending.clear();release();},1500);
+ window.addEventListener("error",event=>{
+  const src=event.target?.src||"";
+  const name=src.split("?")[0].split("/").pop();
+  const key=({"design.js":"design","layout.js":"layout","homepage.js":"homepage","script.js":"works","about.js":"about","collections.js":"collections","collection.js":"collection","work.js":"work"})[name];
+  if(key)window.__611MarkReady(key);
+ },true);
  if(!pending.size)release();
 })();
 </script><meta name="viewport" content="width=device-width, initial-scale=1">
@@ -32,7 +37,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=portfolio-cleanup-20261128">
+<link rel="stylesheet" href="style.css?v=font-flash-fix-20261128">
 <meta name="description" content="認識 611：數位媒體設計系學生，持續探索插畫、角色創作與視覺敘事。"><meta property="og:type" content="website"><meta property="og:title" content="611"><meta property="og:description" content="認識 611：數位媒體設計系學生，持續探索插畫、角色創作與視覺敘事。"><meta property="og:site_name" content="611 Visual Portfolio"><link rel="canonical" href="https://611-portfolio.pages.dev/about.html"></head>
 <body>
 <div class="grain" aria-hidden="true"></div>
