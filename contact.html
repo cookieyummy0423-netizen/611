@@ -3,7 +3,22 @@
 <head><title>聯絡 611｜Visual Portfolio</title>
 <meta charset="utf-8">
 <script>
-(()=>{const p=new Set(["design","layout"]);let done=false;const release=()=>{if(!done&&!p.size){done=true;document.documentElement.classList.remove("site-booting")}};document.documentElement.classList.add("site-booting");window.__611MarkReady=k=>{p.delete(k);release()};window.setTimeout(()=>{p.clear();release()},1500)})();
+(()=> {
+ const file=(location.pathname.split("/").pop()||"index.html").toLowerCase();
+ const groups={"contact.html":["design","layout"],"collection.html":["design","layout","collection"]};
+ const pending=new Set(groups[file]||["design","layout"]);
+ let released=false;
+ const release=()=>{if(released||pending.size)return;released=true;document.documentElement.classList.remove("site-booting");};
+ document.documentElement.classList.add("site-booting");
+ window.__611MarkReady=key=>{pending.delete(key);release();};
+ window.__611BootPending=()=>Array.from(pending);
+ window.addEventListener("error",event=>{
+  const src=event.target?.src||"";
+  const name=src.split("?")[0].split("/").pop();
+  const key=({"design.js":"design","layout.js":"layout","collection.js":"collection"})[name];
+  if(key)window.__611MarkReady(key);
+ },true);
+})();
 </script><meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#080808">
 <link rel="preconnect" href="https://fonts.googleapis.com">
