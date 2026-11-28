@@ -24,7 +24,12 @@
  document.documentElement.classList.add("site-booting");
  window.__611MarkReady=key=>{pending.delete(key);release();};
  window.__611BootPending=()=>Array.from(pending);
- window.setTimeout(()=>{pending.clear();release();},1500);
+ window.addEventListener("error",event=>{
+  const src=event.target?.src||"";
+  const name=src.split("?")[0].split("/").pop();
+  const key=({"design.js":"design","layout.js":"layout","homepage.js":"homepage","script.js":"works","about.js":"about","collections.js":"collections","collection.js":"collection","work.js":"work"})[name];
+  if(key)window.__611MarkReady(key);
+ },true);
  if(!pending.size)release();
 })();
 </script><meta name="viewport" content="width=device-width, initial-scale=1">
@@ -34,7 +39,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=portfolio-cleanup-20261128">
+<link rel="stylesheet" href="style.css?v=font-flash-fix-20261128">
 <meta property="og:type" content="website"><meta property="og:title" content="插畫作品｜611 Visual Portfolio"><meta property="og:description" content="611 插畫作品典藏，收錄個人插畫、數位繪畫與視覺創作。"><meta property="og:site_name" content="611 Visual Portfolio"><link rel="canonical" href="https://611-portfolio.pages.dev/illustration.html"></head>
 <body data-page="illustration">
 <div class="grain" aria-hidden="true"></div>
