@@ -23,7 +23,7 @@ function makeOrbit(images,title){
  let active=0,startX=0,dragged=false,pointerDown=false;
  const slides=images.map((src,index)=>{
   const slide=el("button","service-orbit-slide");slide.type="button";
-  const img=el("img","service-orbit-image");img.src=src;img.alt=title+"範例 "+(index+1);img.loading=index===0?"eager":"lazy";
+  const img=el("img","service-orbit-image");img.src=src;img.alt=title+"範例 "+(index+1);img.loading="eager";img.decoding="async";
   slide.append(img);slide.addEventListener("click",()=>{if(dragged)return;ensureLightbox().openImage(src,img.alt)});track.append(slide);return slide
  });
  viewport.append(track);shell.append(viewport);
@@ -61,7 +61,7 @@ function makeOrbit(images,title){
  const move=step=>{if(slides.length<2)return;active=(active+step+slides.length)%slides.length;render()};
  prev.addEventListener("click",()=>move(-1));next.addEventListener("click",()=>move(1));
  viewport.addEventListener("keydown",e=>{if(e.key==="ArrowLeft"){e.preventDefault();move(-1)}if(e.key==="ArrowRight"){e.preventDefault();move(1)}});
- viewport.addEventListener("pointerdown",e=>{if(e.pointerType==="mouse"&&e.button!==0)return;pointerDown=true;dragged=false;startX=e.clientX;viewport.setPointerCapture?.(e.pointerId)});
+ viewport.addEventListener("pointerdown",e=>{if(e.pointerType==="mouse"&&e.button!==0)return;pointerDown=true;dragged=false;startX=e.clientX});
  viewport.addEventListener("pointerup",e=>{if(!pointerDown)return;pointerDown=false;const delta=e.clientX-startX;if(Math.abs(delta)>35){dragged=true;move(delta<0?1:-1);setTimeout(()=>{dragged=false},0)}});
  viewport.addEventListener("pointercancel",()=>{pointerDown=false});
  let initialized=false;const initialize=()=>{if(initialized)return;const ready=render();if(!ready)return;initialized=true;slides.forEach(slide=>{slide.style.transition="none"});void track.offsetWidth;requestAnimationFrame(()=>{shell.classList.remove("is-initializing");slides.forEach(slide=>{slide.style.removeProperty("transition")})})};const observer=new ResizeObserver(()=>{if(!initialized)initialize();else render()});observer.observe(viewport);slides.forEach(slide=>{const image=slide.querySelector("img");image.addEventListener("load",()=>{if(!initialized)initialize();else render()});image.addEventListener("error",()=>{slide.classList.add("is-broken");slide.setAttribute("aria-label","圖片載入失敗："+image.alt)},{once:true})});requestAnimationFrame(()=>requestAnimationFrame(initialize));window.addEventListener("resize",()=>{if(!initialized)initialize();else render()},{passive:true});return shell
