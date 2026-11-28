@@ -15,7 +15,7 @@
   const eyebrow=document.querySelector("#works .section-heading .eyebrow");
   if(eyebrow&&c.worksEyebrow!==undefined)eyebrow.textContent=c.worksEyebrow;
   const title=document.querySelector("#works .section-heading h2");
-  if(title&&(c.worksTitle1!==undefined||c.worksTitle2!==undefined))title.innerHTML=esc(c.worksTitle1??"THE")+"<br><span>"+esc(c.worksTitle2??"ARCHIVE.")+"</span>";
+  if(title&&(c.worksTitle1!==undefined||c.worksTitle2!==undefined))title.innerHTML=esc(c.worksTitle1??"MY")+"<br><span>"+esc(c.worksTitle2??"PORTFOLIO")+"</span>";
   const aside=document.querySelector("#works .heading-aside");
   if(aside&&c.worksAside!==undefined){aside.textContent=c.worksAside;aside.style.whiteSpace="pre-line";}
   const se=document.querySelector("#statement .eyebrow");if(se&&c.statementEyebrow!==undefined)se.textContent=c.statementEyebrow;
