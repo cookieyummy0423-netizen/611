@@ -3,7 +3,20 @@
 <head>
 <meta charset="utf-8">
 <script>
-(()=>{const p=new Set(["design","layout","work"]);let done=false;const release=()=>{if(!done&&!p.size){done=true;document.documentElement.classList.remove("site-booting")}};document.documentElement.classList.add("site-booting");window.__611MarkReady=k=>{p.delete(k);release()};window.setTimeout(()=>{p.clear();release()},1500)})();
+(()=> {
+ const pending=new Set(["design","layout","work"]);
+ let released=false;
+ const release=()=>{if(released||pending.size)return;released=true;document.documentElement.classList.remove("site-booting");};
+ document.documentElement.classList.add("site-booting");
+ window.__611MarkReady=key=>{pending.delete(key);release();};
+ window.__611BootPending=()=>Array.from(pending);
+ window.addEventListener("error",event=>{
+  const src=event.target?.src||"";
+  const name=src.split("?")[0].split("/").pop();
+  const key=({"design.js":"design","layout.js":"layout","work.js":"work","collections.js":"collections"})[name];
+  if(key)window.__611MarkReady(key);
+ },true);
+})();
 </script><meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#080808">
 <meta name="description" content="611 作品詳情與創作過程。"><meta property="og:type" content="article"><meta property="og:title" content="作品詳情｜611"><meta property="og:description" content="611 作品詳情與創作過程。"><meta property="og:site_name" content="611 Visual Portfolio"><link rel="canonical" href="https://611-portfolio.pages.dev/work.html">
